@@ -1,33 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_1                                        1                items</name>
+   <name>span_Start shopping now _login-icon</name>
    <tag></tag>
-   <elementGuidId>13ce9813-49fe-4131-9260-a5558cd76665</elementGuidId>
+   <elementGuidId>79f5e9d4-78dc-4d3b-a68e-96ddcd481c03</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='My Cart'])[1]/preceding::span[4]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//span[(text() = '
-            1
-            
-            
-                1
-                items
-            
-            
-        ' or . = '
-            1
-            
-            
-                1
-                items
-            
-            
-        ')]</value>
+         <value>//div[@id='header-sticky-mobile']/div[3]/div[4]/a/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -44,70 +24,62 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>counter qty cart-icon</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-bind</name>
-      <type>Main</type>
-      <value>css: { empty: !!getCartParam('summary_count') == false }, blockLoader: isLoading</value>
+      <value>login-icon</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>title</name>
       <type>Main</type>
-      <value>
-            1
-            
-            
-                1
-                items
-            
-            
-        </value>
+      <value>Login</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Cart'])[1]/preceding::span[4]</value>
+      <value>id(&quot;header-sticky-mobile&quot;)/div[@class=&quot;zoo-header-content-block d-flex align-items-center justify-content-end search-options&quot;]/div[@class=&quot;sign-out&quot;]/a[@class=&quot;login-link&quot;]/span[@class=&quot;login-icon&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='header-sticky-mobile']/div[3]/div[3]/div/a/span</value>
+      <value>//div[@id='header-sticky-mobile']/div[3]/div[4]/a/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No Result'])[1]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Start shopping now !'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='See All'])[1]/following::span[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your cart is empty.'])[1]/following::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Cart'])[1]/preceding::span[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome'])[1]/preceding::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign In'])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div[3]/div/a/span</value>
+      <value>//div[4]/a/span</value>
    </webElementXpaths>
 </WebElementEntity>

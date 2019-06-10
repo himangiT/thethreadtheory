@@ -7,46 +7,14 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='header-sticky-mobile']/div[3]/div[3]/div/a/span</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='My Cart'])[1]/preceding::span[4]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='My Cart'])[1]/preceding::span[4][count(. | //span[(text() = '
-            2
-            
-            
-                2
-                items
-            
-            
-        ' or . = '
-            2
-            
-            
-                2
-                items
-            
-            
-        ')]) = count(//span[(text() = '
-            2
-            
-            
-                2
-                items
-            
-            
-        ' or . = '
-            2
-            
-            
-                2
-                items
-            
-            
-        ')])]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='My Cart'])[1]/preceding::span[4]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +38,7 @@
       <value>css: { empty: !!getCartParam('summary_count') == false }, blockLoader: isLoading</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

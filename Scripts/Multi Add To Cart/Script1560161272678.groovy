@@ -15,13 +15,15 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.mouseOver(findTestObject('add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_SHOP'))
 
+WebUI.click(findTestObject('add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_Work Wear'))
+
 WebUI.delay(10)
 
-WebUI.scrollToElement(findTestObject('image hover/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional'), 5)
+WebUI.scrollToElement(findTestObject('Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional'), 5)
 
-WebUI.mouseOver(findTestObject('image hover/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional'))
+WebUI.mouseOver(findTestObject('Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional'))
 
-WebUI.click(findTestObject('add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_Work Wear'))
+WebUI.delay(5)
 
 WebUI.click(findTestObject('image hover/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional'))
 
@@ -33,8 +35,8 @@ WebUI.click(findTestObject('add to cart/Page_Lana Lace Romper (Navy)/span_OS_cs-
 
 WebUI.click(findTestObject('add to cart/menu_cart_mini/Page_Softly Edelweiss Swiss Dot Dress (Powder Blue)/button_Add to Cart'))
 
-not_run: WebUI.scrollToElement(findTestObject('add to cart/Page_Lana Lace Romper (Navy)/a_Ripple Riddle Pants New (Navy)'),
-	0)
+not_run: WebUI.scrollToElement(findTestObject('add to cart/Page_Lana Lace Romper (Navy)/a_Ripple Riddle Pants New (Navy)'), 
+    0)
 
 not_run: WebUI.click(findTestObject('add to cart/Page_Lana Lace Romper (Navy)/span_Add to Cart'))
 
@@ -58,10 +60,10 @@ WebUI.click(findTestObject('add to cart/Page_Shopping Cart/span_Check Out with M
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('select_Miss Himangi Tankha Singapore Singapore 567890 SingaporeMiss Himangi Tankha Test America California 541278 United StatesMiss Himangi Tankha Test Singapore 567890 Singapore'))
+not_run: WebUI.click(findTestObject('select_Miss Himangi Tankha Singapore Singapore 567890 SingaporeMiss Himangi Tankha Test America California 541278 United StatesMiss Himangi Tankha Test Singapore 567890 Singapore'))
 
-WebUI.selectOptionByValue(findTestObject('select_Miss Himangi Tankha Singapore Singapore 567890 SingaporeMiss Himangi Tankha Test America California 541278 United StatesMiss Himangi Tankha Test Singapore 567890 Singapore'),
-	'Miss Himangi Tankha Test Singapore 567890 Singapore', false)
+WebUI.selectOptionByValue(findTestObject('select_Miss Himangi Tankha Singapore Singapore 567890 SingaporeMiss Himangi Tankha Test America California 541278 United StatesMiss Himangi Tankha Test Singapore 567890 Singapore'), 
+    '46', true)
 
 WebUI.click(findTestObject('MultipleCheckout/Page_Ship to Multiple Addresses - Magento Commerce/button_Update Qty  Addresses'))
 
@@ -73,13 +75,13 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('MultipleCheckout/Page_Shipping Methods - Magento Commerce/input_SGD 000_shipping_method710'))
 
-WebUI.scrollToElement(findTestObject('MultipleCheckout/Page_Shipping Methods - Magento Commerce/input_Shipping Method_shipping_method711'),
-	0)
+WebUI.scrollToElement(findTestObject('MultipleCheckout/Page_Shipping Methods - Magento Commerce/input_Shipping Method_shipping_method711'), 
+    0)
 
 WebUI.click(findTestObject('MultipleCheckout/Page_Shipping Methods - Magento Commerce/input_Shipping Method_shipping_method711'))
 
-WebUI.scrollToElement(findTestObject('MultipleCheckout/Page_Shipping Methods - Magento Commerce/button_Continue to Billing Information'),
-	0)
+WebUI.scrollToElement(findTestObject('MultipleCheckout/Page_Shipping Methods - Magento Commerce/button_Continue to Billing Information'), 
+    0)
 
 WebUI.click(findTestObject('MultipleCheckout/Page_Shipping Methods - Magento Commerce/button_Continue to Billing Information'))
 

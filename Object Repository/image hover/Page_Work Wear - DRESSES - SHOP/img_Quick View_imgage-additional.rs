@@ -7,17 +7,17 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//ol[@id='icir_5cfa3b6bd5044']/li[2]/div/div/div/a/span/img</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Softly Edelweiss Swiss Dot Dress (Powder Blue)'])[1]/preceding::img[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>(//img[@alt='Softly Edelweiss Swiss Dot Dress (Powder Blue)'])[2][count(. | //img[@src = 'http://18.138.12.239/pub/static/version1559898879/frontend/Ranosys/threadtheory/en_US/CleverSoft_Base/images/transparent.gif']) = count(//img[@src = 'http://18.138.12.239/pub/static/version1559898879/frontend/Ranosys/threadtheory/en_US/CleverSoft_Base/images/transparent.gif'])]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Softly Edelweiss Swiss Dot Dress (Powder Blue)'])[1]/preceding::img[1][count(. | //*[@src = 'http://18.138.12.239/pub/static/version1559898879/frontend/Ranosys/threadtheory/en_US/CleverSoft_Base/images/transparent.gif' and @alt = 'Softly Edelweiss Swiss Dot Dress (Powder Blue)']) = count(//*[@src = 'http://18.138.12.239/pub/static/version1559898879/frontend/Ranosys/threadtheory/en_US/CleverSoft_Base/images/transparent.gif' and @alt = 'Softly Edelweiss Swiss Dot Dress (Powder Blue)'])]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -52,7 +52,7 @@
       <value>(max-width: 451px) 100vw, 451px</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>alt</name>
       <type>Main</type>
@@ -70,7 +70,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//img[@alt='Softly Edelweiss Swiss Dot Dress (Powder Blue)'])[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Softly Edelweiss Swiss Dot Dress (Powder Blue)'])[1]/preceding::img[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
