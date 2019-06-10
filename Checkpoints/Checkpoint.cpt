@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>Checkpoint</name>
+   <tag></tag>
+   <excel-source-info>
+      <is-from-test-data>false</is-from-test-data>
+      <source-url>D:\Katalon\Test1.xls</source-url>
+      <source-type>ExcelFile</source-type>
+      <sheet-name-or-separator>Sheet1</sheet-name-or-separator>
+      <is-using-relative-path>false</is-using-relative-path>
+      <is-using-first-row-as-header>true</is-using-first-row-as-header>
+   </excel-source-info>
+   <taken-date>2019-05-27T12:35:49.982</taken-date>
+   <column-names>
+      <column-name>Email</column-name>
+      <column-name>Password</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "himangi.tankha@ranosys.com",
+      "checked": true
+    },
+    {
+      "value": "password123",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "himangi.tankha+5@ranosys.com",
+      "checked": true
+    },
+    {
+      "value": "password123",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "shubham.khandelwal@ranosys.com",
+      "checked": true
+    },
+    {
+      "value": "Password",
+      "checked": true
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>

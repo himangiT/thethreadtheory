@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Collar_check</name>
+   <tag></tag>
+   <elementGuidId>3da20b77-aa7d-40d9-8a90-9aeff1f2aec5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='narrow-by-list']/div[5]/div[2]/div[2]/div[2]/ol/li[3]/a/span/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>check </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;narrow-by-list&quot;)/div[@class=&quot;zoo-filter-options-item filter-options-item allow active&quot;]/div[@class=&quot;zoo-filter-options-content&quot;]/div[@class=&quot;zoo-filter-options-item filter-options-item allow active&quot;]/div[@class=&quot;zoo-filter-options-content&quot;]/ol[@class=&quot;items cleversoft_shopby_filter_items_attr_neckline&quot;]/li[@class=&quot;item checkbox-filter&quot;]/a[@class=&quot;cleversoft_shopby_filter_item_27&quot;]/span[@class=&quot;checkbox-material&quot;]/span[@class=&quot;check&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='narrow-by-list']/div[5]/div[2]/div[2]/div[2]/ol/li[3]/a/span/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/ol/li[3]/a/span/span</value>
+   </webElementXpaths>
+</WebElementEntity>
