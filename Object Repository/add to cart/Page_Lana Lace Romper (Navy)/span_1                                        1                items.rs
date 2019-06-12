@@ -6,12 +6,8 @@
    <elementGuidId>13ce9813-49fe-4131-9260-a5558cd76665</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='My Cart'])[1]/preceding::span[4]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>//span[(text() = '
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='My Cart'])[1]/preceding::span[4][count(. | //span[(text() = '
             1
             
             
@@ -27,10 +23,30 @@
                 items
             
             
-        ')]</value>
+        ')]) = count(//span[(text() = '
+            1
+            
+            
+                1
+                items
+            
+            
+        ' or . = '
+            1
+            
+            
+                1
+                items
+            
+            
+        ')])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='My Cart'])[1]/preceding::span[4]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +85,7 @@
         </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

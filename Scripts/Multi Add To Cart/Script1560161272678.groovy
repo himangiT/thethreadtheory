@@ -15,17 +15,15 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.mouseOver(findTestObject('add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_SHOP'))
 
-WebUI.click(findTestObject('add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_Work Wear'))
+WebUI.click(findTestObject('Mega Menu/Page_Work Wear - DRESSES - SHOP/span_Work Wear'))
 
 WebUI.delay(10)
 
-WebUI.scrollToElement(findTestObject('Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional'), 5)
+WebUI.scrollToElement(findTestObject('add to cart/PCP/Page_Work Wear - DRESSES - SHOP/a_Lana Lace Romper (Navy)'), 5)
 
-WebUI.mouseOver(findTestObject('Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional'))
+not_run: WebUI.mouseOver(findTestObject('Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional'))
 
-WebUI.delay(5)
-
-WebUI.click(findTestObject('image hover/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional'))
+WebUI.click(findTestObject('add to cart/PCP/Page_Work Wear - DRESSES - SHOP/a_Lana Lace Romper (Navy)'))
 
 WebUI.delay(10)
 
