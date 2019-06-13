@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_7</name>
+   <name>a_date</name>
    <tag></tag>
    <elementGuidId>bfc82d1e-530e-4abe-b350-eb0c951d8803</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/table[@class=&quot;ui-datepicker-calendar&quot;]/tbody[1]/tr[2]/td[@class=&quot;ui-datepicker-days-cell-over  ui-datepicker-current-day ui-datepicker-today&quot;]/a[@class=&quot;ui-state-default ui-state-active ui-state-hover&quot;][count(. | //a[@href = '#' and (text() = '13' or . = '13')]) = count(//a[@href = '#' and (text() = '13' or . = '13')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -32,10 +42,10 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>7</value>
+      <value>13</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

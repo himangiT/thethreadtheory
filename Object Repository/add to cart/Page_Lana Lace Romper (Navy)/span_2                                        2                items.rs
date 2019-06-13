@@ -11,10 +11,42 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='My Cart'])[1]/preceding::span[4]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='My Cart'])[1]/preceding::span[4][count(. | //span[@class = 'counter qty cart-icon' and @data-bind = concat('css: { empty: !!getCartParam(' , &quot;'&quot; , 'summary_count' , &quot;'&quot; , ') == false }, blockLoader: isLoading') and (text() = '
+            2
+            
+            
+                2
+                items
+            
+            
+        ' or . = '
+            2
+            
+            
+                2
+                items
+            
+            
+        ')]) = count(//span[@class = 'counter qty cart-icon' and @data-bind = concat('css: { empty: !!getCartParam(' , &quot;'&quot; , 'summary_count' , &quot;'&quot; , ') == false }, blockLoader: isLoading') and (text() = '
+            2
+            
+            
+                2
+                items
+            
+            
+        ' or . = '
+            2
+            
+            
+                2
+                items
+            
+            
+        ')])]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -24,21 +56,21 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>counter qty cart-icon</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-bind</name>
       <type>Main</type>
       <value>css: { empty: !!getCartParam('summary_count') == false }, blockLoader: isLoading</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

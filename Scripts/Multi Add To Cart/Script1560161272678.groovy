@@ -15,15 +15,42 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.mouseOver(findTestObject('add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_SHOP'))
 
-WebUI.click(findTestObject('Mega Menu/Page_Work Wear - DRESSES - SHOP/span_Work Wear'))
+not_run: WebUI.openBrowser(toString())
 
-WebUI.delay(10)
+not_run: WebUI.navigateToUrl('http://18.138.12.239/')
 
-WebUI.scrollToElement(findTestObject('add to cart/PCP/Page_Work Wear - DRESSES - SHOP/a_Lana Lace Romper (Navy)'), 5)
+not_run: WebUI.maximizeWindow()
+
+not_run: WebUI.delay(10)
+
+not_run: WebUI.check(findTestObject('Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_concat(Don  t show this popup again)_check'))
+
+not_run: WebUI.click(findTestObject('Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/button_Close'))
+
+not_run: WebUI.delay(10)
+
+WebUI.mouseOver(findTestObject('add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_SHOP'))
+
+WebUI.click(findTestObject('add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_Work Wear'))
+
+WebUI.delay(5)
+
+WebUI.scrollToElement(findTestObject('Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional'), 5)
+
+WebUI.mouseOver(findTestObject('Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional'))
+
+WebUI.click(findTestObject('Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional'))
+
+not_run: WebUI.click(findTestObject('add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_Work Wear'))
+
+not_run: WebUI.delay(30)
+
+not_run: WebUI.scrollToElement(findTestObject('Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional'), 
+    5)
 
 not_run: WebUI.mouseOver(findTestObject('Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional'))
 
-WebUI.click(findTestObject('add to cart/PCP/Page_Work Wear - DRESSES - SHOP/a_Lana Lace Romper (Navy)'))
+not_run: WebUI.click(findTestObject('Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional'))
 
 WebUI.delay(10)
 
@@ -58,10 +85,13 @@ WebUI.click(findTestObject('add to cart/Page_Shopping Cart/span_Check Out with M
 
 WebUI.delay(5)
 
-not_run: WebUI.click(findTestObject('select_Miss Himangi Tankha Singapore Singapore 567890 SingaporeMiss Himangi Tankha Test America California 541278 United StatesMiss Himangi Tankha Test Singapore 567890 Singapore'))
+WebUI.click(findTestObject('select_Miss Himangi Tankha Singapore Singapore 567890 SingaporeMiss Himangi Tankha Test America California 541278 United StatesMiss Himangi Tankha Test Singapore 567890 Singapore'))
 
-WebUI.selectOptionByValue(findTestObject('select_Miss Himangi Tankha Singapore Singapore 567890 SingaporeMiss Himangi Tankha Test America California 541278 United StatesMiss Himangi Tankha Test Singapore 567890 Singapore'), 
-    '46', true)
+WebUI.delay(5)
+
+WebUI.click(findTestObject('select_Miss Himangi Tankha Singapore Singapore 567890 SingaporeMiss Himangi Tankha Test America California 541278 United StatesMiss Himangi Tankha Test Singapore 567890 Singapore'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('MultipleCheckout/Page_Ship to Multiple Addresses - Magento Commerce/button_Update Qty  Addresses'))
 
@@ -93,6 +123,8 @@ WebUI.delay(5)
 
 WebUI.scrollToElement(findTestObject('MultipleCheckout/Page_Review Order - Magento Commerce/button_Place Order'), 0)
 
+WebUI.click(findTestObject('TandC/Page_Checkout/input_SGD 4300_agreement2'))
+
 WebUI.click(findTestObject('MultipleCheckout/Page_Review Order - Magento Commerce/button_Place Order'))
 
 WebUI.delay(10)
@@ -103,5 +135,5 @@ String todaysDate = today.format('MM_dd_yy')
 
 String nowTime = today.format('hh_mm_ss')
 
-WebUI.takeScreenshot('D:\\Katalon\\Demo\\screenshot.png')
+WebUI.takeScreenshot('D:\\Katalon\\Demo\\screenshot_"+ todaysDate +"-" + nowTime +".PNG')
 

@@ -7,10 +7,14 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='clevermenu-5cff82099c4cf']/ul/li/ul/li/a/span</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Work Wear'])[2]/preceding::span[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Work Wear'])[2]/preceding::span[1][count(. | //span[(text() = 'Work Wear' or . = 'Work Wear')]) = count(//span[(text() = 'Work Wear' or . = 'Work Wear')])]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -27,11 +31,11 @@
       <value>Work Wear</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;clevermenu-5cff82099c4cf&quot;)/ul[@class=&quot;clever-mega-menu clever-horizontal-menu&quot;]/li[@class=&quot;clever-mega-menu-item level0  clever-sub_drop_to_right level-top parent category-menu no-dropdown&quot;]/ul[@class=&quot;category-menu clever-mega-menu-nondrop groupmenu-nondrop&quot;]/li[@class=&quot;level1 nav-1 item first active&quot;]/a[@class=&quot;menu-link&quot;]/span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Work Wear'])[2]/preceding::span[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
