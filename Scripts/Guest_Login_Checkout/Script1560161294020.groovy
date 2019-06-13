@@ -99,15 +99,15 @@ WebUI.click(findTestObject('checkout place order/Page_Checkout/button_Place Orde
 
 WebUI.delay(10)
 
-not_run: Date today = new Date()
-
 not_run: String todaysDate = today.format('MM_dd_yy')
 
 not_run: String nowTime = today.format('hh_mm_ss')
 
 not_run: WebUI.takeScreenshot('C:\\Users\\Ranosys\\git\\thethreadtheory\\screenshot_"+ todaysDate +"-" + nowTime +".PNG')
 
-WebUI.takeScreenshot('C:\\Users\\Ranosys\\git\\thethreadtheory\\screenshot.png')
+not_run: Date today = new Date()
+
+WebUI.takeScreenshot('C:\\Users\\Ranosys\\git\\thethreadtheory\\screenshot.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(5)
 
