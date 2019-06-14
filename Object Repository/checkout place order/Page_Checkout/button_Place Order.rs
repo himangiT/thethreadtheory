@@ -9,8 +9,20 @@
          <key>XPATH</key>
          <value>(//button[@type='submit'])[10]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>(//button[@type='submit'])[10][count(. | //button[@type = 'submit' and @title = 'Place Order' and (text() = '
+            Place Order
+        ' or . = '
+            Place Order
+        ')]) = count(//button[@type = 'submit' and @title = 'Place Order' and (text() = '
+            Place Order
+        ' or . = '
+            Place Order
+        ')])]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -67,52 +79,46 @@
         </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;checkout&quot;)/div[@class=&quot;opc-wrapper layout-2-columns am-opc-wrapper am-submit-summary&quot;]/div[@class=&quot;checkout-column opc&quot;]/div[@class=&quot;checkout-block&quot;]/div[@class=&quot;checkout-payment-method submit&quot;]/div[@class=&quot;payment-methods&quot;]/div[@class=&quot;actions-toolbar&quot;]/button[@class=&quot;action primary checkout amasty&quot;]</value>
+      <value>(//button[@type='submit'])[10]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <type>Main</type>
       <value>(//button[@type='submit'])[10]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <type>Main</type>
       <value>//div[@id='checkout']/div[6]/div[2]/div[2]/div[4]/div/div/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Gift Card'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Check Gift Card status'])[1]/following::button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='About Us'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <type>Main</type>
       <value>//div[4]/div/div/button</value>
    </webElementXpaths>
 </WebElementEntity>

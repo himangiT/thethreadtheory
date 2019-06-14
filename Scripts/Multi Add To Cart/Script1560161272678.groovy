@@ -89,7 +89,8 @@ WebUI.click(findTestObject('select_Miss Himangi Tankha Singapore Singapore 56789
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('select_Miss Himangi Tankha Singapore Singapore 567890 SingaporeMiss Himangi Tankha Test America California 541278 United StatesMiss Himangi Tankha Test Singapore 567890 Singapore'))
+WebUI.selectOptionByValue(findTestObject('select_Miss Himangi Tankha Singapore Singapore 567890 SingaporeMiss Himangi Tankha Test America California 541278 United StatesMiss Himangi Tankha Test Singapore 567890 Singapore'), 
+    '46', false)
 
 WebUI.delay(5)
 

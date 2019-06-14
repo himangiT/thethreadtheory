@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Add Receipt,Chrome 74.0.3729.169,,2019-06-14 15:52:36,2019-06-14 15:55:23,2m - 46.290s,FAILED
+,,,,,,
+Test Cases/Login,Chrome 74.0.3729.169,,2019-06-14 15:52:37,2019-06-14 15:53:37,59.988s,PASSED
+openBrowser(toString()),Chrome 74.0.3729.169,,2019-06-14 15:52:37,2019-06-14 15:52:43,6.024s,PASSED
+"navigateToUrl(""http://18.138.12.239/"")",Chrome 74.0.3729.169,,2019-06-14 15:52:43,2019-06-14 15:52:53,9.653s,PASSED
+maximizeWindow(),Chrome 74.0.3729.169,,2019-06-14 15:52:53,2019-06-14 15:52:54,1.203s,PASSED
+delay(10),Chrome 74.0.3729.169,,2019-06-14 15:52:54,2019-06-14 15:53:04,10.022s,PASSED
+"check(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_concat(Don  t show this popup again)_check""))",Chrome 74.0.3729.169,,2019-06-14 15:53:04,2019-06-14 15:53:04,0.314s,PASSED
+"click(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/button_Close""))",Chrome 74.0.3729.169,,2019-06-14 15:53:04,2019-06-14 15:53:04,0.241s,PASSED
+delay(10),Chrome 74.0.3729.169,,2019-06-14 15:53:04,2019-06-14 15:53:14,10.002s,PASSED
+"click(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_Start shopping now _login-icon""))",Chrome 74.0.3729.169,,2019-06-14 15:53:14,2019-06-14 15:53:15,0.099s,PASSED
+"click(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/a_Sign In""))",Chrome 74.0.3729.169,,2019-06-14 15:53:15,2019-06-14 15:53:17,2.552s,PASSED
+"setText(findTestObject(""Object Repository/add to cart/Page_Sign In/input_Sign In_loginusername""), ""himangi.tankha@ranosys.com"")",Chrome 74.0.3729.169,,2019-06-14 15:53:17,2019-06-14 15:53:18,0.494s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/add to cart/Page_Sign In/input_Sign In_loginpassword""), ""8SQVv/p9jVTHLrggi8kCzw=="")",Chrome 74.0.3729.169,,2019-06-14 15:53:18,2019-06-14 15:53:18,0.182s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-06-14 15:53:18,2019-06-14 15:53:23,5.003s,PASSED
+"click(findTestObject(""Object Repository/add to cart/Page_Sign In/button_Sign In""))",Chrome 74.0.3729.169,,2019-06-14 15:53:23,2019-06-14 15:53:27,3.890s,PASSED
+delay(10),Chrome 74.0.3729.169,,2019-06-14 15:53:27,2019-06-14 15:53:37,10.002s,PASSED
+,,,,,,
+Test Cases/Add Receipt,Chrome 74.0.3729.169,,2019-06-14 15:53:37,2019-06-14 15:55:22,1m - 45.228s,FAILED
+"click(findTestObject(""My Order/Page_My Orders/img""))",Chrome 74.0.3729.169,,2019-06-14 15:53:37,2019-06-14 15:53:40,2.649s,PASSED
+delay(10),Chrome 74.0.3729.169,,2019-06-14 15:53:40,2019-06-14 15:53:50,10.002s,PASSED
+"click(findTestObject(""Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/span_Start shopping now _login-b-icon""))",Chrome 74.0.3729.169,,2019-06-14 15:53:50,2019-06-14 15:53:50,0.126s,PASSED
+"click(findTestObject(""Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders""))",Chrome 74.0.3729.169,,2019-06-14 15:53:50,2019-06-14 15:53:52,2.567s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-06-14 15:53:52,2019-06-14 15:53:57,5.002s,PASSED
+"click(findTestObject(""Add Receipt/Page_My Orders/span_View Order""))",Chrome 74.0.3729.169,,2019-06-14 15:53:57,2019-06-14 15:54:00,2.973s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-06-14 15:54:00,2019-06-14 15:54:05,5.002s,PASSED
+"click(findTestObject(""Add Receipt/Page_Order  000000052/span_Add Receipt""))",Chrome 74.0.3729.169,,2019-06-14 15:54:05,2019-06-14 15:54:45,39.472s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-06-14 15:54:45,2019-06-14 15:54:50,5.004s,PASSED
+"uploadFile(findTestObject(""Add Receipt/Page_Payment Receipt/input_Upload Receipt_receipt""), ""C:\Users\Ranosys\Downloads\ATM Receipt.jpg"")",Chrome 74.0.3729.169,,2019-06-14 15:54:50,2019-06-14 15:55:22,32.211s,FAILED

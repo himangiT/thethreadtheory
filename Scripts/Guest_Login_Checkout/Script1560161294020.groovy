@@ -41,8 +41,6 @@ WebUI.click(findTestObject('Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quic
 
 WebUI.delay(10)
 
-not_run: WebUI.closeBrowser()
-
 WebUI.click(findTestObject('add to cart/Page_Lana Lace Romper (Navy) (1)/div_L'))
 
 WebUI.click(findTestObject('add to cart/Page_Lana Lace Romper (Navy)/span_OS_cs-font clever-icon-plus'))
@@ -75,7 +73,7 @@ WebUI.click(findTestObject('GuestUser/Page_Shopping Cart/button_Sign In'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Checkout/Page_Shopping Cart/strong_Order Total'))
+WebUI.click(findTestObject('Checkout/Page_Shopping Cart/ul_GO TO CHECKOUT                                                    Check Out with Multiple Addresses'))
 
 WebUI.click(findTestObject('add to cart/menu_cart_mini/Page_Shopping Cart/button_GO TO CHECKOUT'))
 
@@ -93,7 +91,7 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('TandC/Page_Checkout/input_SGD 4300_agreement2'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.delay(10)
 
 WebUI.click(findTestObject('checkout place order/Page_Checkout/button_Place Order'))
 
@@ -114,6 +112,44 @@ WebUI.delay(5)
 WebUI.scrollToElement(findTestObject('MultipleCheckout/Page_Success Page/button_Continue Shopping'), 0)
 
 WebUI.click(findTestObject('MultipleCheckout/Page_Success Page/button_Continue Shopping'))
+
+WebUI.delay(10)
+
+WebUI.click(findTestObject('Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/span_Start shopping now _login-b-icon'))
+
+WebUI.click(findTestObject('Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Add Receipt/Page_My Orders/span_View Order'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Add Receipt/Page_Order  000000052/span_Add Receipt'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Add Receipt/Page_Payment Receipt/input__tran_datetime'))
+
+WebUI.click(findTestObject('Add Receipt/Page_Payment Receipt/a_date'))
+
+WebUI.click(findTestObject('Add Receipt/Page_Payment Receipt/button_Done'))
+
+WebUI.setText(findTestObject('Add Receipt/Page_Payment Receipt/input__reference_no'), '254178')
+
+WebUI.setText(findTestObject('Add Receipt/Page_Payment Receipt/input__initials'), 'Himangi')
+
+WebUI.setText(findTestObject('Add Receipt/Page_Payment Receipt/input__amount'), '68')
+
+WebUI.setText(findTestObject('Add Receipt/Page_Payment Receipt/input__bank_name'), 'DBS Bank')
+
+WebUI.delay(5)
+
+WebUI.uploadFile(findTestObject('Add Receipt/Page_Payment Receipt/input_Upload Receipt_receipt'), 'C:\\Users\\Ranosys\\Downloads\\ATM Receipt.jpg')
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Add Receipt/Page_Payment Receipt/button_Submit'))
 
 WebUI.delay(10)
 

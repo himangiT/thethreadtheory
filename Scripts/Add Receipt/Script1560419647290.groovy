@@ -13,6 +13,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.click(findTestObject('My Order/Page_My Orders/img'))
+
+WebUI.delay(10)
+
 WebUI.click(findTestObject('Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/span_Start shopping now _login-b-icon'))
 
 WebUI.click(findTestObject('Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders'))
@@ -29,7 +33,13 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Add Receipt/Page_Payment Receipt/input__tran_datetime'))
 
-WebUI.click(findTestObject('Add Receipt/Page_Payment Receipt/a_date'))
+WebUI.doubleClick(findTestObject('Add Receipt/Page_Payment Receipt/span_Prev'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Add Receipt/Page_Payment Receipt/a_14'))
+
+WebUI.click(findTestObject('Add Receipt/Page_Payment Receipt/button_Now'))
 
 WebUI.click(findTestObject('Add Receipt/Page_Payment Receipt/button_Done'))
 
@@ -43,7 +53,9 @@ WebUI.setText(findTestObject('Add Receipt/Page_Payment Receipt/input__bank_name'
 
 WebUI.delay(5)
 
-WebUI.uploadFile(findTestObject('Add Receipt/Page_Payment Receipt/input_Upload Receipt_receipt'), 'C:\\Users\\Ranosys\\Downloads\\ATM Receipt.jpg')
+not_run: WebUI.uploadFile(findTestObject('UploadFile/Page_Payment Receipt/input_Upload Receipt_receipt'), 'C:\\Users\\Ranosys\\Downloads\\ATM Receipt.jpg')
+
+CustomKeywords.'uploadfile.uploadFile'(findTestObject('UploadFile/Page_Payment Receipt/input_Upload Receipt_receipt'), 'C:\\Users\\Ranosys\\Downloads\\ATM Receipt.jpg')
 
 WebUI.delay(5)
 

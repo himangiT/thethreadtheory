@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_14</name>
+   <tag></tag>
+   <elementGuidId>2db60488-ae99-4c28-be50-2b92621f0553</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[contains(text(),'14')][count(. | //a[@class = 'ui-state-default ui-state-active ui-state-hover' and @href = '#' and (text() = '14' or . = '14')]) = count(//a[@class = 'ui-state-default ui-state-active ui-state-hover' and @href = '#' and (text() = '14' or . = '14')])]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>body.account.wide-layout.layout_1200.receipt-index-index.page-layout-2columns-left.header6:nth-child(2) div.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all:nth-child(112) table.ui-datepicker-calendar tbody:nth-child(2) tr:nth-child(3) td.ui-datepicker-days-cell-over.ui-datepicker-today:nth-child(6) > a.ui-state-default</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-state-default ui-state-active ui-state-hover</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>14</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'14')]</value>
+   </webElementProperties>
+</WebElementEntity>
