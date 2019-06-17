@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Add Receipt" time="135" tests="1" failures="1" errors="0">
+   <testsuite name="Add Receipt" tests="1" failures="1" errors="0" time="135" timestamp="2019-06-17 11:54:42" hostname="Himangi - WD01-QAHimangi" id="Test Suites/Add Receipt">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Himangi\\git\\thethreadtheory\\Reports\\Add Receipt\\20190617_115440"/>
+         <property name="logFiles" value="C:\\Users\\Himangi\\git\\thethreadtheory\\Reports\\Add Receipt\\20190617_115440\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Himangi\\git\\thethreadtheory\\Reports\\Add Receipt\\20190617_115440\\1560752815735.png, C:\\Users\\Himangi\\git\\thethreadtheory\\Reports\\Add Receipt\\20190617_115440\\1560752816074.png"/>
+         <property name="hostName" value="Himangi - WD01-QAHimangi"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 74.0.3729.169"/>
+         <property name="hostAddress" value="192.168.5.123"/>
+         <property name="sessionId" value="428e21070fea87d2acaaebb709d86143"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2019-06-17 11:54:42 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2019-06-17 11:54:42 - [TEST_STEP][PASSED] - openBrowser(toString()): Browser is opened with url: 'Script1560161297669@5d8bafa9'
+
+2019-06-17 11:54:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-06-17 11:54:43 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-06-17 11:54:51 - [MESSAGE][PASSED] - Browser is opened with url: 'Script1560161297669@5d8bafa9'
+
+2019-06-17 11:54:51 - [TEST_STEP][PASSED] - navigateToUrl("http://18.138.12.239/"): Navigate to 'http://18.138.12.239/' successfully
+
+2019-06-17 11:55:02 - [MESSAGE][PASSED] - Navigate to 'http://18.138.12.239/' successfully
+
+2019-06-17 11:55:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-06-17 11:55:04 - [MESSAGE][PASSED] - Current window maximized
+
+2019-06-17 11:55:04 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-06-17 11:55:14 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-17 11:55:14 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_concat(Don  t show this popup again)_check")): Object 'Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_concat(Don  t show this popup again)_check' is checked
+
+2019-06-17 11:55:14 - [MESSAGE][PASSED] - Object 'Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_concat(Don  t show this popup again)_check' is checked
+
+2019-06-17 11:55:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/button_Close")): Object: 'Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/button_Close' is clicked on
+
+2019-06-17 11:55:14 - [MESSAGE][PASSED] - Object: 'Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/button_Close' is clicked on
+
+2019-06-17 11:55:14 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-06-17 11:55:24 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-17 11:55:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_Start shopping now _login-icon")): Object: 'Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_Start shopping now _login-icon' is clicked on
+
+2019-06-17 11:55:24 - [MESSAGE][PASSED] - Object: 'Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_Start shopping now _login-icon' is clicked on
+
+2019-06-17 11:55:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/a_Sign In")): Object: 'Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/a_Sign In' is clicked on
+
+2019-06-17 11:55:26 - [MESSAGE][PASSED] - Object: 'Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/a_Sign In' is clicked on
+
+2019-06-17 11:55:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/add to cart/Page_Sign In/input_Sign In_loginusername"), "himangi.tankha+5@ranosys.com"): Text 'himangi.tankha+5@ranosys.com' is set on object 'Object Repository/add to cart/Page_Sign In/input_Sign In_loginusername'
+
+2019-06-17 11:55:27 - [MESSAGE][PASSED] - Text 'himangi.tankha+5@ranosys.com' is set on object 'Object Repository/add to cart/Page_Sign In/input_Sign In_loginusername'
+
+2019-06-17 11:55:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/add to cart/Page_Sign In/input_Sign In_loginpassword"), "8SQVv/p9jVTHLrggi8kCzw=="): Text ****** has been set on object 'Object Repository/add to cart/Page_Sign In/input_Sign In_loginpassword'
+
+2019-06-17 11:55:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/add to cart/Page_Sign In/input_Sign In_loginpassword'
+
+2019-06-17 11:55:27 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-06-17 11:55:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-17 11:55:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/add to cart/Page_Sign In/button_Sign In")): Object: 'Object Repository/add to cart/Page_Sign In/button_Sign In' is clicked on
+
+2019-06-17 11:55:36 - [MESSAGE][PASSED] - Object: 'Object Repository/add to cart/Page_Sign In/button_Sign In' is clicked on
+
+2019-06-17 11:55:36 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-06-17 11:55:46 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add Receipt" classname="Test Cases/Add Receipt" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Add Receipt FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$7.call(Unknown Source)
+	at Add Receipt.run(Add Receipt:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560752680509.run(TempTestSuite1560752680509.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2019-06-17 11:55:46 - [TEST_CASE][FAILED] - Test Cases/Add Receipt: Test Cases/Add Receipt FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$7.call(Unknown Source)
+	at Add Receipt.run(Add Receipt:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560752680509.run(TempTestSuite1560752680509.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-06-17 11:55:46 - [TEST_STEP][PASSED] - click(findTestObject("My Order/Page_My Orders/img")): Object: 'Object Repository/My Order/Page_My Orders/img' is clicked on
+
+2019-06-17 11:55:49 - [MESSAGE][PASSED] - Object: 'Object Repository/My Order/Page_My Orders/img' is clicked on
+
+2019-06-17 11:55:49 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-06-17 11:55:59 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-17 11:55:59 - [TEST_STEP][PASSED] - click(findTestObject("Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/span_Start shopping now _login-b-icon")): Object: 'Object Repository/Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/span_Start shopping now _login-b-icon' is clicked on
+
+2019-06-17 11:55:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/span_Start shopping now _login-b-icon' is clicked on
+
+2019-06-17 11:55:59 - [TEST_STEP][PASSED] - click(findTestObject("Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders")): Object: 'Object Repository/Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders' is clicked on
+
+2019-06-17 11:56:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders' is clicked on
+
+2019-06-17 11:56:01 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-06-17 11:56:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-17 11:56:06 - [TEST_STEP][PASSED] - click(findTestObject("Add Receipt/Page_My Orders/span_View Order")): Object: 'Object Repository/Add Receipt/Page_My Orders/span_View Order' is clicked on
+
+2019-06-17 11:56:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Receipt/Page_My Orders/span_View Order' is clicked on
+
+2019-06-17 11:56:09 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-06-17 11:56:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-17 11:56:14 - [TEST_STEP][PASSED] - click(findTestObject("Add Receipt/Page_Order  000000052/span_Add Receipt")): Object: 'Object Repository/Add Receipt/Page_Order  000000052/span_Add Receipt' is clicked on
+
+2019-06-17 11:56:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Receipt/Page_Order  000000052/span_Add Receipt' is clicked on
+
+2019-06-17 11:56:16 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-06-17 11:56:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-17 11:56:21 - [TEST_STEP][PASSED] - click(findTestObject("Add Receipt/Page_Payment Receipt/input__tran_datetime")): Object: 'Object Repository/Add Receipt/Page_Payment Receipt/input__tran_datetime' is clicked on
+
+2019-06-17 11:56:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Receipt/Page_Payment Receipt/input__tran_datetime' is clicked on
+
+2019-06-17 11:56:22 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Add Receipt/Page_Payment Receipt/span_Prev")): Object: 'Object Repository/Add Receipt/Page_Payment Receipt/span_Prev' is double clicked on
+
+2019-06-17 11:56:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Receipt/Page_Payment Receipt/span_Prev' is double clicked on
+
+2019-06-17 11:56:22 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-06-17 11:56:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-17 11:56:27 - [TEST_STEP][PASSED] - click(findTestObject("Add Receipt/Page_Payment Receipt/a_17")): Object: 'Object Repository/Add Receipt/Page_Payment Receipt/a_17' is clicked on
+
+2019-06-17 11:56:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Receipt/Page_Payment Receipt/a_17' is clicked on
+
+2019-06-17 11:56:27 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-06-17 11:56:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-17 11:56:32 - [TEST_STEP][PASSED] - click(findTestObject("Add Receipt/Page_Payment Receipt/button_Now")): Object: 'Object Repository/Add Receipt/Page_Payment Receipt/button_Now' is clicked on
+
+2019-06-17 11:56:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Receipt/Page_Payment Receipt/button_Now' is clicked on
+
+2019-06-17 11:56:32 - [TEST_STEP][PASSED] - click(findTestObject("Add Receipt/Page_Payment Receipt/button_Done")): Object: 'Object Repository/Add Receipt/Page_Payment Receipt/button_Done' is clicked on
+
+2019-06-17 11:56:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Receipt/Page_Payment Receipt/button_Done' is clicked on
+
+2019-06-17 11:56:32 - [TEST_STEP][PASSED] - setText(findTestObject("Add Receipt/Page_Payment Receipt/input__reference_no"), "254178"): Text '254178' is set on object 'Object Repository/Add Receipt/Page_Payment Receipt/input__reference_no'
+
+2019-06-17 11:56:32 - [MESSAGE][PASSED] - Text '254178' is set on object 'Object Repository/Add Receipt/Page_Payment Receipt/input__reference_no'
+
+2019-06-17 11:56:32 - [TEST_STEP][PASSED] - setText(findTestObject("Add Receipt/Page_Payment Receipt/input__initials"), "Himangi"): Text 'Himangi' is set on object 'Object Repository/Add Receipt/Page_Payment Receipt/input__initials'
+
+2019-06-17 11:56:32 - [MESSAGE][PASSED] - Text 'Himangi' is set on object 'Object Repository/Add Receipt/Page_Payment Receipt/input__initials'
+
+2019-06-17 11:56:32 - [TEST_STEP][PASSED] - setText(findTestObject("Add Receipt/Page_Payment Receipt/input__amount"), "136"): Text '136' is set on object 'Object Repository/Add Receipt/Page_Payment Receipt/input__amount'
+
+2019-06-17 11:56:32 - [MESSAGE][PASSED] - Text '136' is set on object 'Object Repository/Add Receipt/Page_Payment Receipt/input__amount'
+
+2019-06-17 11:56:32 - [TEST_STEP][PASSED] - setText(findTestObject("Add Receipt/Page_Payment Receipt/input__bank_name"), "DBS Bank"): Text 'DBS Bank' is set on object 'Object Repository/Add Receipt/Page_Payment Receipt/input__bank_name'
+
+2019-06-17 11:56:33 - [MESSAGE][PASSED] - Text 'DBS Bank' is set on object 'Object Repository/Add Receipt/Page_Payment Receipt/input__bank_name'
+
+2019-06-17 11:56:33 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-06-17 11:56:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-17 11:56:38 - [TEST_STEP][NOT_RUN] - uploadFile(findTestObject("UploadFile/Page_Payment Receipt/input_Upload Receipt_receipt"), "C:\Users\Ranosys\Downloads\ATM Receipt.jpg"): NOT_RUN: uploadFile(findTestObject("UploadFile/Page_Payment Receipt/input_Upload Receipt_receipt"), "C:\Users\Ranosys\Downloads\ATM Receipt.jpg")
+
+2019-06-17 11:56:38 - [MESSAGE][NOT_RUN] - NOT_RUN: uploadFile(findTestObject("UploadFile/Page_Payment Receipt/input_Upload Receipt_receipt"), "C:\Users\Ranosys\Downloads\ATM Receipt.jpg")
+
+2019-06-17 11:56:38 - [TEST_STEP][PASSED] - uploadfile.uploadFile(findTestObject("UploadFile/Page_Payment Receipt/input_Upload Receipt_receipt"), "C:\Users\Ranosys\Downloads\ATM Receipt.jpg"): uploadfile.uploadFile is PASSED
+
+2019-06-17 11:56:38 - [MESSAGE][PASSED] - Object: 'Object Repository/UploadFile/Page_Payment Receipt/input_Upload Receipt_receipt' is clicked on
+
+2019-06-17 11:56:40 - [MESSAGE][PASSED] - uploadfile.uploadFile is PASSED
+
+2019-06-17 11:56:40 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-06-17 11:56:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-17 11:56:45 - [TEST_STEP][PASSED] - click(findTestObject("Add Receipt/Page_Payment Receipt/button_Submit")): Object: 'Object Repository/Add Receipt/Page_Payment Receipt/button_Submit' is clicked on
+
+2019-06-17 11:56:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Receipt/Page_Payment Receipt/button_Submit' is clicked on
+
+2019-06-17 11:56:45 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-06-17 11:56:55 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-17 11:56:55 - [TEST_STEP][FAILED] - acceptAlert(): acceptAlert() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$7.call(Unknown Source)
+	at Add Receipt.run(Add Receipt:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560752680509.run(TempTestSuite1560752680509.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-06-17 11:56:56 - [MESSAGE][FAILED] - No alert found (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$7.call(Unknown Source)
+	at Add Receipt.run(Add Receipt:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560752680509.run(TempTestSuite1560752680509.groovy:35)
+)
+[[ATTACHMENT|C:\\Users\\Himangi\\git\\thethreadtheory\\Reports\\Add Receipt\\20190617_115440\\1560752815735.png]]
+
+2019-06-17 11:56:56 - [MESSAGE][FAILED] - Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$7.call(Unknown Source)
+	at Add Receipt.run(Add Receipt:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560752680509.run(TempTestSuite1560752680509.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\Himangi\\git\\thethreadtheory\\Reports\\Add Receipt\\20190617_115440\\1560752816074.png]]
+
+2019-06-17 11:56:56 - [MESSAGE][FAILED] - acceptAlert() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$7.call(Unknown Source)
+	at Add Receipt.run(Add Receipt:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560752680509.run(TempTestSuite1560752680509.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+         <system-err><![CDATA[2019-06-17 11:55:46 - [TEST_CASE][FAILED] - Test Cases/Add Receipt: Test Cases/Add Receipt FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$7.call(Unknown Source)
+	at Add Receipt.run(Add Receipt:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560752680509.run(TempTestSuite1560752680509.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-06-17 11:54:42 - [TEST_SUITE][FAILED] - Add Receipt: Test Cases/Add Receipt FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$7.call(Unknown Source)
+	at Add Receipt.run(Add Receipt:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560752680509.run(TempTestSuite1560752680509.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2019-06-17 11:54:42 - [TEST_SUITE][FAILED] - Add Receipt: Test Cases/Add Receipt FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$7.call(Unknown Source)
+	at Add Receipt.run(Add Receipt:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560752680509.run(TempTestSuite1560752680509.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

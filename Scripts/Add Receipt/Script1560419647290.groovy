@@ -37,7 +37,9 @@ WebUI.doubleClick(findTestObject('Add Receipt/Page_Payment Receipt/span_Prev'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Add Receipt/Page_Payment Receipt/a_14'))
+WebUI.click(findTestObject('Add Receipt/Page_Payment Receipt/a_17'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Add Receipt/Page_Payment Receipt/button_Now'))
 
@@ -47,7 +49,7 @@ WebUI.setText(findTestObject('Add Receipt/Page_Payment Receipt/input__reference_
 
 WebUI.setText(findTestObject('Add Receipt/Page_Payment Receipt/input__initials'), 'Himangi')
 
-WebUI.setText(findTestObject('Add Receipt/Page_Payment Receipt/input__amount'), '68')
+WebUI.setText(findTestObject('Add Receipt/Page_Payment Receipt/input__amount'), '136')
 
 WebUI.setText(findTestObject('Add Receipt/Page_Payment Receipt/input__bank_name'), 'DBS Bank')
 
@@ -55,7 +57,7 @@ WebUI.delay(5)
 
 not_run: WebUI.uploadFile(findTestObject('UploadFile/Page_Payment Receipt/input_Upload Receipt_receipt'), 'C:\\Users\\Ranosys\\Downloads\\ATM Receipt.jpg')
 
-CustomKeywords.'uploadfile.uploadFile'(findTestObject('UploadFile/Page_Payment Receipt/input_Upload Receipt_receipt'), 'C:\\Users\\Ranosys\\Downloads\\ATM Receipt.jpg')
+CustomKeywords.'uploadfile.uploadFile'(findTestObject('UploadFile/Page_Payment Receipt/input_Upload Receipt_receipt'), 'D:\\ATM Receipt.jpg')
 
 WebUI.delay(5)
 
@@ -63,5 +65,11 @@ WebUI.click(findTestObject('Add Receipt/Page_Payment Receipt/button_Submit'))
 
 WebUI.delay(10)
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject('Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_Start shopping now _login-icon'))
+
+WebUI.click(findTestObject('My Order/Page_Welcome to The Thread Theory  The Thread Theory/a_Logout'))
+
+WebUI.delay(10)
+
+WebUI.closeBrowser()
 

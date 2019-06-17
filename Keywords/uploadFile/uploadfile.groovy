@@ -24,19 +24,19 @@ import internal.GlobalVariable
 
 public class uploadfile {
 
-@Keyword
-def uploadFile(TestObject to, String filePath) {
-WebUI.click(to)
-StringSelection ss = new StringSelection(filePath);
-Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null);
-Robot robot = new Robot();
-robot.keyPress(KeyEvent.VK_ENTER);
-robot.keyRelease(KeyEvent.VK_ENTER);
-robot.keyPress(KeyEvent.VK_CONTROL);
-robot.keyPress(KeyEvent.VK_V);
-robot.keyRelease(KeyEvent.VK_V);
-robot.keyRelease(KeyEvent.VK_CONTROL);
-robot.keyPress(KeyEvent.VK_ENTER);
-robot.keyRelease(KeyEvent.VK_ENTER);
-}
+	@Keyword
+	def uploadFile(TestObject to, String filePath) {
+		WebUI.click(to)
+		StringSelection ss = new StringSelection(filePath);
+		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null);
+		Robot robot = new Robot();
+		robot.keyPress(KeyEvent.VK_ENTER);
+		robot.keyRelease(KeyEvent.VK_ENTER);
+		robot.keyPress(KeyEvent.VK_CONTROL);
+		robot.keyPress(KeyEvent.VK_V);
+		robot.keyRelease(KeyEvent.VK_V);
+		robot.keyRelease(KeyEvent.VK_CONTROL);
+		robot.keyPress(KeyEvent.VK_ENTER);
+		robot.keyRelease(KeyEvent.VK_ENTER);
+	}
 }

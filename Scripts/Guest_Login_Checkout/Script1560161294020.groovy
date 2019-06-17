@@ -93,7 +93,7 @@ WebUI.click(findTestObject('TandC/Page_Checkout/input_SGD 4300_agreement2'), Fai
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('checkout place order/Page_Checkout/button_Place Order'))
+WebUI.click(findTestObject('new place order/Page_Checkout/button_Place Order'), FailureHandling.OPTIONAL)
 
 WebUI.delay(10)
 
@@ -114,44 +114,4 @@ WebUI.scrollToElement(findTestObject('MultipleCheckout/Page_Success Page/button_
 WebUI.click(findTestObject('MultipleCheckout/Page_Success Page/button_Continue Shopping'))
 
 WebUI.delay(10)
-
-WebUI.click(findTestObject('Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/span_Start shopping now _login-b-icon'))
-
-WebUI.click(findTestObject('Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Add Receipt/Page_My Orders/span_View Order'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Add Receipt/Page_Order  000000052/span_Add Receipt'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Add Receipt/Page_Payment Receipt/input__tran_datetime'))
-
-WebUI.click(findTestObject('Add Receipt/Page_Payment Receipt/a_date'))
-
-WebUI.click(findTestObject('Add Receipt/Page_Payment Receipt/button_Done'))
-
-WebUI.setText(findTestObject('Add Receipt/Page_Payment Receipt/input__reference_no'), '254178')
-
-WebUI.setText(findTestObject('Add Receipt/Page_Payment Receipt/input__initials'), 'Himangi')
-
-WebUI.setText(findTestObject('Add Receipt/Page_Payment Receipt/input__amount'), '68')
-
-WebUI.setText(findTestObject('Add Receipt/Page_Payment Receipt/input__bank_name'), 'DBS Bank')
-
-WebUI.delay(5)
-
-WebUI.uploadFile(findTestObject('Add Receipt/Page_Payment Receipt/input_Upload Receipt_receipt'), 'C:\\Users\\Ranosys\\Downloads\\ATM Receipt.jpg')
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Add Receipt/Page_Payment Receipt/button_Submit'))
-
-WebUI.delay(10)
-
-WebUI.closeBrowser()
 
