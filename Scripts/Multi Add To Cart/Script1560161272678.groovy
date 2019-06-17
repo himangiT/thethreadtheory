@@ -13,44 +13,31 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.mouseOver(findTestObject('add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_SHOP'))
+WebUI.openBrowser(toString())
 
-not_run: WebUI.openBrowser(toString())
+WebUI.navigateToUrl('http://18.138.12.239/')
 
-not_run: WebUI.navigateToUrl('http://18.138.12.239/')
+WebUI.maximizeWindow()
 
-not_run: WebUI.maximizeWindow()
+WebUI.delay(10)
 
-not_run: WebUI.delay(10)
+WebUI.check(findTestObject('Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_concat(Don  t show this popup again)_check'))
 
-not_run: WebUI.check(findTestObject('Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_concat(Don  t show this popup again)_check'))
+WebUI.click(findTestObject('Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/button_Close'))
 
-not_run: WebUI.click(findTestObject('Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/button_Close'))
-
-not_run: WebUI.delay(10)
+WebUI.delay(10)
 
 WebUI.mouseOver(findTestObject('add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_SHOP'))
 
 WebUI.click(findTestObject('add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_Work Wear'))
 
-WebUI.delay(5)
+WebUI.delay(10)
 
-WebUI.scrollToElement(findTestObject('Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional'), 5)
+WebUI.scrollToElement(findTestObject('add to cart/Page_DRESSES - SHOP/img_Quick View_imgage-additional'), 5)
 
-WebUI.mouseOver(findTestObject('Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional'))
+WebUI.mouseOver(findTestObject('add to cart/Page_DRESSES - SHOP/img_Quick View_imgage-additional'))
 
-WebUI.click(findTestObject('Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional'))
-
-not_run: WebUI.click(findTestObject('add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_Work Wear'))
-
-not_run: WebUI.delay(30)
-
-not_run: WebUI.scrollToElement(findTestObject('Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional'), 
-    5)
-
-not_run: WebUI.mouseOver(findTestObject('Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional'))
-
-not_run: WebUI.click(findTestObject('Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional'))
+WebUI.click(findTestObject('add to cart/Page_DRESSES - SHOP/img_Quick View_imgage-additional'))
 
 WebUI.delay(10)
 
@@ -60,20 +47,9 @@ WebUI.click(findTestObject('add to cart/Page_Lana Lace Romper (Navy)/span_OS_cs-
 
 WebUI.click(findTestObject('add to cart/menu_cart_mini/Page_Softly Edelweiss Swiss Dot Dress (Powder Blue)/button_Add to Cart'))
 
-not_run: WebUI.scrollToElement(findTestObject('add to cart/Page_Lana Lace Romper (Navy)/a_Ripple Riddle Pants New (Navy)'), 
-    0)
+WebUI.delay(8)
 
-not_run: WebUI.click(findTestObject('add to cart/Page_Lana Lace Romper (Navy)/span_Add to Cart'))
-
-not_run: WebUI.delay(10)
-
-not_run: WebUI.click(findTestObject('add to cart/Page_Ripple Riddle Pants New (Navy)/div_L'))
-
-not_run: WebUI.click(findTestObject('add to cart/Page_Ripple Riddle Pants New (Navy)/button_Add to Cart'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('add to cart/Page_Lana Lace Romper (Navy)/span_2                                        2                items'))
+WebUI.click(findTestObject('add to cart/Page_Fall Of Sunflowers Dress (White)/span_2                                        2                items'))
 
 WebUI.click(findTestObject('View Kart/Page_Lana Lace Romper (Navy)/span_View cart'))
 
@@ -84,6 +60,16 @@ WebUI.click(findTestObject('GuestUser/Page_Shopping Cart/strong_Summary'))
 WebUI.click(findTestObject('add to cart/Page_Shopping Cart/span_Check Out with Multiple Addresses'))
 
 WebUI.delay(5)
+
+WebUI.setText(findTestObject('OR_Login/Page_Sign In/input_Sign In_loginusername'), 'himangi.tankha@ranosys.com')
+
+WebUI.setText(findTestObject('OR_Login/Page_Sign In/input_Sign In_loginpassword'), 'password123')
+
+WebUI.click(findTestObject('OR_Login/Page_/button_Sign In'))
+
+WebUI.delay(10)
+
+WebUI.getNumberOfTotalOption(findTestObject('select_Miss Himangi Tankha Singapore Singapore 567890 SingaporeMiss Himangi Tankha Test America California 541278 United StatesMiss Himangi Tankha Test Singapore 567890 Singapore'))
 
 WebUI.click(findTestObject('select_Miss Himangi Tankha Singapore Singapore 567890 SingaporeMiss Himangi Tankha Test America California 541278 United StatesMiss Himangi Tankha Test Singapore 567890 Singapore'))
 

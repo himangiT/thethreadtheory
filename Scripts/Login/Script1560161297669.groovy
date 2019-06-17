@@ -31,7 +31,7 @@ WebUI.click(findTestObject('Object Repository/add to cart/Page_Welcome to The Th
 
 WebUI.click(findTestObject('Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/a_Sign In'))
 
-WebUI.setText(findTestObject('Object Repository/add to cart/Page_Sign In/input_Sign In_loginusername'), 'himangi.tankha+5@ranosys.com')
+WebUI.setText(findTestObject('Object Repository/add to cart/Page_Sign In/input_Sign In_loginusername'), 'himangi.tankha@ranosys.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/add to cart/Page_Sign In/input_Sign In_loginpassword'), '8SQVv/p9jVTHLrggi8kCzw==')
 

@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Multiple Address Checkout,Chrome 74.0.3729.169,,2019-06-17 12:17:08,2019-06-17 12:19:15,2m - 6.610s,FAILED
+,,,,,,
+Test Cases/Login,Chrome 74.0.3729.169,,2019-06-17 12:17:09,2019-06-17 12:18:07,58.618s,PASSED
+openBrowser(toString()),Chrome 74.0.3729.169,,2019-06-17 12:17:09,2019-06-17 12:17:15,6.173s,PASSED
+"navigateToUrl(""http://18.138.12.239/"")",Chrome 74.0.3729.169,,2019-06-17 12:17:15,2019-06-17 12:17:24,8.333s,PASSED
+maximizeWindow(),Chrome 74.0.3729.169,,2019-06-17 12:17:24,2019-06-17 12:17:25,1.179s,PASSED
+delay(10),Chrome 74.0.3729.169,,2019-06-17 12:17:25,2019-06-17 12:17:35,10.029s,PASSED
+"check(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_concat(Don  t show this popup again)_check""))",Chrome 74.0.3729.169,,2019-06-17 12:17:35,2019-06-17 12:17:35,0.148s,PASSED
+"click(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/button_Close""))",Chrome 74.0.3729.169,,2019-06-17 12:17:35,2019-06-17 12:17:35,0.071s,PASSED
+delay(10),Chrome 74.0.3729.169,,2019-06-17 12:17:35,2019-06-17 12:17:45,10.003s,PASSED
+"click(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_Start shopping now _login-icon""))",Chrome 74.0.3729.169,,2019-06-17 12:17:45,2019-06-17 12:17:45,0.132s,PASSED
+"click(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/a_Sign In""))",Chrome 74.0.3729.169,,2019-06-17 12:17:45,2019-06-17 12:17:48,2.415s,PASSED
+"setText(findTestObject(""Object Repository/add to cart/Page_Sign In/input_Sign In_loginusername""), ""himangi.tankha@ranosys.com"")",Chrome 74.0.3729.169,,2019-06-17 12:17:48,2019-06-17 12:17:48,0.424s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/add to cart/Page_Sign In/input_Sign In_loginpassword""), ""8SQVv/p9jVTHLrggi8kCzw=="")",Chrome 74.0.3729.169,,2019-06-17 12:17:48,2019-06-17 12:17:48,0.157s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-06-17 12:17:48,2019-06-17 12:17:53,5.002s,PASSED
+"click(findTestObject(""Object Repository/add to cart/Page_Sign In/button_Sign In""))",Chrome 74.0.3729.169,,2019-06-17 12:17:53,2019-06-17 12:17:57,4.056s,PASSED
+delay(10),Chrome 74.0.3729.169,,2019-06-17 12:17:57,2019-06-17 12:18:07,10.003s,PASSED
+,,,,,,
+Test Cases/Multi Add To Cart,Chrome 74.0.3729.169,,2019-06-17 12:18:07,2019-06-17 12:19:14,1m - 6.980s,FAILED
+"mouseOver(findTestObject(""add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_SHOP""))",Chrome 74.0.3729.169,,2019-06-17 12:18:08,2019-06-17 12:18:08,0.080s,PASSED
+openBrowser(toString()),Chrome 74.0.3729.169,,2019-06-17 12:18:08,2019-06-17 12:18:08,0.002s,NOT_RUN
+"navigateToUrl(""http://18.138.12.239/"")",Chrome 74.0.3729.169,,2019-06-17 12:18:08,2019-06-17 12:18:08,0.001s,NOT_RUN
+maximizeWindow(),Chrome 74.0.3729.169,,2019-06-17 12:18:08,2019-06-17 12:18:08,0.001s,NOT_RUN
+delay(10),Chrome 74.0.3729.169,,2019-06-17 12:18:08,2019-06-17 12:18:08,0.000s,NOT_RUN
+"check(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_concat(Don  t show this popup again)_check""))",Chrome 74.0.3729.169,,2019-06-17 12:18:08,2019-06-17 12:18:08,0.000s,NOT_RUN
+"click(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/button_Close""))",Chrome 74.0.3729.169,,2019-06-17 12:18:08,2019-06-17 12:18:08,0.000s,NOT_RUN
+delay(10),Chrome 74.0.3729.169,,2019-06-17 12:18:08,2019-06-17 12:18:08,0.001s,NOT_RUN
+"mouseOver(findTestObject(""add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_SHOP""))",Chrome 74.0.3729.169,,2019-06-17 12:18:08,2019-06-17 12:18:08,0.069s,PASSED
+"click(findTestObject(""add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_Work Wear""))",Chrome 74.0.3729.169,,2019-06-17 12:18:08,2019-06-17 12:18:17,9.490s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-06-17 12:18:17,2019-06-17 12:18:22,5.002s,PASSED
+"scrollToElement(findTestObject(""Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional""), 5)",Chrome 74.0.3729.169,,2019-06-17 12:18:22,2019-06-17 12:18:22,0.093s,PASSED
+"mouseOver(findTestObject(""Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional""))",Chrome 74.0.3729.169,,2019-06-17 12:18:22,2019-06-17 12:18:22,0.072s,PASSED
+"click(findTestObject(""Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional""))",Chrome 74.0.3729.169,,2019-06-17 12:18:22,2019-06-17 12:18:26,3.935s,PASSED
+"click(findTestObject(""add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_Work Wear""))",Chrome 74.0.3729.169,,2019-06-17 12:18:26,2019-06-17 12:18:26,0.001s,NOT_RUN
+delay(30),Chrome 74.0.3729.169,,2019-06-17 12:18:26,2019-06-17 12:18:26,0.000s,NOT_RUN
+"scrollToElement(findTestObject(""Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional""), 5)",Chrome 74.0.3729.169,,2019-06-17 12:18:26,2019-06-17 12:18:26,0.000s,NOT_RUN
+"mouseOver(findTestObject(""Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional""))",Chrome 74.0.3729.169,,2019-06-17 12:18:26,2019-06-17 12:18:26,0.000s,NOT_RUN
+"click(findTestObject(""Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional""))",Chrome 74.0.3729.169,,2019-06-17 12:18:26,2019-06-17 12:18:26,0.001s,NOT_RUN
+delay(10),Chrome 74.0.3729.169,,2019-06-17 12:18:26,2019-06-17 12:18:36,10.003s,PASSED
+"click(findTestObject(""add to cart/Page_Lana Lace Romper (Navy) (1)/div_L""))",Chrome 74.0.3729.169,,2019-06-17 12:18:36,2019-06-17 12:18:37,0.148s,PASSED
+"click(findTestObject(""add to cart/Page_Lana Lace Romper (Navy)/span_OS_cs-font clever-icon-plus""))",Chrome 74.0.3729.169,,2019-06-17 12:18:37,2019-06-17 12:18:37,0.080s,PASSED
+"click(findTestObject(""add to cart/menu_cart_mini/Page_Softly Edelweiss Swiss Dot Dress (Powder Blue)/button_Add to Cart""))",Chrome 74.0.3729.169,,2019-06-17 12:18:37,2019-06-17 12:18:37,0.125s,PASSED
+"scrollToElement(findTestObject(""add to cart/Page_Lana Lace Romper (Navy)/a_Ripple Riddle Pants New (Navy)""), 0)",Chrome 74.0.3729.169,,2019-06-17 12:18:37,2019-06-17 12:18:37,0.001s,NOT_RUN
+"click(findTestObject(""add to cart/Page_Lana Lace Romper (Navy)/span_Add to Cart""))",Chrome 74.0.3729.169,,2019-06-17 12:18:37,2019-06-17 12:18:37,0.000s,NOT_RUN
+delay(10),Chrome 74.0.3729.169,,2019-06-17 12:18:37,2019-06-17 12:18:37,0.000s,NOT_RUN
+"click(findTestObject(""add to cart/Page_Ripple Riddle Pants New (Navy)/div_L""))",Chrome 74.0.3729.169,,2019-06-17 12:18:37,2019-06-17 12:18:37,0.001s,NOT_RUN
+"click(findTestObject(""add to cart/Page_Ripple Riddle Pants New (Navy)/button_Add to Cart""))",Chrome 74.0.3729.169,,2019-06-17 12:18:37,2019-06-17 12:18:37,0.000s,NOT_RUN
+delay(5),Chrome 74.0.3729.169,,2019-06-17 12:18:37,2019-06-17 12:18:42,5.003s,PASSED
+"click(findTestObject(""add to cart/Page_Lana Lace Romper (Navy)/span_2                                        2                items""))",Chrome 74.0.3729.169,,2019-06-17 12:18:42,2019-06-17 12:19:14,32.544s,FAILED

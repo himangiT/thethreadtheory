@@ -3,11 +3,11 @@
    <description></description>
    <name>span_2                                        2                items</name>
    <tag></tag>
-   <elementGuidId>fef65fb7-8606-4de6-bfd6-83fec93f4ee3</elementGuidId>
+   <elementGuidId>c40d199e-88a4-4309-9f7c-2bc1450b0e91</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;header-sticky-mobile&quot;)/div[@class=&quot;zoo-header-content-block d-flex align-items-center justify-content-end search-options&quot;]/div[@class=&quot;minicart-wrapper&quot;]/div[@class=&quot;action showcart&quot;]/a[1]/span[@class=&quot;counter qty cart-icon&quot;][count(. | //span[@class = 'counter qty cart-icon' and @data-bind = concat('css: { empty: !!getCartParam(' , &quot;'&quot; , 'summary_count' , &quot;'&quot; , ') == false }, blockLoader: isLoading') and (text() = '
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='My Cart'])[1]/preceding::span[4][count(. | //span[@class = 'counter qty cart-icon' and @data-bind = concat('css: { empty: !!getCartParam(' , &quot;'&quot; , 'summary_count' , &quot;'&quot; , ') == false }, blockLoader: isLoading') and (text() = '
             2
             
             
@@ -89,7 +89,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;header-sticky-mobile&quot;)/div[@class=&quot;zoo-header-content-block d-flex align-items-center justify-content-end search-options&quot;]/div[@class=&quot;minicart-wrapper&quot;]/div[@class=&quot;action showcart&quot;]/a[1]/span[@class=&quot;counter qty cart-icon&quot;]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Cart'])[1]/preceding::span[4]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

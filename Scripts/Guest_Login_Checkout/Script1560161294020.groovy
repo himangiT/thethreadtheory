@@ -65,7 +65,7 @@ WebUI.click(findTestObject('add to cart/menu_cart_mini/Page_Shopping Cart/button
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('GuestUser/Page_Shopping Cart/input_Email Address_username'), 'himangi.tankha+5@ranosys.com')
+WebUI.setText(findTestObject('GuestUser/Page_Shopping Cart/input_Email Address_username'), 'himangi.tankha@ranosys.com')
 
 WebUI.setText(findTestObject('GuestUser/Page_Shopping Cart/input_Password_password'), 'password123')
 

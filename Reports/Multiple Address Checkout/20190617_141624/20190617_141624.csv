@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Multiple Address Checkout,Chrome 74.0.3729.169,,2019-06-17 14:16:25,2019-06-17 14:18:08,1m - 42.532s,FAILED
+,,,,,,
+Test Cases/Login,Chrome 74.0.3729.169,,2019-06-17 14:16:26,2019-06-17 14:17:50,1m - 24.050s,PASSED
+openBrowser(toString()),Chrome 74.0.3729.169,,2019-06-17 14:16:26,2019-06-17 14:16:33,7.087s,PASSED
+"navigateToUrl(""http://18.138.12.239/"")",Chrome 74.0.3729.169,,2019-06-17 14:16:33,2019-06-17 14:16:47,13.904s,PASSED
+maximizeWindow(),Chrome 74.0.3729.169,,2019-06-17 14:16:47,2019-06-17 14:16:49,1.156s,PASSED
+delay(10),Chrome 74.0.3729.169,,2019-06-17 14:16:49,2019-06-17 14:16:59,10.033s,PASSED
+"check(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_concat(Don  t show this popup again)_check""))",Chrome 74.0.3729.169,,2019-06-17 14:16:59,2019-06-17 14:16:59,0.143s,PASSED
+"click(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/button_Close""))",Chrome 74.0.3729.169,,2019-06-17 14:16:59,2019-06-17 14:16:59,0.071s,PASSED
+delay(10),Chrome 74.0.3729.169,,2019-06-17 14:16:59,2019-06-17 14:17:09,10.005s,PASSED
+"click(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_Start shopping now _login-icon""))",Chrome 74.0.3729.169,,2019-06-17 14:17:09,2019-06-17 14:17:09,0.111s,PASSED
+"click(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/a_Sign In""))",Chrome 74.0.3729.169,,2019-06-17 14:17:09,2019-06-17 14:17:12,2.978s,PASSED
+"setText(findTestObject(""Object Repository/add to cart/Page_Sign In/input_Sign In_loginusername""), ""himangi.tankha@ranosys.com"")",Chrome 74.0.3729.169,,2019-06-17 14:17:12,2019-06-17 14:17:12,0.558s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/add to cart/Page_Sign In/input_Sign In_loginpassword""), ""8SQVv/p9jVTHLrggi8kCzw=="")",Chrome 74.0.3729.169,,2019-06-17 14:17:12,2019-06-17 14:17:13,0.207s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-06-17 14:17:13,2019-06-17 14:17:18,5.004s,PASSED
+"click(findTestObject(""Object Repository/add to cart/Page_Sign In/button_Sign In""))",Chrome 74.0.3729.169,,2019-06-17 14:17:18,2019-06-17 14:17:40,22.138s,PASSED
+delay(10),Chrome 74.0.3729.169,,2019-06-17 14:17:40,2019-06-17 14:17:50,10.003s,PASSED
+,,,,,,
+Test Cases/Multi Add To Cart,Chrome 74.0.3729.169,,2019-06-17 14:17:50,2019-06-17 14:18:07,17.256s,FAILED
+"mouseOver(findTestObject(""add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_SHOP""))",Chrome 74.0.3729.169,,2019-06-17 14:17:50,2019-06-17 14:17:50,0.080s,PASSED
+openBrowser(toString()),Chrome 74.0.3729.169,,2019-06-17 14:17:50,2019-06-17 14:17:50,0.005s,NOT_RUN
+"navigateToUrl(""http://18.138.12.239/"")",Chrome 74.0.3729.169,,2019-06-17 14:17:50,2019-06-17 14:17:50,0.001s,NOT_RUN
+maximizeWindow(),Chrome 74.0.3729.169,,2019-06-17 14:17:50,2019-06-17 14:17:50,0.001s,NOT_RUN
+delay(10),Chrome 74.0.3729.169,,2019-06-17 14:17:50,2019-06-17 14:17:50,0.000s,NOT_RUN
+"check(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_concat(Don  t show this popup again)_check""))",Chrome 74.0.3729.169,,2019-06-17 14:17:50,2019-06-17 14:17:50,0.000s,NOT_RUN
+"click(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/button_Close""))",Chrome 74.0.3729.169,,2019-06-17 14:17:50,2019-06-17 14:17:50,0.001s,NOT_RUN
+delay(10),Chrome 74.0.3729.169,,2019-06-17 14:17:50,2019-06-17 14:17:50,0.001s,NOT_RUN
+"mouseOver(findTestObject(""add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_SHOP""))",Chrome 74.0.3729.169,,2019-06-17 14:17:50,2019-06-17 14:17:50,0.115s,PASSED
+"click(findTestObject(""add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_Work Wear""))",Chrome 74.0.3729.169,,2019-06-17 14:17:50,2019-06-17 14:18:01,10.951s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-06-17 14:18:01,2019-06-17 14:18:06,5.002s,PASSED
+"scrollToElement(findTestObject(""Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional""), 5)",Chrome 74.0.3729.169,,2019-06-17 14:18:06,2019-06-17 14:18:06,0.074s,PASSED
+"mouseOver(findTestObject(""Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional""))",Chrome 74.0.3729.169,,2019-06-17 14:18:06,2019-06-17 14:18:06,0.051s,PASSED
+"click(findTestObject(""Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional""))",Chrome 74.0.3729.169,,2019-06-17 14:18:06,2019-06-17 14:18:07,0.653s,FAILED
