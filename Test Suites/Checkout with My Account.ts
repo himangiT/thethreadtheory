@@ -4,7 +4,7 @@
    <name>Checkout with My Account</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient>himangi.tankha@ranosys.com;nishant.johri@ranosys.com;himangi.tankha@gmail.com;</mailRecipient>
+   <mailRecipient>himangi.tankha@ranosys.com;himangi.tankha@gmail.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
@@ -20,6 +20,6 @@
       <guid>2dfae2e2-a0bb-4bb6-85a2-b5e1f31af9ce</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Add Receipt</testCaseId>
+      <testCaseId>Test Cases/Add Receipt ATM</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -6,14 +6,18 @@
    <elementGuidId>420f8de0-1ec5-485a-9987-58935d1b0893</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Fall Of Sunflowers Dress (White)'])[1]/following::a[1][count(. | //*[@title = 'Fall Of Sunflowers Dress (White)' and @href = 'http://18.138.12.239/fall-of-sunflowers-dress-white']) = count(//*[@title = 'Fall Of Sunflowers Dress (White)' and @href = 'http://18.138.12.239/fall-of-sunflowers-dress-white'])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//ol[@id='icir_5d076cb4e5c23']/li[2]/div/div/div[2]/div[2]/h5/a</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Fall Of Sunflowers Dress (White)'])[1]/following::a[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -41,7 +45,7 @@
       <value>product-item-link</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -49,11 +53,11 @@
                                         Fall Of Sunflowers Dress (White)                                    </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;icir_5d076cb4e5c23&quot;)/li[@class=&quot;product_hover product product-item product-instock&quot;]/div[@class=&quot;product-item-info   have-alternative-image&quot;]/div[@class=&quot;zoo-inner-product-item-info&quot;]/div[@class=&quot;product details product-item-details&quot;]/div[@class=&quot;hover-area product_shop_loop&quot;]/h5[@class=&quot;product-item-name&quot;]/a[@class=&quot;product-item-link&quot;]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fall Of Sunflowers Dress (White)'])[1]/following::a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

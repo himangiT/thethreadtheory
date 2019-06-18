@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Fall Of Sunflowers Dress (White)'])[1]/preceding::img[1][count(. | //img[@src = 'http://18.138.12.239/pub/static/version1560234252/frontend/Ranosys/threadtheory/en_US/CleverSoft_Base/images/transparent.gif' and @alt = 'Fall Of Sunflowers Dress (White)']) = count(//img[@src = 'http://18.138.12.239/pub/static/version1560234252/frontend/Ranosys/threadtheory/en_US/CleverSoft_Base/images/transparent.gif' and @alt = 'Fall Of Sunflowers Dress (White)'])]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to Cart'])[3]/following::img[2][count(. | //img[@src = 'http://18.138.12.239/pub/static/version1560234252/frontend/Ranosys/threadtheory/en_US/CleverSoft_Base/images/transparent.gif' and @alt = 'Fall Of Sunflowers Dress (White)']) = count(//img[@src = 'http://18.138.12.239/pub/static/version1560234252/frontend/Ranosys/threadtheory/en_US/CleverSoft_Base/images/transparent.gif' and @alt = 'Fall Of Sunflowers Dress (White)'])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Fall Of Sunflowers Dress (White)'])[1]/preceding::img[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to Cart'])[3]/following::img[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fall Of Sunflowers Dress (White)'])[1]/preceding::img[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to Cart'])[3]/following::img[2]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

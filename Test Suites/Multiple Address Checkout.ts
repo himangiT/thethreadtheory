@@ -4,7 +4,7 @@
    <name>Multiple Address Checkout</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient></mailRecipient>
+   <mailRecipient>himangi.tankha@ranosys.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
@@ -21,5 +21,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Multi Add To Cart</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5f46c05d-0cb3-461a-87b2-0442b834e888</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Add Receipt PayNow</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

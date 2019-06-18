@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Multiple Address Checkout,Chrome 74.0.3729.169,,2019-06-18 15:17:11,2019-06-18 15:18:31,1m - 20.371s,FAILED
+,,,,,,
+Test Cases/Login,Chrome 74.0.3729.169,,2019-06-18 15:17:11,2019-06-18 15:18:10,58.627s,PASSED
+openBrowser(toString()),Chrome 74.0.3729.169,,2019-06-18 15:17:11,2019-06-18 15:17:17,5.921s,PASSED
+"navigateToUrl(""http://18.138.12.239/"")",Chrome 74.0.3729.169,,2019-06-18 15:17:17,2019-06-18 15:17:26,8.737s,PASSED
+maximizeWindow(),Chrome 74.0.3729.169,,2019-06-18 15:17:26,2019-06-18 15:17:27,1.166s,PASSED
+delay(10),Chrome 74.0.3729.169,,2019-06-18 15:17:27,2019-06-18 15:17:37,10.030s,PASSED
+"check(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_concat(Don  t show this popup again)_check""))",Chrome 74.0.3729.169,,2019-06-18 15:17:37,2019-06-18 15:17:37,0.144s,PASSED
+"click(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/button_Close""))",Chrome 74.0.3729.169,,2019-06-18 15:17:37,2019-06-18 15:17:37,0.108s,PASSED
+delay(10),Chrome 74.0.3729.169,,2019-06-18 15:17:37,2019-06-18 15:17:47,10.003s,PASSED
+"click(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_Start shopping now _login-icon""))",Chrome 74.0.3729.169,,2019-06-18 15:17:47,2019-06-18 15:17:47,0.125s,PASSED
+"click(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/a_Sign In""))",Chrome 74.0.3729.169,,2019-06-18 15:17:47,2019-06-18 15:17:50,2.458s,PASSED
+"setText(findTestObject(""Object Repository/add to cart/Page_Sign In/input_Sign In_loginusername""), ""himangi.tankha@ranosys.com"")",Chrome 74.0.3729.169,,2019-06-18 15:17:50,2019-06-18 15:17:50,0.472s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/add to cart/Page_Sign In/input_Sign In_loginpassword""), ""8SQVv/p9jVTHLrggi8kCzw=="")",Chrome 74.0.3729.169,,2019-06-18 15:17:50,2019-06-18 15:17:51,0.186s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-06-18 15:17:51,2019-06-18 15:17:56,5.003s,PASSED
+"click(findTestObject(""Object Repository/add to cart/Page_Sign In/button_Sign In""))",Chrome 74.0.3729.169,,2019-06-18 15:17:56,2019-06-18 15:18:00,3.964s,PASSED
+delay(10),Chrome 74.0.3729.169,,2019-06-18 15:18:00,2019-06-18 15:18:10,10.004s,PASSED
+,,,,,,
+Test Cases/Multi Add To Cart,Chrome 74.0.3729.169,,2019-06-18 15:18:10,2019-06-18 15:18:30,20.708s,FAILED
+openBrowser(toString()),Chrome 74.0.3729.169,,2019-06-18 15:18:10,2019-06-18 15:18:10,0.002s,NOT_RUN
+"navigateToUrl(""http://18.138.12.239/"")",Chrome 74.0.3729.169,,2019-06-18 15:18:10,2019-06-18 15:18:10,0.000s,NOT_RUN
+maximizeWindow(),Chrome 74.0.3729.169,,2019-06-18 15:18:10,2019-06-18 15:18:10,0.000s,NOT_RUN
+delay(10),Chrome 74.0.3729.169,,2019-06-18 15:18:10,2019-06-18 15:18:10,0.000s,NOT_RUN
+"check(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_concat(Don  t show this popup again)_check""))",Chrome 74.0.3729.169,,2019-06-18 15:18:10,2019-06-18 15:18:10,0.000s,NOT_RUN
+"click(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/button_Close""))",Chrome 74.0.3729.169,,2019-06-18 15:18:10,2019-06-18 15:18:10,0.000s,NOT_RUN
+delay(10),Chrome 74.0.3729.169,,2019-06-18 15:18:10,2019-06-18 15:18:10,0.013s,NOT_RUN
+"mouseOver(findTestObject(""add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_SHOP""))",Chrome 74.0.3729.169,,2019-06-18 15:18:10,2019-06-18 15:18:10,0.093s,PASSED
+"click(findTestObject(""add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_Work Wear""))",Chrome 74.0.3729.169,,2019-06-18 15:18:10,2019-06-18 15:18:19,9.362s,PASSED
+delay(10),Chrome 74.0.3729.169,,2019-06-18 15:18:19,2019-06-18 15:18:29,10.003s,PASSED
+"scrollToElement(findTestObject(""add to cart/Page_DRESSES - SHOP/a_Fall Of Sunflowers Dress (White)""), 5)",Chrome 74.0.3729.169,,2019-06-18 15:18:29,2019-06-18 15:18:29,0.136s,PASSED
+"mouseOver(findTestObject(""add to cart/Page_DRESSES - SHOP/a_Fall Of Sunflowers Dress (White)""))",Chrome 74.0.3729.169,,2019-06-18 15:18:29,2019-06-18 15:18:29,0.064s,PASSED
+"click(findTestObject(""add to cart/Page_DRESSES - SHOP/a_Fall Of Sunflowers Dress (White)""))",Chrome 74.0.3729.169,,2019-06-18 15:18:29,2019-06-18 15:18:30,0.785s,FAILED

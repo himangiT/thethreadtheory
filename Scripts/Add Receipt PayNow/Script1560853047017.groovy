@@ -49,7 +49,7 @@ WebUI.setText(findTestObject('Add Receipt/Page_Payment Receipt/input__reference_
 
 WebUI.setText(findTestObject('Add Receipt/Page_Payment Receipt/input__initials'), 'Himangi')
 
-WebUI.setText(findTestObject('Add Receipt/Page_Payment Receipt/input__amount'), '136')
+WebUI.setText(findTestObject('Add Receipt/Page_Payment Receipt/input__amount'), '53')
 
 WebUI.setText(findTestObject('Add Receipt/Page_Payment Receipt/input__bank_name'), 'DBS Bank')
 
@@ -57,7 +57,8 @@ WebUI.delay(5)
 
 not_run: WebUI.uploadFile(findTestObject('UploadFile/Page_Payment Receipt/input_Upload Receipt_receipt'), 'C:\\Users\\Ranosys\\Downloads\\ATM Receipt.jpg')
 
-CustomKeywords.'uploadfile.uploadFile'(findTestObject('UploadFile/Page_Payment Receipt/input_Upload Receipt_receipt'), 'D:\\ATM Receipt.jpg')
+not_run: CustomKeywords.'uploadfile.uploadFile'(findTestObject('UploadFile/Page_Payment Receipt/input_Upload Receipt_receipt'), 
+    'D:\\ATM Receipt.jpg')
 
 WebUI.delay(5)
 

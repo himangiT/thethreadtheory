@@ -6,11 +6,15 @@
    <elementGuidId>84d04182-1570-45b9-9db2-4da013ea2af9</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='SGD 7.00'])[2]/preceding::input[1][count(. | //input[@type = 'radio' and @name = 'shipping_method[711]' and @id = 's_method_711_flaterateshipping_flaterateshipping']) = count(//input[@type = 'radio' and @name = 'shipping_method[711]' and @id = 's_method_711_flaterateshipping_flaterateshipping'])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='s_method_711_flaterateshipping_flaterateshipping']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,45 +59,40 @@
       <value>radio</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;s_method_711_flaterateshipping_flaterateshipping&quot;)</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SGD 7.00'])[2]/preceding::input[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <type>Main</type>
       <value>//input[@id='s_method_711_flaterateshipping_flaterateshipping']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <type>Main</type>
       <value>//form[@id='shipping_method_form']/div[2]/div[2]/div[2]/div/dl/dd[3]/fieldset/div/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SGD 0.00'])[2]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SGD 7.00'])[2]/preceding::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <type>Main</type>
       <value>//div[2]/div[2]/div[2]/div/dl/dd[3]/fieldset/div/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

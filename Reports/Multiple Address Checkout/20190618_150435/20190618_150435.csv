@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Multiple Address Checkout,Chrome 74.0.3729.169,,2019-06-18 15:04:37,2019-06-18 15:06:29,1m - 51.987s,FAILED
+,,,,,,
+Test Cases/Login,Chrome 74.0.3729.169,,2019-06-18 15:04:37,2019-06-18 15:05:37,59.177s,PASSED
+openBrowser(toString()),Chrome 74.0.3729.169,,2019-06-18 15:04:38,2019-06-18 15:04:44,6.173s,PASSED
+"navigateToUrl(""http://18.138.12.239/"")",Chrome 74.0.3729.169,,2019-06-18 15:04:44,2019-06-18 15:04:53,9.079s,PASSED
+maximizeWindow(),Chrome 74.0.3729.169,,2019-06-18 15:04:53,2019-06-18 15:04:54,1.176s,PASSED
+delay(10),Chrome 74.0.3729.169,,2019-06-18 15:04:54,2019-06-18 15:05:04,10.027s,PASSED
+"check(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_concat(Don  t show this popup again)_check""))",Chrome 74.0.3729.169,,2019-06-18 15:05:04,2019-06-18 15:05:04,0.209s,PASSED
+"click(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/button_Close""))",Chrome 74.0.3729.169,,2019-06-18 15:05:04,2019-06-18 15:05:05,0.159s,PASSED
+delay(10),Chrome 74.0.3729.169,,2019-06-18 15:05:05,2019-06-18 15:05:15,10.003s,PASSED
+"click(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_Start shopping now _login-icon""))",Chrome 74.0.3729.169,,2019-06-18 15:05:15,2019-06-18 15:05:15,0.128s,PASSED
+"click(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/a_Sign In""))",Chrome 74.0.3729.169,,2019-06-18 15:05:15,2019-06-18 15:05:17,2.488s,PASSED
+"setText(findTestObject(""Object Repository/add to cart/Page_Sign In/input_Sign In_loginusername""), ""himangi.tankha@ranosys.com"")",Chrome 74.0.3729.169,,2019-06-18 15:05:17,2019-06-18 15:05:18,0.408s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/add to cart/Page_Sign In/input_Sign In_loginpassword""), ""8SQVv/p9jVTHLrggi8kCzw=="")",Chrome 74.0.3729.169,,2019-06-18 15:05:18,2019-06-18 15:05:18,0.192s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-06-18 15:05:18,2019-06-18 15:05:23,5.004s,PASSED
+"click(findTestObject(""Object Repository/add to cart/Page_Sign In/button_Sign In""))",Chrome 74.0.3729.169,,2019-06-18 15:05:23,2019-06-18 15:05:27,3.800s,PASSED
+delay(10),Chrome 74.0.3729.169,,2019-06-18 15:05:27,2019-06-18 15:05:37,10.003s,PASSED
+,,,,,,
+Test Cases/Multi Add To Cart,Chrome 74.0.3729.169,,2019-06-18 15:05:37,2019-06-18 15:06:28,51.719s,FAILED
+openBrowser(toString()),Chrome 74.0.3729.169,,2019-06-18 15:05:37,2019-06-18 15:05:37,0.004s,NOT_RUN
+"navigateToUrl(""http://18.138.12.239/"")",Chrome 74.0.3729.169,,2019-06-18 15:05:37,2019-06-18 15:05:37,0.014s,NOT_RUN
+maximizeWindow(),Chrome 74.0.3729.169,,2019-06-18 15:05:37,2019-06-18 15:05:37,0.001s,NOT_RUN
+delay(10),Chrome 74.0.3729.169,,2019-06-18 15:05:37,2019-06-18 15:05:37,0.003s,NOT_RUN
+"check(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_concat(Don  t show this popup again)_check""))",Chrome 74.0.3729.169,,2019-06-18 15:05:37,2019-06-18 15:05:37,0.000s,NOT_RUN
+"click(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/button_Close""))",Chrome 74.0.3729.169,,2019-06-18 15:05:37,2019-06-18 15:05:37,0.001s,NOT_RUN
+delay(10),Chrome 74.0.3729.169,,2019-06-18 15:05:37,2019-06-18 15:05:37,0.000s,NOT_RUN
+"mouseOver(findTestObject(""add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_SHOP""))",Chrome 74.0.3729.169,,2019-06-18 15:05:37,2019-06-18 15:05:37,0.105s,PASSED
+"click(findTestObject(""add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_Work Wear""))",Chrome 74.0.3729.169,,2019-06-18 15:05:37,2019-06-18 15:05:46,9.032s,PASSED
+delay(10),Chrome 74.0.3729.169,,2019-06-18 15:05:46,2019-06-18 15:05:56,10.005s,PASSED
+"scrollToElement(findTestObject(""add to cart/Page_DRESSES - SHOP/a_Fall Of Sunflowers Dress (White)""), 5)",Chrome 74.0.3729.169,,2019-06-18 15:05:56,2019-06-18 15:06:28,32.228s,FAILED

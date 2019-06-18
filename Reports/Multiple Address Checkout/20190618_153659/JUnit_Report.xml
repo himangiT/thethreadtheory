@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Multiple Address Checkout" time="163" tests="1" failures="1" errors="0">
+   <testsuite name="Multiple Address Checkout" tests="1" failures="1" errors="0" time="163" timestamp="2019-06-18 15:37:01" hostname="Himangi - WD01-QAHimangi" id="Test Suites/Multiple Address Checkout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Himangi\\git\\thethreadtheory\\Reports\\Multiple Address Checkout\\20190618_153659"/>
+         <property name="logFiles" value="C:\\Users\\Himangi\\git\\thethreadtheory\\Reports\\Multiple Address Checkout\\20190618_153659\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Himangi\\git\\thethreadtheory\\Reports\\Multiple Address Checkout\\20190618_153659\\1560852583686.png"/>
+         <property name="hostName" value="Himangi - WD01-QAHimangi"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 74.0.3729.169"/>
+         <property name="hostAddress" value="192.168.5.123"/>
+         <property name="sessionId" value="067ff81355bcc3a86a683cb26e1376e4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2019-06-18 15:37:01 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2019-06-18 15:37:01 - [TEST_STEP][PASSED] - openBrowser(toString()): Browser is opened with url: 'Script1560161297669@5d8bafa9'
+
+2019-06-18 15:37:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-06-18 15:37:02 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-06-18 15:37:07 - [MESSAGE][PASSED] - Browser is opened with url: 'Script1560161297669@5d8bafa9'
+
+2019-06-18 15:37:07 - [TEST_STEP][PASSED] - navigateToUrl("http://18.138.12.239/"): Navigate to 'http://18.138.12.239/' successfully
+
+2019-06-18 15:37:15 - [MESSAGE][PASSED] - Navigate to 'http://18.138.12.239/' successfully
+
+2019-06-18 15:37:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-06-18 15:37:17 - [MESSAGE][PASSED] - Current window maximized
+
+2019-06-18 15:37:17 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-06-18 15:37:27 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-18 15:37:27 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_concat(Don  t show this popup again)_check")): Object 'Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_concat(Don  t show this popup again)_check' is checked
+
+2019-06-18 15:37:27 - [MESSAGE][PASSED] - Object 'Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_concat(Don  t show this popup again)_check' is checked
+
+2019-06-18 15:37:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/button_Close")): Object: 'Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/button_Close' is clicked on
+
+2019-06-18 15:37:27 - [MESSAGE][PASSED] - Object: 'Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/button_Close' is clicked on
+
+2019-06-18 15:37:27 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-06-18 15:37:37 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-18 15:37:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_Start shopping now _login-icon")): Object: 'Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_Start shopping now _login-icon' is clicked on
+
+2019-06-18 15:37:37 - [MESSAGE][PASSED] - Object: 'Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_Start shopping now _login-icon' is clicked on
+
+2019-06-18 15:37:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/a_Sign In")): Object: 'Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/a_Sign In' is clicked on
+
+2019-06-18 15:37:39 - [MESSAGE][PASSED] - Object: 'Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/a_Sign In' is clicked on
+
+2019-06-18 15:37:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/add to cart/Page_Sign In/input_Sign In_loginusername"), "himangi.tankha@ranosys.com"): Text 'himangi.tankha@ranosys.com' is set on object 'Object Repository/add to cart/Page_Sign In/input_Sign In_loginusername'
+
+2019-06-18 15:37:40 - [MESSAGE][PASSED] - Text 'himangi.tankha@ranosys.com' is set on object 'Object Repository/add to cart/Page_Sign In/input_Sign In_loginusername'
+
+2019-06-18 15:37:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/add to cart/Page_Sign In/input_Sign In_loginpassword"), "8SQVv/p9jVTHLrggi8kCzw=="): Text ****** has been set on object 'Object Repository/add to cart/Page_Sign In/input_Sign In_loginpassword'
+
+2019-06-18 15:37:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/add to cart/Page_Sign In/input_Sign In_loginpassword'
+
+2019-06-18 15:37:40 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-06-18 15:37:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-18 15:37:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/add to cart/Page_Sign In/button_Sign In")): Object: 'Object Repository/add to cart/Page_Sign In/button_Sign In' is clicked on
+
+2019-06-18 15:37:49 - [MESSAGE][PASSED] - Object: 'Object Repository/add to cart/Page_Sign In/button_Sign In' is clicked on
+
+2019-06-18 15:37:49 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-06-18 15:37:59 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Multi Add To Cart" classname="Test Cases/Multi Add To Cart" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Multi Add To Cart FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'himangi.tankha@ranosys.com' of object 'Object Repository/OR_Login/Page_Sign In/input_Sign In_loginusername'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at Multi Add To Cart.run(Multi Add To Cart:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560852419511.run(TempTestSuite1560852419511.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OR_Login/Page_Sign In/input_Sign In_loginusername' located by 'By.xpath: //input[@id='email']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at Script1560161272678.run(Script1560161272678.groovy:64)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-06-18 15:37:59 - [TEST_CASE][FAILED] - Test Cases/Multi Add To Cart: Test Cases/Multi Add To Cart FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'himangi.tankha@ranosys.com' of object 'Object Repository/OR_Login/Page_Sign In/input_Sign In_loginusername'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at Multi Add To Cart.run(Multi Add To Cart:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560852419511.run(TempTestSuite1560852419511.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OR_Login/Page_Sign In/input_Sign In_loginusername' located by 'By.xpath: //input[@id='email']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at Script1560161272678.run(Script1560161272678.groovy:64)
+	... 13 more
+
+
+2019-06-18 15:37:59 - [TEST_STEP][NOT_RUN] - openBrowser(toString()): NOT_RUN: openBrowser(toString())
+
+2019-06-18 15:37:59 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser(toString())
+
+2019-06-18 15:37:59 - [TEST_STEP][NOT_RUN] - navigateToUrl("http://18.138.12.239/"): NOT_RUN: navigateToUrl("http://18.138.12.239/")
+
+2019-06-18 15:37:59 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("http://18.138.12.239/")
+
+2019-06-18 15:37:59 - [TEST_STEP][NOT_RUN] - maximizeWindow(): NOT_RUN: maximizeWindow()
+
+2019-06-18 15:37:59 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow()
+
+2019-06-18 15:37:59 - [TEST_STEP][NOT_RUN] - delay(10): NOT_RUN: delay(10)
+
+2019-06-18 15:37:59 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(10)
+
+2019-06-18 15:37:59 - [TEST_STEP][NOT_RUN] - check(findTestObject("Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_concat(Don  t show this popup again)_check")): NOT_RUN: check(findTestObject("Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_concat(Don  t show this popup again)_check"))
+
+2019-06-18 15:37:59 - [MESSAGE][NOT_RUN] - NOT_RUN: check(findTestObject("Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_concat(Don  t show this popup again)_check"))
+
+2019-06-18 15:37:59 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/button_Close")): NOT_RUN: click(findTestObject("Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/button_Close"))
+
+2019-06-18 15:37:59 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/button_Close"))
+
+2019-06-18 15:37:59 - [TEST_STEP][NOT_RUN] - delay(10): NOT_RUN: delay(10)
+
+2019-06-18 15:37:59 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(10)
+
+2019-06-18 15:37:59 - [TEST_STEP][PASSED] - mouseOver(findTestObject("add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_SHOP")): Object: 'Object Repository/add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_SHOP' is hovered
+
+2019-06-18 15:37:59 - [MESSAGE][PASSED] - Object: 'Object Repository/add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_SHOP' is hovered
+
+2019-06-18 15:37:59 - [TEST_STEP][PASSED] - click(findTestObject("add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_Work Wear")): Object: 'Object Repository/add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_Work Wear' is clicked on
+
+2019-06-18 15:38:10 - [MESSAGE][PASSED] - Object: 'Object Repository/add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_Work Wear' is clicked on
+
+2019-06-18 15:38:10 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-06-18 15:38:20 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-18 15:38:20 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("add to cart/Page_DRESSES - SHOP/img_Quick View_imgage-additional"), 5): Scroll to object 'Object Repository/add to cart/Page_DRESSES - SHOP/img_Quick View_imgage-additional' successfully
+
+2019-06-18 15:38:20 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/add to cart/Page_DRESSES - SHOP/img_Quick View_imgage-additional' successfully
+
+2019-06-18 15:38:20 - [TEST_STEP][PASSED] - mouseOver(findTestObject("add to cart/Page_DRESSES - SHOP/img_Quick View_imgage-additional")): Object: 'Object Repository/add to cart/Page_DRESSES - SHOP/img_Quick View_imgage-additional' is hovered
+
+2019-06-18 15:38:20 - [MESSAGE][PASSED] - Object: 'Object Repository/add to cart/Page_DRESSES - SHOP/img_Quick View_imgage-additional' is hovered
+
+2019-06-18 15:38:20 - [TEST_STEP][PASSED] - clickOffset(findTestObject("add to cart/Page_DRESSES - SHOP/img_Quick View_imgage-additional"), 650, 400): Object: 'Object Repository/add to cart/Page_DRESSES - SHOP/img_Quick View_imgage-additional' is clicked on using offset x=650 and y=400
+
+2019-06-18 15:38:25 - [MESSAGE][PASSED] - Object: 'Object Repository/add to cart/Page_DRESSES - SHOP/img_Quick View_imgage-additional' is clicked on using offset x=650 and y=400
+
+2019-06-18 15:38:25 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-06-18 15:38:35 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-18 15:38:35 - [TEST_STEP][PASSED] - click(findTestObject("add to cart/Page_Lana Lace Romper (Navy) (1)/div_L")): Object: 'Object Repository/add to cart/Page_Lana Lace Romper (Navy) (1)/div_L' is clicked on
+
+2019-06-18 15:38:35 - [MESSAGE][PASSED] - Object: 'Object Repository/add to cart/Page_Lana Lace Romper (Navy) (1)/div_L' is clicked on
+
+2019-06-18 15:38:35 - [TEST_STEP][PASSED] - click(findTestObject("add to cart/Page_Lana Lace Romper (Navy)/span_OS_cs-font clever-icon-plus")): Object: 'Object Repository/add to cart/Page_Lana Lace Romper (Navy)/span_OS_cs-font clever-icon-plus' is clicked on
+
+2019-06-18 15:38:35 - [MESSAGE][PASSED] - Object: 'Object Repository/add to cart/Page_Lana Lace Romper (Navy)/span_OS_cs-font clever-icon-plus' is clicked on
+
+2019-06-18 15:38:35 - [TEST_STEP][PASSED] - click(findTestObject("add to cart/menu_cart_mini/Page_Softly Edelweiss Swiss Dot Dress (Powder Blue)/button_Add to Cart")): Object: 'Object Repository/add to cart/menu_cart_mini/Page_Softly Edelweiss Swiss Dot Dress (Powder Blue)/button_Add to Cart' is clicked on
+
+2019-06-18 15:38:35 - [MESSAGE][PASSED] - Object: 'Object Repository/add to cart/menu_cart_mini/Page_Softly Edelweiss Swiss Dot Dress (Powder Blue)/button_Add to Cart' is clicked on
+
+2019-06-18 15:38:35 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2019-06-18 15:38:43 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2019-06-18 15:38:43 - [TEST_STEP][PASSED] - click(findTestObject("add to cart/Page_Fall Of Sunflowers Dress (White)/span_2                                        2                items")): Object: 'Object Repository/add to cart/Page_Fall Of Sunflowers Dress (White)/span_2                                        2                items' is clicked on
+
+2019-06-18 15:38:43 - [MESSAGE][PASSED] - Object: 'Object Repository/add to cart/Page_Fall Of Sunflowers Dress (White)/span_2                                        2                items' is clicked on
+
+2019-06-18 15:38:43 - [TEST_STEP][PASSED] - click(findTestObject("View Kart/Page_Lana Lace Romper (Navy)/span_View cart")): Object: 'Object Repository/View Kart/Page_Lana Lace Romper (Navy)/span_View cart' is clicked on
+
+2019-06-18 15:38:57 - [MESSAGE][PASSED] - Object: 'Object Repository/View Kart/Page_Lana Lace Romper (Navy)/span_View cart' is clicked on
+
+2019-06-18 15:38:57 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-06-18 15:39:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-18 15:39:02 - [TEST_STEP][PASSED] - click(findTestObject("GuestUser/Page_Shopping Cart/strong_Summary")): Object: 'Object Repository/GuestUser/Page_Shopping Cart/strong_Summary' is clicked on
+
+2019-06-18 15:39:02 - [MESSAGE][PASSED] - Object: 'Object Repository/GuestUser/Page_Shopping Cart/strong_Summary' is clicked on
+
+2019-06-18 15:39:02 - [TEST_STEP][PASSED] - click(findTestObject("add to cart/Page_Shopping Cart/span_Check Out with Multiple Addresses")): Object: 'Object Repository/add to cart/Page_Shopping Cart/span_Check Out with Multiple Addresses' is clicked on
+
+2019-06-18 15:39:07 - [MESSAGE][PASSED] - Object: 'Object Repository/add to cart/Page_Shopping Cart/span_Check Out with Multiple Addresses' is clicked on
+
+2019-06-18 15:39:07 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-06-18 15:39:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-18 15:39:12 - [TEST_STEP][FAILED] - setText(findTestObject("OR_Login/Page_Sign In/input_Sign In_loginusername"), "himangi.tankha@ranosys.com"): setText(findTestObject("OR_Login/Page_Sign In/input_Sign In_loginusername"), "himangi.tankha@ranosys.com") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'himangi.tankha@ranosys.com' of object 'Object Repository/OR_Login/Page_Sign In/input_Sign In_loginusername'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at Multi Add To Cart.run(Multi Add To Cart:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560852419511.run(TempTestSuite1560852419511.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OR_Login/Page_Sign In/input_Sign In_loginusername' located by 'By.xpath: //input[@id='email']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at Script1560161272678.run(Script1560161272678.groovy:64)
+	... 13 more
+
+
+2019-06-18 15:39:43 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='email']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-06-18 15:39:44 - [MESSAGE][FAILED] - Unable to set text 'himangi.tankha@ranosys.com' of object 'Object Repository/OR_Login/Page_Sign In/input_Sign In_loginusername' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'himangi.tankha@ranosys.com' of object 'Object Repository/OR_Login/Page_Sign In/input_Sign In_loginusername'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at Multi Add To Cart.run(Multi Add To Cart:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560852419511.run(TempTestSuite1560852419511.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OR_Login/Page_Sign In/input_Sign In_loginusername' located by 'By.xpath: //input[@id='email']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at Script1560161272678.run(Script1560161272678.groovy:64)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Himangi\\git\\thethreadtheory\\Reports\\Multiple Address Checkout\\20190618_153659\\1560852583686.png]]
+
+2019-06-18 15:39:44 - [MESSAGE][FAILED] - setText(findTestObject("OR_Login/Page_Sign In/input_Sign In_loginusername"), "himangi.tankha@ranosys.com") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'himangi.tankha@ranosys.com' of object 'Object Repository/OR_Login/Page_Sign In/input_Sign In_loginusername'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at Multi Add To Cart.run(Multi Add To Cart:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560852419511.run(TempTestSuite1560852419511.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OR_Login/Page_Sign In/input_Sign In_loginusername' located by 'By.xpath: //input[@id='email']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at Script1560161272678.run(Script1560161272678.groovy:64)
+	... 13 more]]></system-out>
+         <system-err><![CDATA[2019-06-18 15:37:59 - [TEST_CASE][FAILED] - Test Cases/Multi Add To Cart: Test Cases/Multi Add To Cart FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'himangi.tankha@ranosys.com' of object 'Object Repository/OR_Login/Page_Sign In/input_Sign In_loginusername'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at Multi Add To Cart.run(Multi Add To Cart:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560852419511.run(TempTestSuite1560852419511.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OR_Login/Page_Sign In/input_Sign In_loginusername' located by 'By.xpath: //input[@id='email']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at Script1560161272678.run(Script1560161272678.groovy:64)
+	... 13 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-06-18 15:37:01 - [TEST_SUITE][FAILED] - Multiple Address Checkout: Test Cases/Multi Add To Cart FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'himangi.tankha@ranosys.com' of object 'Object Repository/OR_Login/Page_Sign In/input_Sign In_loginusername'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at Multi Add To Cart.run(Multi Add To Cart:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560852419511.run(TempTestSuite1560852419511.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OR_Login/Page_Sign In/input_Sign In_loginusername' located by 'By.xpath: //input[@id='email']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at Script1560161272678.run(Script1560161272678.groovy:64)
+	... 13 more]]></system-out>
+      <system-err><![CDATA[2019-06-18 15:37:01 - [TEST_SUITE][FAILED] - Multiple Address Checkout: Test Cases/Multi Add To Cart FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'himangi.tankha@ranosys.com' of object 'Object Repository/OR_Login/Page_Sign In/input_Sign In_loginusername'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at Multi Add To Cart.run(Multi Add To Cart:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560852419511.run(TempTestSuite1560852419511.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OR_Login/Page_Sign In/input_Sign In_loginusername' located by 'By.xpath: //input[@id='email']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at Script1560161272678.run(Script1560161272678.groovy:64)
+	... 13 more]]></system-err>
+   </testsuite>
+</testsuites>

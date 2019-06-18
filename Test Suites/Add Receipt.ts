@@ -20,6 +20,6 @@
       <guid>6b09b7a3-7da5-478c-a929-6a9dbcb296df</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Add Receipt</testCaseId>
+      <testCaseId>Test Cases/Add Receipt ATM</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

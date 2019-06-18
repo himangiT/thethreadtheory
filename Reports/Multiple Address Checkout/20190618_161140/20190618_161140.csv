@@ -1,0 +1,49 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Multiple Address Checkout,Chrome 74.0.3729.169,,2019-06-18 16:11:42,2019-06-18 16:14:58,3m - 16.222s,FAILED
+,,,,,,
+Test Cases/Login,Chrome 74.0.3729.169,,2019-06-18 16:11:42,2019-06-18 16:12:42,59.479s,PASSED
+openBrowser(toString()),Chrome 74.0.3729.169,,2019-06-18 16:11:43,2019-06-18 16:11:49,6.307s,PASSED
+"navigateToUrl(""http://18.138.12.239/"")",Chrome 74.0.3729.169,,2019-06-18 16:11:49,2019-06-18 16:11:58,9.408s,PASSED
+maximizeWindow(),Chrome 74.0.3729.169,,2019-06-18 16:11:58,2019-06-18 16:11:59,1.169s,PASSED
+delay(10),Chrome 74.0.3729.169,,2019-06-18 16:11:59,2019-06-18 16:12:09,10.031s,PASSED
+"check(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_concat(Don  t show this popup again)_check""))",Chrome 74.0.3729.169,,2019-06-18 16:12:09,2019-06-18 16:12:10,0.145s,PASSED
+"click(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/button_Close""))",Chrome 74.0.3729.169,,2019-06-18 16:12:10,2019-06-18 16:12:10,0.104s,PASSED
+delay(10),Chrome 74.0.3729.169,,2019-06-18 16:12:10,2019-06-18 16:12:20,10.003s,PASSED
+"click(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_Start shopping now _login-icon""))",Chrome 74.0.3729.169,,2019-06-18 16:12:20,2019-06-18 16:12:20,0.120s,PASSED
+"click(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/a_Sign In""))",Chrome 74.0.3729.169,,2019-06-18 16:12:20,2019-06-18 16:12:22,2.441s,PASSED
+"setText(findTestObject(""Object Repository/add to cart/Page_Sign In/input_Sign In_loginusername""), ""himangi.tankha@ranosys.com"")",Chrome 74.0.3729.169,,2019-06-18 16:12:22,2019-06-18 16:12:23,0.482s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/add to cart/Page_Sign In/input_Sign In_loginpassword""), ""8SQVv/p9jVTHLrggi8kCzw=="")",Chrome 74.0.3729.169,,2019-06-18 16:12:23,2019-06-18 16:12:23,0.190s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-06-18 16:12:23,2019-06-18 16:12:28,5.002s,PASSED
+"click(findTestObject(""Object Repository/add to cart/Page_Sign In/button_Sign In""))",Chrome 74.0.3729.169,,2019-06-18 16:12:28,2019-06-18 16:12:32,3.730s,PASSED
+delay(10),Chrome 74.0.3729.169,,2019-06-18 16:12:32,2019-06-18 16:12:42,10.003s,PASSED
+,,,,,,
+Test Cases/Multi Add To Cart,Chrome 74.0.3729.169,,2019-06-18 16:12:42,2019-06-18 16:13:57,1m - 15.712s,FAILED
+openBrowser(toString()),Chrome 74.0.3729.169,,2019-06-18 16:12:42,2019-06-18 16:12:42,0.002s,NOT_RUN
+"navigateToUrl(""http://18.138.12.239/"")",Chrome 74.0.3729.169,,2019-06-18 16:12:42,2019-06-18 16:12:42,0.002s,NOT_RUN
+maximizeWindow(),Chrome 74.0.3729.169,,2019-06-18 16:12:42,2019-06-18 16:12:42,0.002s,NOT_RUN
+delay(10),Chrome 74.0.3729.169,,2019-06-18 16:12:42,2019-06-18 16:12:42,0.002s,NOT_RUN
+"check(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_concat(Don  t show this popup again)_check""))",Chrome 74.0.3729.169,,2019-06-18 16:12:42,2019-06-18 16:12:42,0.002s,NOT_RUN
+"click(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/button_Close""))",Chrome 74.0.3729.169,,2019-06-18 16:12:42,2019-06-18 16:12:42,0.002s,NOT_RUN
+delay(10),Chrome 74.0.3729.169,,2019-06-18 16:12:42,2019-06-18 16:12:42,0.005s,NOT_RUN
+"mouseOver(findTestObject(""add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_SHOP""))",Chrome 74.0.3729.169,,2019-06-18 16:12:42,2019-06-18 16:12:42,0.085s,PASSED
+"click(findTestObject(""add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_Work Wear""))",Chrome 74.0.3729.169,,2019-06-18 16:12:42,2019-06-18 16:12:51,8.684s,PASSED
+delay(10),Chrome 74.0.3729.169,,2019-06-18 16:12:51,2019-06-18 16:13:01,10.002s,PASSED
+"scrollToElement(findTestObject(""add to cart/Page_DRESSES - SHOP/img_Quick View_imgage-additional""), 5)",Chrome 74.0.3729.169,,2019-06-18 16:13:01,2019-06-18 16:13:01,0.127s,PASSED
+"mouseOver(findTestObject(""add to cart/Page_DRESSES - SHOP/img_Quick View_imgage-additional""))",Chrome 74.0.3729.169,,2019-06-18 16:13:01,2019-06-18 16:13:01,0.072s,PASSED
+"clickOffset(findTestObject(""add to cart/Page_DRESSES - SHOP/img_Quick View_imgage-additional""), 650, 400)",Chrome 74.0.3729.169,,2019-06-18 16:13:01,2019-06-18 16:13:06,5.017s,PASSED
+delay(10),Chrome 74.0.3729.169,,2019-06-18 16:13:06,2019-06-18 16:13:16,10.001s,PASSED
+"click(findTestObject(""add to cart/Page_Lana Lace Romper (Navy) (1)/div_L""))",Chrome 74.0.3729.169,,2019-06-18 16:13:16,2019-06-18 16:13:16,0.141s,PASSED
+"click(findTestObject(""add to cart/Page_Lana Lace Romper (Navy)/span_OS_cs-font clever-icon-plus""))",Chrome 74.0.3729.169,,2019-06-18 16:13:16,2019-06-18 16:13:16,0.111s,PASSED
+"click(findTestObject(""add to cart/menu_cart_mini/Page_Softly Edelweiss Swiss Dot Dress (Powder Blue)/button_Add to Cart""))",Chrome 74.0.3729.169,,2019-06-18 16:13:16,2019-06-18 16:13:16,0.240s,PASSED
+delay(8),Chrome 74.0.3729.169,,2019-06-18 16:13:16,2019-06-18 16:13:24,8.004s,PASSED
+"click(findTestObject(""add to cart/Page_Fall Of Sunflowers Dress (White)/span_2                                        2                items""))",Chrome 74.0.3729.169,,2019-06-18 16:13:24,2019-06-18 16:13:57,32.945s,FAILED
+,,,,,,
+Test Cases/Add Receipt PayNow,Chrome 74.0.3729.169,,2019-06-18 16:13:57,2019-06-18 16:14:57,59.958s,FAILED
+"click(findTestObject(""My Order/Page_My Orders/img""))",Chrome 74.0.3729.169,,2019-06-18 16:13:58,2019-06-18 16:14:00,2.662s,PASSED
+delay(10),Chrome 74.0.3729.169,,2019-06-18 16:14:00,2019-06-18 16:14:10,10.002s,PASSED
+"click(findTestObject(""Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/span_Start shopping now _login-b-icon""))",Chrome 74.0.3729.169,,2019-06-18 16:14:10,2019-06-18 16:14:10,0.117s,PASSED
+"click(findTestObject(""Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders""))",Chrome 74.0.3729.169,,2019-06-18 16:14:10,2019-06-18 16:14:13,2.633s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-06-18 16:14:13,2019-06-18 16:14:18,5.003s,PASSED
+"click(findTestObject(""Add Receipt/Page_My Orders/span_View Order""))",Chrome 74.0.3729.169,,2019-06-18 16:14:18,2019-06-18 16:14:20,2.367s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-06-18 16:14:20,2019-06-18 16:14:25,5.003s,PASSED
+"click(findTestObject(""Add Receipt/Page_Order  000000052/span_Add Receipt""))",Chrome 74.0.3729.169,,2019-06-18 16:14:25,2019-06-18 16:14:57,31.955s,FAILED

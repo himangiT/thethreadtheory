@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Miss Himangi Tankha Singapore Singapore 567890 SingaporeMiss Himangi Tankha Test America California 541278 United StatesMiss Himangi Tankha Test Singapore 567890 Singapore</name>
+   <name>select_Miss Himangi Tankha Singapore Singapore  567890 SingaporeMiss Himangi Tankha Test Singapore  567890 Singapore</name>
    <tag></tag>
-   <elementGuidId>70764114-f930-4758-9fd9-99199d78d6b6</elementGuidId>
+   <elementGuidId>c03f6db0-a994-4265-a34b-3dead8d8eada</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//tr[2]/td[3]/div/div/select</value>
+         <key>BASIC</key>
+         <value>id(&quot;ship_1_772_address&quot;)[count(. | //select[@name = 'ship[1][772][address]' and @id = 'ship_1_772_address' and (text() = 'Miss Himangi Tankha, Singapore, Singapore,  567890, SingaporeMiss Himangi Tankha, Test, Singapore,  567890, Singapore' or . = 'Miss Himangi Tankha, Singapore, Singapore,  567890, SingaporeMiss Himangi Tankha, Test, Singapore,  567890, Singapore')]) = count(//select[@name = 'ship[1][772][address]' and @id = 'ship_1_772_address' and (text() = 'Miss Himangi Tankha, Singapore, Singapore,  567890, SingaporeMiss Himangi Tankha, Test, Singapore,  567890, Singapore' or . = 'Miss Himangi Tankha, Singapore, Singapore,  567890, SingaporeMiss Himangi Tankha, Test, Singapore,  567890, Singapore')])]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//tr[2]/td[3]/div/div/select[count(. | //select[@name = 'ship[1][476][address]' and @id = 'ship_1_476_address' and (text() = 'Miss Himangi Tankha, Singapore, Singapore,  567890, Singapore' or . = 'Miss Himangi Tankha, Singapore, Singapore,  567890, Singapore')]) = count(//select[@name = 'ship[1][476][address]' and @id = 'ship_1_476_address' and (text() = 'Miss Himangi Tankha, Singapore, Singapore,  567890, Singapore' or . = 'Miss Himangi Tankha, Singapore, Singapore,  567890, Singapore')])]</value>
+         <key>XPATH</key>
+         <value>//select[@id='ship_1_772_address']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,76 +28,69 @@
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>ship[1][476][address]</value>
+      <value>ship[1][772][address]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ship_1_476_address</value>
+      <value>ship_1_772_address</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Miss Himangi Tankha, Singapore, Singapore,  567890, Singapore</value>
+      <value>Miss Himangi Tankha, Singapore, Singapore,  567890, SingaporeMiss Himangi Tankha, Test, Singapore,  567890, Singapore</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//tr[2]/td[3]/div/div/select</value>
+      <value>id(&quot;ship_1_772_address&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//select[@id='ship_1_476_address']</value>
+      <value>//select[@id='ship_1_772_address']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <type>Main</type>
       <value>//table[@id='multiship-addresses-table']/tbody/tr[2]/td[3]/div/div/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Send To'])[3]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Qty'])[5]/following::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Qty'])[4]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Update Qty &amp; Addresses'])[1]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Go to Shipping Information'])[1]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <type>Main</type>
       <value>//tr[2]/td[3]/div/div/select</value>
    </webElementXpaths>
 </WebElementEntity>
