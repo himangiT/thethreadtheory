@@ -4,7 +4,7 @@
    <name>Checkout with My Account</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient></mailRecipient>
+   <mailRecipient>himangi.tankha@ranosys.com;nishant.johri@ranosys.com;himangi.tankha@gmail.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
