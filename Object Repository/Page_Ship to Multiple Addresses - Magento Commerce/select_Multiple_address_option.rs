@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Miss Himangi Tankha Singapore Singapore  567890 SingaporeMiss Himangi Tankha Test Singapore  567890 Singapore</name>
+   <name>select_Multiple_address_option</name>
    <tag></tag>
    <elementGuidId>c03f6db0-a994-4265-a34b-3dead8d8eada</elementGuidId>
    <selectorCollection>
@@ -14,7 +14,7 @@
          <value>//select[@id='ship_1_772_address']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,13 +49,13 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ship_1_772_address&quot;)</value>
+      <value>//select[@id='ship_1_794_address']//option[2]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>//select[@id='ship_1_772_address']</value>
+      <value>//select[@id='ship_1_794_address']//option[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

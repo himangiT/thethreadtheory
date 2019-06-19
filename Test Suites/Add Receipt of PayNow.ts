@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Add Receipt</name>
+   <name>Add Receipt of PayNow</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,17 +9,17 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>41449a64-e452-48ae-aa69-23da47760488</testSuiteGuid>
+   <testSuiteGuid>08ffad2d-8795-4138-ab11-10004456ef54</testSuiteGuid>
    <testCaseLink>
-      <guid>5e7333db-bfe2-4f4d-8e66-ad12ad812672</guid>
+      <guid>4ae0b3c9-7cd9-4801-aaa9-cd4953064b78</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>6b09b7a3-7da5-478c-a929-6a9dbcb296df</guid>
+      <guid>41fe65a0-71ff-4113-85ec-aceafee64b58</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Add Receipt ATM</testCaseId>
+      <testCaseId>Test Cases/Add Receipt PayNow</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

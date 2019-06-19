@@ -1,0 +1,91 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Multiple Address Checkout,Chrome 74.0.3729.169,,2019-06-19 10:09:03,2019-06-19 10:15:37,6m - 33.345s,FAILED
+,,,,,,
+Test Cases/Login,Chrome 74.0.3729.169,,2019-06-19 10:09:04,2019-06-19 10:10:16,1m - 12.230s,PASSED
+openBrowser(toString()),Chrome 74.0.3729.169,,2019-06-19 10:09:04,2019-06-19 10:09:10,6.627s,PASSED
+"navigateToUrl(""http://18.138.12.239/"")",Chrome 74.0.3729.169,,2019-06-19 10:09:10,2019-06-19 10:09:30,19.980s,PASSED
+maximizeWindow(),Chrome 74.0.3729.169,,2019-06-19 10:09:30,2019-06-19 10:09:32,1.183s,PASSED
+delay(10),Chrome 74.0.3729.169,,2019-06-19 10:09:32,2019-06-19 10:09:42,10.034s,PASSED
+"check(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_concat(Don  t show this popup again)_check""))",Chrome 74.0.3729.169,,2019-06-19 10:09:42,2019-06-19 10:09:42,0.160s,PASSED
+"click(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/button_Close""))",Chrome 74.0.3729.169,,2019-06-19 10:09:42,2019-06-19 10:09:42,0.088s,PASSED
+delay(10),Chrome 74.0.3729.169,,2019-06-19 10:09:42,2019-06-19 10:09:52,10.002s,PASSED
+"click(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_Start shopping now _login-icon""))",Chrome 74.0.3729.169,,2019-06-19 10:09:52,2019-06-19 10:09:52,0.087s,PASSED
+"click(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/a_Sign In""))",Chrome 74.0.3729.169,,2019-06-19 10:09:52,2019-06-19 10:09:54,2.411s,PASSED
+"setText(findTestObject(""Object Repository/add to cart/Page_Sign In/input_Sign In_loginusername""), ""himangi.tankha@ranosys.com"")",Chrome 74.0.3729.169,,2019-06-19 10:09:54,2019-06-19 10:09:55,0.481s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/add to cart/Page_Sign In/input_Sign In_loginpassword""), ""8SQVv/p9jVTHLrggi8kCzw=="")",Chrome 74.0.3729.169,,2019-06-19 10:09:55,2019-06-19 10:09:55,0.167s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-06-19 10:09:55,2019-06-19 10:10:00,5.002s,PASSED
+"click(findTestObject(""Object Repository/add to cart/Page_Sign In/button_Sign In""))",Chrome 74.0.3729.169,,2019-06-19 10:10:00,2019-06-19 10:10:06,5.674s,PASSED
+delay(10),Chrome 74.0.3729.169,,2019-06-19 10:10:06,2019-06-19 10:10:16,10.003s,PASSED
+,,,,,,
+Test Cases/Multi Add To Cart,Chrome 74.0.3729.169,,2019-06-19 10:10:16,2019-06-19 10:14:48,4m - 31.963s,FAILED
+openBrowser(toString()),Chrome 74.0.3729.169,,2019-06-19 10:10:16,2019-06-19 10:10:16,0.002s,NOT_RUN
+"navigateToUrl(""http://18.138.12.239/"")",Chrome 74.0.3729.169,,2019-06-19 10:10:16,2019-06-19 10:10:16,0.000s,NOT_RUN
+maximizeWindow(),Chrome 74.0.3729.169,,2019-06-19 10:10:16,2019-06-19 10:10:16,0.000s,NOT_RUN
+delay(10),Chrome 74.0.3729.169,,2019-06-19 10:10:16,2019-06-19 10:10:16,0.000s,NOT_RUN
+"check(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_concat(Don  t show this popup again)_check""))",Chrome 74.0.3729.169,,2019-06-19 10:10:16,2019-06-19 10:10:16,0.002s,NOT_RUN
+"click(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/button_Close""))",Chrome 74.0.3729.169,,2019-06-19 10:10:16,2019-06-19 10:10:16,0.003s,NOT_RUN
+delay(10),Chrome 74.0.3729.169,,2019-06-19 10:10:16,2019-06-19 10:10:16,0.000s,NOT_RUN
+"mouseOver(findTestObject(""add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_SHOP""))",Chrome 74.0.3729.169,,2019-06-19 10:10:16,2019-06-19 10:10:16,0.088s,PASSED
+"click(findTestObject(""add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_Work Wear""))",Chrome 74.0.3729.169,,2019-06-19 10:10:16,2019-06-19 10:10:36,20.000s,PASSED
+delay(10),Chrome 74.0.3729.169,,2019-06-19 10:10:36,2019-06-19 10:10:46,10.005s,PASSED
+"scrollToElement(findTestObject(""add to cart/Page_DRESSES - SHOP/img_Quick View_imgage-additional""), 5)",Chrome 74.0.3729.169,,2019-06-19 10:10:46,2019-06-19 10:10:46,0.140s,PASSED
+"mouseOver(findTestObject(""add to cart/Page_DRESSES - SHOP/img_Quick View_imgage-additional""))",Chrome 74.0.3729.169,,2019-06-19 10:10:46,2019-06-19 10:10:46,0.127s,PASSED
+"clickOffset(findTestObject(""add to cart/Page_DRESSES - SHOP/img_Quick View_imgage-additional""), 650, 400)",Chrome 74.0.3729.169,,2019-06-19 10:10:46,2019-06-19 10:10:51,5.092s,PASSED
+delay(10),Chrome 74.0.3729.169,,2019-06-19 10:10:51,2019-06-19 10:11:02,10.004s,PASSED
+"click(findTestObject(""add to cart/Page_Lana Lace Romper (Navy) (1)/div_L""))",Chrome 74.0.3729.169,,2019-06-19 10:11:02,2019-06-19 10:11:02,0.144s,PASSED
+"click(findTestObject(""add to cart/Page_Lana Lace Romper (Navy)/span_OS_cs-font clever-icon-plus""))",Chrome 74.0.3729.169,,2019-06-19 10:11:02,2019-06-19 10:11:02,0.140s,PASSED
+"click(findTestObject(""add to cart/menu_cart_mini/Page_Softly Edelweiss Swiss Dot Dress (Powder Blue)/button_Add to Cart""))",Chrome 74.0.3729.169,,2019-06-19 10:11:02,2019-06-19 10:11:02,0.184s,PASSED
+delay(8),Chrome 74.0.3729.169,,2019-06-19 10:11:02,2019-06-19 10:11:10,8.002s,PASSED
+"click(findTestObject(""add to cart/Page_Fall Of Sunflowers Dress (White)/span_2                                        2                items""))",Chrome 74.0.3729.169,,2019-06-19 10:11:10,2019-06-19 10:11:10,0.143s,PASSED
+"click(findTestObject(""View Kart/Page_Lana Lace Romper (Navy)/span_View cart""))",Chrome 74.0.3729.169,,2019-06-19 10:11:10,2019-06-19 10:11:24,14.169s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-06-19 10:11:24,2019-06-19 10:11:29,5.004s,PASSED
+"click(findTestObject(""GuestUser/Page_Shopping Cart/strong_Summary""))",Chrome 74.0.3729.169,,2019-06-19 10:11:29,2019-06-19 10:11:29,0.108s,PASSED
+"click(findTestObject(""add to cart/Page_Shopping Cart/span_Check Out with Multiple Addresses""))",Chrome 74.0.3729.169,,2019-06-19 10:11:29,2019-06-19 10:11:34,5.050s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-06-19 10:11:34,2019-06-19 10:11:34,0.000s,NOT_RUN
+"setText(findTestObject(""OR_Login/Page_Sign In/input_Sign In_loginusername""), ""himangi.tankha@ranosys.com"")",Chrome 74.0.3729.169,,2019-06-19 10:11:34,2019-06-19 10:11:34,0.000s,NOT_RUN
+"setText(findTestObject(""OR_Login/Page_Sign In/input_Sign In_loginpassword""), ""password123"")",Chrome 74.0.3729.169,,2019-06-19 10:11:34,2019-06-19 10:11:34,0.001s,NOT_RUN
+"click(findTestObject(""OR_Login/Page_/button_Sign In""))",Chrome 74.0.3729.169,,2019-06-19 10:11:34,2019-06-19 10:11:34,0.001s,NOT_RUN
+delay(10),Chrome 74.0.3729.169,,2019-06-19 10:11:34,2019-06-19 10:11:44,10.003s,PASSED
+"getNumberOfTotalOption(findTestObject(""select_Miss Himangi Tankha Singapore Singapore 567890 SingaporeMiss Himangi Tankha Test America California 541278 United StatesMiss Himangi Tankha Test Singapore 567890 Singapore""))",Chrome 74.0.3729.169,,2019-06-19 10:11:44,2019-06-19 10:11:44,0.003s,NOT_RUN
+"click(findTestObject(""Page_Ship to Multiple Addresses - Magento Commerce/select_Miss Himangi Tankha Singapore Singapore  567890 SingaporeMiss Himangi Tankha Test Singapore  567890 Singapore""))",Chrome 74.0.3729.169,,2019-06-19 10:11:44,2019-06-19 10:11:44,0.000s,NOT_RUN
+delay(10),Chrome 74.0.3729.169,,2019-06-19 10:11:44,2019-06-19 10:11:44,0.005s,NOT_RUN
+"selectOptionByValue(findTestObject(""Page_Ship to Multiple Addresses - Magento Commerce/select_Miss Himangi Tankha Singapore Singapore  567890 SingaporeMiss Himangi Tankha Test Singapore  567890 Singapore""), ""46"", true, CONTINUE_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-19 10:11:44,2019-06-19 10:12:16,31.934s,FAILED
+delay(5),Chrome 74.0.3729.169,,2019-06-19 10:12:16,2019-06-19 10:12:21,5.002s,PASSED
+"click(findTestObject(""MultipleCheckout/Page_Ship to Multiple Addresses - Magento Commerce/button_Update Qty  Addresses""))",Chrome 74.0.3729.169,,2019-06-19 10:12:21,2019-06-19 10:12:22,0.161s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-06-19 10:12:22,2019-06-19 10:12:27,5.003s,PASSED
+"click(findTestObject(""MultipleCheckout/Page_Ship to Multiple Addresses - Magento Commerce/button_Go to Shipping Information""))",Chrome 74.0.3729.169,,2019-06-19 10:12:27,2019-06-19 10:12:27,0.393s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-06-19 10:12:27,2019-06-19 10:12:32,5.004s,PASSED
+"click(findTestObject(""MultipleCheckout/Page_Shipping Methods - Magento Commerce/input_SGD 000_shipping_method710""), CONTINUE_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-19 10:12:32,2019-06-19 10:13:04,32.395s,FAILED
+"scrollToElement(findTestObject(""MultipleCheckout/Page_Shipping Methods - Magento Commerce/input_Shipping Method_shipping_method711""), 0, CONTINUE_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-19 10:13:04,2019-06-19 10:13:36,31.948s,FAILED
+"click(findTestObject(""MultipleCheckout/Page_Shipping Methods - Magento Commerce/input_Shipping Method_shipping_method711""), CONTINUE_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-19 10:13:36,2019-06-19 10:14:08,31.898s,FAILED
+"scrollToElement(findTestObject(""MultipleCheckout/Page_Shipping Methods - Magento Commerce/button_Continue to Billing Information""), 0, CONTINUE_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-19 10:14:08,2019-06-19 10:14:08,0.069s,PASSED
+"click(findTestObject(""MultipleCheckout/Page_Shipping Methods - Magento Commerce/button_Continue to Billing Information""), CONTINUE_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-19 10:14:08,2019-06-19 10:14:18,9.716s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-06-19 10:14:18,2019-06-19 10:14:23,5.004s,PASSED
+"click(findTestObject(""MultipleCheckout/Page_Billing Information - Magento Commerce/input_Internet banking  PayNow_paymentmethod""))",Chrome 74.0.3729.169,,2019-06-19 10:14:23,2019-06-19 10:14:23,0.144s,PASSED
+"click(findTestObject(""MultipleCheckout/Page_Billing Information - Magento Commerce/button_Go to Review Your Order""))",Chrome 74.0.3729.169,,2019-06-19 10:14:23,2019-06-19 10:14:26,2.962s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-06-19 10:14:26,2019-06-19 10:14:31,5.006s,PASSED
+"scrollToElement(findTestObject(""MultipleCheckout/Page_Review Order - Magento Commerce/button_Place Order""), 0)",Chrome 74.0.3729.169,,2019-06-19 10:14:31,2019-06-19 10:14:31,0.110s,PASSED
+"click(findTestObject(""TandC/Page_Checkout/input_SGD 4300_agreement2""))",Chrome 74.0.3729.169,,2019-06-19 10:14:31,2019-06-19 10:14:31,0.121s,PASSED
+"click(findTestObject(""MultipleCheckout/Page_Review Order - Magento Commerce/button_Place Order""))",Chrome 74.0.3729.169,,2019-06-19 10:14:31,2019-06-19 10:14:37,5.700s,PASSED
+delay(10),Chrome 74.0.3729.169,,2019-06-19 10:14:37,2019-06-19 10:14:47,10.001s,PASSED
+today = new java.util.Date(),Chrome 74.0.3729.169,,2019-06-19 10:14:47,2019-06-19 10:14:47,0.005s,PASSED
+"todaysDate = today.format(""MM_dd_yy"")",Chrome 74.0.3729.169,,2019-06-19 10:14:47,2019-06-19 10:14:47,0.000s,PASSED
+"nowTime = today.format(""hh_mm_ss"")",Chrome 74.0.3729.169,,2019-06-19 10:14:47,2019-06-19 10:14:47,0.000s,PASSED
+"takeScreenshot(""D:\Katalon\Demo\screenshot_""+ todaysDate +""-"" + nowTime +"".PNG"")",Chrome 74.0.3729.169,,2019-06-19 10:14:47,2019-06-19 10:14:48,0.654s,FAILED
+,,,,,,
+Test Cases/Add Receipt PayNow,Chrome 74.0.3729.169,,2019-06-19 10:14:48,2019-06-19 10:15:36,47.921s,FAILED
+"click(findTestObject(""My Order/Page_My Orders/img""))",Chrome 74.0.3729.169,,2019-06-19 10:14:48,2019-06-19 10:14:51,2.649s,PASSED
+delay(10),Chrome 74.0.3729.169,,2019-06-19 10:14:51,2019-06-19 10:15:01,10.003s,PASSED
+"click(findTestObject(""Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/span_Start shopping now _login-b-icon""))",Chrome 74.0.3729.169,,2019-06-19 10:15:01,2019-06-19 10:15:01,0.099s,PASSED
+"click(findTestObject(""Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders""))",Chrome 74.0.3729.169,,2019-06-19 10:15:01,2019-06-19 10:15:04,3.397s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-06-19 10:15:04,2019-06-19 10:15:09,5.003s,PASSED
+"click(findTestObject(""Add Receipt/Page_My Orders/span_View Order""))",Chrome 74.0.3729.169,,2019-06-19 10:15:09,2019-06-19 10:15:12,2.770s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-06-19 10:15:12,2019-06-19 10:15:17,5.001s,PASSED
+"click(findTestObject(""Add Receipt/Page_Order  000000052/span_Add Receipt""))",Chrome 74.0.3729.169,,2019-06-19 10:15:17,2019-06-19 10:15:20,2.907s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-06-19 10:15:20,2019-06-19 10:15:25,5.003s,PASSED
+"click(findTestObject(""Add Receipt/Page_Payment Receipt/input__tran_datetime""))",Chrome 74.0.3729.169,,2019-06-19 10:15:25,2019-06-19 10:15:25,0.156s,PASSED
+"doubleClick(findTestObject(""Add Receipt/Page_Payment Receipt/span_Prev""))",Chrome 74.0.3729.169,,2019-06-19 10:15:25,2019-06-19 10:15:25,0.097s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-06-19 10:15:25,2019-06-19 10:15:30,5.004s,PASSED
+"click(findTestObject(""Add Receipt/Page_Payment Receipt/a_17""))",Chrome 74.0.3729.169,,2019-06-19 10:15:30,2019-06-19 10:15:30,0.134s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-06-19 10:15:30,2019-06-19 10:15:35,5.003s,PASSED
+"click(findTestObject(""Add Receipt/Page_Payment Receipt/button_Now""))",Chrome 74.0.3729.169,,2019-06-19 10:15:35,2019-06-19 10:15:36,0.459s,FAILED

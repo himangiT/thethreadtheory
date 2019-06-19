@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Add Receipt of PayNow" time="146" tests="2" failures="0" errors="0">
+   <testsuite name="Add Receipt of PayNow" tests="2" failures="0" errors="0" time="146" timestamp="2019-06-19 10:18:25" hostname="Himangi - WD01-QAHimangi" id="Test Suites/Add Receipt of PayNow">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Himangi\\git\\thethreadtheory\\Reports\\Add Receipt of PayNow\\20190619_101823"/>
+         <property name="logFiles" value="C:\\Users\\Himangi\\git\\thethreadtheory\\Reports\\Add Receipt of PayNow\\20190619_101823\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Himangi - WD01-QAHimangi"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 74.0.3729.169"/>
+         <property name="hostAddress" value="192.168.5.123"/>
+         <property name="sessionId" value="52cec0f2dde9c4aef967bc498aaa81db"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2019-06-19 10:18:25 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2019-06-19 10:18:26 - [TEST_STEP][PASSED] - openBrowser(toString()): Browser is opened with url: 'Script1560161297669@5d8bafa9'
+
+2019-06-19 10:18:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-06-19 10:18:26 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-06-19 10:18:32 - [MESSAGE][PASSED] - Browser is opened with url: 'Script1560161297669@5d8bafa9'
+
+2019-06-19 10:18:32 - [TEST_STEP][PASSED] - navigateToUrl("http://18.138.12.239/"): Navigate to 'http://18.138.12.239/' successfully
+
+2019-06-19 10:18:40 - [MESSAGE][PASSED] - Navigate to 'http://18.138.12.239/' successfully
+
+2019-06-19 10:18:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-06-19 10:18:42 - [MESSAGE][PASSED] - Current window maximized
+
+2019-06-19 10:18:42 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-06-19 10:18:52 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-19 10:18:52 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_concat(Don  t show this popup again)_check")): Object 'Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_concat(Don  t show this popup again)_check' is checked
+
+2019-06-19 10:18:52 - [MESSAGE][PASSED] - Object 'Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_concat(Don  t show this popup again)_check' is checked
+
+2019-06-19 10:18:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/button_Close")): Object: 'Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/button_Close' is clicked on
+
+2019-06-19 10:18:52 - [MESSAGE][PASSED] - Object: 'Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/button_Close' is clicked on
+
+2019-06-19 10:18:52 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-06-19 10:19:02 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-19 10:19:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_Start shopping now _login-icon")): Object: 'Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_Start shopping now _login-icon' is clicked on
+
+2019-06-19 10:19:02 - [MESSAGE][PASSED] - Object: 'Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_Start shopping now _login-icon' is clicked on
+
+2019-06-19 10:19:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/a_Sign In")): Object: 'Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/a_Sign In' is clicked on
+
+2019-06-19 10:19:04 - [MESSAGE][PASSED] - Object: 'Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/a_Sign In' is clicked on
+
+2019-06-19 10:19:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/add to cart/Page_Sign In/input_Sign In_loginusername"), "himangi.tankha@ranosys.com"): Text 'himangi.tankha@ranosys.com' is set on object 'Object Repository/add to cart/Page_Sign In/input_Sign In_loginusername'
+
+2019-06-19 10:19:05 - [MESSAGE][PASSED] - Text 'himangi.tankha@ranosys.com' is set on object 'Object Repository/add to cart/Page_Sign In/input_Sign In_loginusername'
+
+2019-06-19 10:19:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/add to cart/Page_Sign In/input_Sign In_loginpassword"), "8SQVv/p9jVTHLrggi8kCzw=="): Text ****** has been set on object 'Object Repository/add to cart/Page_Sign In/input_Sign In_loginpassword'
+
+2019-06-19 10:19:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/add to cart/Page_Sign In/input_Sign In_loginpassword'
+
+2019-06-19 10:19:05 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-06-19 10:19:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-19 10:19:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/add to cart/Page_Sign In/button_Sign In")): Object: 'Object Repository/add to cart/Page_Sign In/button_Sign In' is clicked on
+
+2019-06-19 10:19:14 - [MESSAGE][PASSED] - Object: 'Object Repository/add to cart/Page_Sign In/button_Sign In' is clicked on
+
+2019-06-19 10:19:14 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-06-19 10:19:24 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add Receipt PayNow" classname="Test Cases/Add Receipt PayNow" status="PASSED">
+         <system-out><![CDATA[2019-06-19 10:19:24 - [TEST_CASE][PASSED] - Test Cases/Add Receipt PayNow: Test Cases/Add Receipt PayNow
+
+2019-06-19 10:19:24 - [TEST_STEP][PASSED] - click(findTestObject("My Order/Page_My Orders/img")): Object: 'Object Repository/My Order/Page_My Orders/img' is clicked on
+
+2019-06-19 10:19:27 - [MESSAGE][PASSED] - Object: 'Object Repository/My Order/Page_My Orders/img' is clicked on
+
+2019-06-19 10:19:27 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-06-19 10:19:37 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-19 10:19:37 - [TEST_STEP][PASSED] - click(findTestObject("Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/span_Start shopping now _login-b-icon")): Object: 'Object Repository/Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/span_Start shopping now _login-b-icon' is clicked on
+
+2019-06-19 10:19:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/span_Start shopping now _login-b-icon' is clicked on
+
+2019-06-19 10:19:37 - [TEST_STEP][PASSED] - click(findTestObject("Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders")): Object: 'Object Repository/Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders' is clicked on
+
+2019-06-19 10:19:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders' is clicked on
+
+2019-06-19 10:19:40 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-06-19 10:19:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-19 10:19:45 - [TEST_STEP][PASSED] - click(findTestObject("Add Receipt/Page_My Orders/span_View Order")): Object: 'Object Repository/Add Receipt/Page_My Orders/span_View Order' is clicked on
+
+2019-06-19 10:19:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Receipt/Page_My Orders/span_View Order' is clicked on
+
+2019-06-19 10:19:47 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-06-19 10:19:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-19 10:19:52 - [TEST_STEP][PASSED] - click(findTestObject("Add Receipt/Page_Order  000000052/span_Add Receipt")): Object: 'Object Repository/Add Receipt/Page_Order  000000052/span_Add Receipt' is clicked on
+
+2019-06-19 10:19:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Receipt/Page_Order  000000052/span_Add Receipt' is clicked on
+
+2019-06-19 10:19:55 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-06-19 10:20:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-19 10:20:00 - [TEST_STEP][PASSED] - click(findTestObject("Add Receipt/Page_Payment Receipt/input__tran_datetime")): Object: 'Object Repository/Add Receipt/Page_Payment Receipt/input__tran_datetime' is clicked on
+
+2019-06-19 10:20:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Receipt/Page_Payment Receipt/input__tran_datetime' is clicked on
+
+2019-06-19 10:20:00 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Add Receipt/Page_Payment Receipt/span_Prev")): Object: 'Object Repository/Add Receipt/Page_Payment Receipt/span_Prev' is double clicked on
+
+2019-06-19 10:20:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Receipt/Page_Payment Receipt/span_Prev' is double clicked on
+
+2019-06-19 10:20:00 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-06-19 10:20:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-19 10:20:05 - [TEST_STEP][PASSED] - click(findTestObject("Add Receipt/Page_Payment Receipt/a_17")): Object: 'Object Repository/Add Receipt/Page_Payment Receipt/a_17' is clicked on
+
+2019-06-19 10:20:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Receipt/Page_Payment Receipt/a_17' is clicked on
+
+2019-06-19 10:20:05 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-06-19 10:20:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-19 10:20:10 - [TEST_STEP][PASSED] - click(findTestObject("Add Receipt/Page_Payment Receipt/button_Now")): Object: 'Object Repository/Add Receipt/Page_Payment Receipt/button_Now' is clicked on
+
+2019-06-19 10:20:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Receipt/Page_Payment Receipt/button_Now' is clicked on
+
+2019-06-19 10:20:10 - [TEST_STEP][PASSED] - click(findTestObject("Add Receipt/Page_Payment Receipt/button_Done")): Object: 'Object Repository/Add Receipt/Page_Payment Receipt/button_Done' is clicked on
+
+2019-06-19 10:20:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Receipt/Page_Payment Receipt/button_Done' is clicked on
+
+2019-06-19 10:20:11 - [TEST_STEP][PASSED] - setText(findTestObject("Add Receipt/Page_Payment Receipt/input__reference_no"), "254178"): Text '254178' is set on object 'Object Repository/Add Receipt/Page_Payment Receipt/input__reference_no'
+
+2019-06-19 10:20:11 - [MESSAGE][PASSED] - Text '254178' is set on object 'Object Repository/Add Receipt/Page_Payment Receipt/input__reference_no'
+
+2019-06-19 10:20:11 - [TEST_STEP][PASSED] - setText(findTestObject("Add Receipt/Page_Payment Receipt/input__initials"), "Himangi"): Text 'Himangi' is set on object 'Object Repository/Add Receipt/Page_Payment Receipt/input__initials'
+
+2019-06-19 10:20:11 - [MESSAGE][PASSED] - Text 'Himangi' is set on object 'Object Repository/Add Receipt/Page_Payment Receipt/input__initials'
+
+2019-06-19 10:20:11 - [TEST_STEP][PASSED] - setText(findTestObject("Add Receipt/Page_Payment Receipt/input__amount"), "53"): Text '53' is set on object 'Object Repository/Add Receipt/Page_Payment Receipt/input__amount'
+
+2019-06-19 10:20:11 - [MESSAGE][PASSED] - Text '53' is set on object 'Object Repository/Add Receipt/Page_Payment Receipt/input__amount'
+
+2019-06-19 10:20:11 - [TEST_STEP][PASSED] - setText(findTestObject("Add Receipt/Page_Payment Receipt/input__bank_name"), "DBS Bank"): Text 'DBS Bank' is set on object 'Object Repository/Add Receipt/Page_Payment Receipt/input__bank_name'
+
+2019-06-19 10:20:11 - [MESSAGE][PASSED] - Text 'DBS Bank' is set on object 'Object Repository/Add Receipt/Page_Payment Receipt/input__bank_name'
+
+2019-06-19 10:20:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-06-19 10:20:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-19 10:20:16 - [TEST_STEP][NOT_RUN] - uploadFile(findTestObject("UploadFile/Page_Payment Receipt/input_Upload Receipt_receipt"), "C:\Users\Ranosys\Downloads\ATM Receipt.jpg"): NOT_RUN: uploadFile(findTestObject("UploadFile/Page_Payment Receipt/input_Upload Receipt_receipt"), "C:\Users\Ranosys\Downloads\ATM Receipt.jpg")
+
+2019-06-19 10:20:16 - [MESSAGE][NOT_RUN] - NOT_RUN: uploadFile(findTestObject("UploadFile/Page_Payment Receipt/input_Upload Receipt_receipt"), "C:\Users\Ranosys\Downloads\ATM Receipt.jpg")
+
+2019-06-19 10:20:16 - [TEST_STEP][NOT_RUN] - uploadfile.uploadFile(findTestObject("UploadFile/Page_Payment Receipt/input_Upload Receipt_receipt"), "D:\ATM Receipt.jpg"): NOT_RUN: uploadfile.uploadFile(findTestObject("UploadFile/Page_Payment Receipt/input_Upload Receipt_receipt"), "D:\ATM Receipt.jpg")
+
+2019-06-19 10:20:16 - [MESSAGE][NOT_RUN] - NOT_RUN: uploadfile.uploadFile(findTestObject("UploadFile/Page_Payment Receipt/input_Upload Receipt_receipt"), "D:\ATM Receipt.jpg")
+
+2019-06-19 10:20:16 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-06-19 10:20:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-19 10:20:21 - [TEST_STEP][PASSED] - click(findTestObject("Add Receipt/Page_Payment Receipt/button_Submit")): Object: 'Object Repository/Add Receipt/Page_Payment Receipt/button_Submit' is clicked on
+
+2019-06-19 10:20:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Receipt/Page_Payment Receipt/button_Submit' is clicked on
+
+2019-06-19 10:20:27 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-06-19 10:20:37 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-19 10:20:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_Start shopping now _login-icon")): Object: 'Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_Start shopping now _login-icon' is clicked on
+
+2019-06-19 10:20:37 - [MESSAGE][PASSED] - Object: 'Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_Start shopping now _login-icon' is clicked on
+
+2019-06-19 10:20:37 - [TEST_STEP][PASSED] - click(findTestObject("My Order/Page_Welcome to The Thread Theory  The Thread Theory/a_Logout")): Object: 'Object Repository/My Order/Page_Welcome to The Thread Theory  The Thread Theory/a_Logout' is clicked on
+
+2019-06-19 10:20:41 - [MESSAGE][PASSED] - Object: 'Object Repository/My Order/Page_Welcome to The Thread Theory  The Thread Theory/a_Logout' is clicked on
+
+2019-06-19 10:20:41 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-06-19 10:20:51 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-19 10:20:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-06-19 10:20:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-06-19 10:18:25 - [TEST_SUITE][PASSED] - Add Receipt of PayNow: Test Cases/Add Receipt PayNow]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -69,14 +69,11 @@ not_run: WebUI.click(findTestObject('OR_Login/Page_/button_Sign In'))
 
 WebUI.delay(10)
 
-not_run: WebUI.getNumberOfTotalOption(findTestObject('select_Miss Himangi Tankha Singapore Singapore 567890 SingaporeMiss Himangi Tankha Test America California 541278 United StatesMiss Himangi Tankha Test Singapore 567890 Singapore'))
+WebUI.click(findTestObject('Page_Ship to Multiple Addresses - Magento Commerce/select_Multiple_address'), FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: WebUI.click(findTestObject('Page_Ship to Multiple Addresses - Magento Commerce/select_Miss Himangi Tankha Singapore Singapore  567890 SingaporeMiss Himangi Tankha Test Singapore  567890 Singapore'))
+WebUI.delay(3)
 
-not_run: WebUI.delay(10)
-
-WebUI.selectOptionByValue(findTestObject('Page_Ship to Multiple Addresses - Magento Commerce/select_Miss Himangi Tankha Singapore Singapore  567890 SingaporeMiss Himangi Tankha Test Singapore  567890 Singapore'), 
-    '46', true, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Page_Ship to Multiple Addresses - Magento Commerce/select_Multiple_address_option'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(5)
 
@@ -98,10 +95,10 @@ WebUI.click(findTestObject('MultipleCheckout/Page_Shipping Methods - Magento Com
     FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.scrollToElement(findTestObject('MultipleCheckout/Page_Shipping Methods - Magento Commerce/button_Continue to Billing Information'), 
-    0, FailureHandling.CONTINUE_ON_FAILURE)
+    0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('MultipleCheckout/Page_Shipping Methods - Magento Commerce/button_Continue to Billing Information'), 
-    FailureHandling.CONTINUE_ON_FAILURE)
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)
 
@@ -119,11 +116,15 @@ WebUI.click(findTestObject('MultipleCheckout/Page_Review Order - Magento Commerc
 
 WebUI.delay(10)
 
-Date today = new Date()
+not_run: Date today = new Date()
 
-String todaysDate = today.format('MM_dd_yy')
+not_run: String todaysDate = today.format('MM_dd_yy')
 
-String nowTime = today.format('hh_mm_ss')
+not_run: String nowTime = today.format('hh_mm_ss')
 
 WebUI.takeScreenshot('D:\\Katalon\\Demo\\screenshot_"+ todaysDate +"-" + nowTime +".PNG')
+
+WebUI.click(findTestObject('MultipleCheckout/Page_Success Page/button_Continue Shopping'))
+
+WebUI.delay(5)
 

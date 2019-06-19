@@ -1,117 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Payment Method_paymentmethod</name>
+   <name>select_Multiple_address</name>
    <tag></tag>
-   <elementGuidId>3b71dcfe-a1f5-42db-af20-36f7b4f045c4</elementGuidId>
+   <elementGuidId>29319db8-75b8-446f-a6f9-0641beb5920b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='p_method_banktransfer']</value>
+         <key>BASIC</key>
+         <value>//select[@id='ship_1_794_address'][count(. | //select[@name = 'ship[1][772][address]' and @id = 'ship_1_772_address' and (text() = 'Miss Himangi Tankha, Singapore, Singapore,  567890, SingaporeMiss Himangi Tankha, Test, Singapore,  567890, Singapore' or . = 'Miss Himangi Tankha, Singapore, Singapore,  567890, SingaporeMiss Himangi Tankha, Test, Singapore,  567890, Singapore')]) = count(//select[@name = 'ship[1][772][address]' and @id = 'ship_1_772_address' and (text() = 'Miss Himangi Tankha, Singapore, Singapore,  567890, SingaporeMiss Himangi Tankha, Test, Singapore,  567890, Singapore' or . = 'Miss Himangi Tankha, Singapore, Singapore,  567890, SingaporeMiss Himangi Tankha, Test, Singapore,  567890, Singapore')])]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;p_method_banktransfer&quot;)[count(. | //input[@type = 'radio' and @id = 'p_method_banktransfer' and @name = 'payment[method]' and @title = 'Internet banking / PayNow']) = count(//input[@type = 'radio' and @id = 'p_method_banktransfer' and @name = 'payment[method]' and @title = 'Internet banking / PayNow'])]</value>
+         <key>XPATH</key>
+         <value>//select[@id='ship_1_772_address']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>radio</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>p_method_banktransfer</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>banktransfer</value>
+      <value>select</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>payment[method]</value>
+      <value>ship[1][772][address]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>title</name>
+      <name>id</name>
       <type>Main</type>
-      <value>Internet banking / PayNow</value>
+      <value>ship_1_772_address</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>text</name>
       <type>Main</type>
-      <value>radio</value>
+      <value>Miss Himangi Tankha, Singapore, Singapore,  567890, SingaporeMiss Himangi Tankha, Test, Singapore,  567890, Singapore</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;p_method_banktransfer&quot;)</value>
+      <value>//select[@id='ship_1_794_address']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>//input[@id='p_method_banktransfer']</value>
+      <value>//select[@id='ship_1_794_address']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//dl[@id='payment-methods']/dt/input</value>
+      <value>//table[@id='multiship-addresses-table']/tbody/tr[2]/td[3]/div/div/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment Method'])[1]/following::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Send To'])[3]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Internet banking / PayNow'])[1]/preceding::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Qty'])[4]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='DBS Corporate Account 003-953940-1'])[1]/preceding::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Update Qty &amp; Addresses'])[1]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Go to Shipping Information'])[1]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//dt/input</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ATM Transfer'])[1]/preceding::input[2]</value>
+      <value>//tr[2]/td[3]/div/div/select</value>
    </webElementXpaths>
 </WebElementEntity>

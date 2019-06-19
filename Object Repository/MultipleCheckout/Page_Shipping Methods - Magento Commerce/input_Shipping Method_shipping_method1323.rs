@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Payment Method_paymentmethod</name>
+   <name>input_Shipping Method_shipping_method1323</name>
    <tag></tag>
-   <elementGuidId>3b71dcfe-a1f5-42db-af20-36f7b4f045c4</elementGuidId>
+   <elementGuidId>0116f7b9-947b-4dfa-998d-349553155c3c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='p_method_banktransfer']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;p_method_banktransfer&quot;)[count(. | //input[@type = 'radio' and @id = 'p_method_banktransfer' and @name = 'payment[method]' and @title = 'Internet banking / PayNow']) = count(//input[@type = 'radio' and @id = 'p_method_banktransfer' and @name = 'payment[method]' and @title = 'Internet banking / PayNow'])]</value>
+         <value>//input[@id='s_method_1323_flatrate_flatrate']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,30 +29,23 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>name</name>
       <type>Main</type>
-      <value>p_method_banktransfer</value>
+      <value>shipping_method[1323]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>banktransfer</value>
+      <value>flatrate_flatrate</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>id</name>
       <type>Main</type>
-      <value>payment[method]</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>title</name>
-      <type>Main</type>
-      <value>Internet banking / PayNow</value>
+      <value>s_method_1323_flatrate_flatrate</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,48 +59,36 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;p_method_banktransfer&quot;)</value>
+      <value>id(&quot;s_method_1323_flatrate_flatrate&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>//input[@id='p_method_banktransfer']</value>
+      <value>//input[@id='s_method_1323_flatrate_flatrate']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//dl[@id='payment-methods']/dt/input</value>
+      <value>//form[@id='shipping_method_form']/div[2]/div[2]/div[2]/div/dl/dd/fieldset/div/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment Method'])[1]/following::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shipping Method'])[2]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Internet banking / PayNow'])[1]/preceding::input[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='DBS Corporate Account 003-953940-1'])[1]/preceding::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SGD 7.00'])[2]/preceding::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//dt/input</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ATM Transfer'])[1]/preceding::input[2]</value>
+      <value>//div[2]/div[2]/div[2]/div/dl/dd/fieldset/div/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

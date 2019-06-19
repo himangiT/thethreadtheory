@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='SGD 0.00'])[1]/following::input[1][count(. | //input[@type = 'radio' and @name = 'shipping_method[710]' and @id = 's_method_710_flaterateshipping_flaterateshipping']) = count(//input[@type = 'radio' and @name = 'shipping_method[710]' and @id = 's_method_710_flaterateshipping_flaterateshipping'])]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='SGD 0.00'])[1]/following::input[1][count(. | //input[@type = 'radio' and @value = 'flaterateshipping_flaterateshipping' and @class = 'radio']) = count(//input[@type = 'radio' and @value = 'flaterateshipping_flaterateshipping' and @class = 'radio'])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -31,28 +31,28 @@
       <value>radio</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
       <value>shipping_method[710]</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
       <value>flaterateshipping_flaterateshipping</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>s_method_710_flaterateshipping_flaterateshipping</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

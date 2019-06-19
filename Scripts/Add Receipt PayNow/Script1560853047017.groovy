@@ -57,8 +57,7 @@ WebUI.delay(5)
 
 not_run: WebUI.uploadFile(findTestObject('UploadFile/Page_Payment Receipt/input_Upload Receipt_receipt'), 'C:\\Users\\Ranosys\\Downloads\\ATM Receipt.jpg')
 
-not_run: CustomKeywords.'uploadfile.uploadFile'(findTestObject('UploadFile/Page_Payment Receipt/input_Upload Receipt_receipt'), 
-    'D:\\ATM Receipt.jpg')
+CustomKeywords.'uploadfile.uploadFile'(findTestObject('UploadFile/Page_Payment Receipt/input_Upload Receipt_receipt'), 'D:\\ATM Receipt.jpg')
 
 WebUI.delay(5)
 
