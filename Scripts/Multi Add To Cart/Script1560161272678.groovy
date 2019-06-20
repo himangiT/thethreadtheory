@@ -102,7 +102,7 @@ WebUI.click(findTestObject('MultipleCheckout/Page_Shipping Methods - Magento Com
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('MultipleCheckout/Page_Billing Information - Magento Commerce/input_Internet banking  PayNow_paymentmethod'))
+WebUI.click(findTestObject('MultipleCheckout/Page_Billing Information - Magento Commerce/input_PayNow Method_paymentmethod'))
 
 WebUI.click(findTestObject('MultipleCheckout/Page_Billing Information - Magento Commerce/button_Go to Review Your Order'))
 
@@ -122,7 +122,7 @@ not_run: String todaysDate = today.format('MM_dd_yy')
 
 not_run: String nowTime = today.format('hh_mm_ss')
 
-WebUI.takeScreenshot('D:\\Katalon\\Demo\\screenshot_"+ todaysDate +"-" + nowTime +".PNG')
+WebUI.takeScreenshot('thethreadtheory/screenshot.png')
 
 WebUI.click(findTestObject('MultipleCheckout/Page_Success Page/button_Continue Shopping'))
 

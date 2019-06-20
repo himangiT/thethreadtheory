@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Registar and Checkout,Chrome 74.0.3729.169,,2019-06-20 10:18:21,2019-06-20 10:18:56,35.321s,FAILED
+,,,,,,
+Test Cases/Registration,Chrome 74.0.3729.169,,2019-06-20 10:18:21,2019-06-20 10:18:44,22.324s,FAILED
+openBrowser(toString()),Chrome 74.0.3729.169,,2019-06-20 10:18:22,2019-06-20 10:18:29,7.021s,PASSED
+"navigateToUrl(""http://18.138.12.239/"")",Chrome 74.0.3729.169,,2019-06-20 10:18:29,2019-06-20 10:18:37,7.964s,PASSED
+maximizeWindow(),Chrome 74.0.3729.169,,2019-06-20 10:18:37,2019-06-20 10:18:38,1.144s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-06-20 10:18:38,2019-06-20 10:18:43,5.028s,PASSED
+"click(findTestObject(""Object Repository/Registration/Page_Welcome to The Thread Theory  The Thread Theory/span_concat(Don  t show this popup again)_check""))",Chrome 74.0.3729.169,,2019-06-20 10:18:43,2019-06-20 10:18:44,0.768s,FAILED
+,,,,,,
+Test Cases/Register and Checkout,Chrome 74.0.3729.169,,2019-06-20 10:18:44,2019-06-20 10:18:55,11.073s,FAILED
+delay(10),Chrome 74.0.3729.169,,2019-06-20 10:18:44,2019-06-20 10:18:54,10.008s,PASSED
+"mouseOver(findTestObject(""add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_SHOP""))",Chrome 74.0.3729.169,,2019-06-20 10:18:54,2019-06-20 10:18:54,0.156s,PASSED
+"click(findTestObject(""add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_Work Wear""))",Chrome 74.0.3729.169,,2019-06-20 10:18:54,2019-06-20 10:18:55,0.589s,FAILED
+,,,,,,
+Test Cases/Add Receipt ATM,Chrome 74.0.3729.169,,2019-06-20 10:18:55,2019-06-20 10:18:55,0.822s,FAILED
+"click(findTestObject(""My Order/Page_My Orders/img""))",Chrome 74.0.3729.169,,2019-06-20 10:18:55,2019-06-20 10:18:55,0.571s,FAILED

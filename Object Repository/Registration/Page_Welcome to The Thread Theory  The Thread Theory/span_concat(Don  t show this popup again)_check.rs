@@ -3,18 +3,14 @@
    <description></description>
    <name>span_concat(Don  t show this popup again)_check</name>
    <tag></tag>
-   <elementGuidId>0332b849-9622-496f-aa5d-9db6eb376d4c</elementGuidId>
+   <elementGuidId>6b636a21-6335-4398-abff-4f333c9f7e60</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;zoo_newsletter&quot;)/div[@class=&quot;zoo-popup-newsletter-inner col-md-6 col-md-12&quot;]/div[@class=&quot;block-content&quot;]/label[@class=&quot;subcriper_label checkbox-filter&quot;]/span[@class=&quot;checkbox-material&quot;]/span[@class=&quot;check&quot;]</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='zoo_newsletter']/div[2]/div[2]/label/span/span</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

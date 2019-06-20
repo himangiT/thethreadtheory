@@ -6,6 +6,62 @@
    <elementGuidId>8fc4b03b-fbda-47bf-b75d-1087359f86fa</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Salutation'])[1]/following::select[1][count(. | //select[@id = 'prefix' and @name = 'prefix' and @title = 'Salutation' and (text() = '
+                                                    
+                                                            
+                                                    
+                                Mr.                            
+                                                    
+                                Ms.                            
+                                                    
+                                Miss                            
+                                                    
+                                Mrs.                            
+                                                    
+                                Dr.                            
+                                            ' or . = '
+                                                    
+                                                            
+                                                    
+                                Mr.                            
+                                                    
+                                Ms.                            
+                                                    
+                                Miss                            
+                                                    
+                                Mrs.                            
+                                                    
+                                Dr.                            
+                                            ')]) = count(//select[@id = 'prefix' and @name = 'prefix' and @title = 'Salutation' and (text() = '
+                                                    
+                                                            
+                                                    
+                                Mr.                            
+                                                    
+                                Ms.                            
+                                                    
+                                Miss                            
+                                                    
+                                Mrs.                            
+                                                    
+                                Dr.                            
+                                            ' or . = '
+                                                    
+                                                            
+                                                    
+                                Mr.                            
+                                                    
+                                Ms.                            
+                                                    
+                                Miss                            
+                                                    
+                                Mrs.                            
+                                                    
+                                Dr.                            
+                                            ')])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//select[@id='prefix']</value>
       </entry>
@@ -82,11 +138,11 @@
                                             </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;prefix&quot;)</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Salutation'])[1]/following::select[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

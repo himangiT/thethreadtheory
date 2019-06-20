@@ -49,7 +49,7 @@ WebUI.setText(findTestObject('Add Receipt/Page_Payment Receipt/input__reference_
 
 not_run: WebUI.setText(findTestObject('Add Receipt/Page_Payment Receipt/input__initials'), 'Himangi')
 
-WebUI.setText(findTestObject('Add Receipt/Page_Payment Receipt/input__amount'), '136')
+WebUI.setText(findTestObject('Add Receipt/Page_Payment Receipt/input__amount'), '34')
 
 WebUI.setText(findTestObject('Add Receipt/Page_Payment Receipt/input__bank_name'), 'DBS Bank')
 

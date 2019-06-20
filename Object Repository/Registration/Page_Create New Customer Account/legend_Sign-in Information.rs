@@ -1,70 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_concat(Don  t show this popup again)_check</name>
+   <name>legend_Sign-in Information</name>
    <tag></tag>
-   <elementGuidId>0332b849-9622-496f-aa5d-9db6eb376d4c</elementGuidId>
+   <elementGuidId>2fdc43e3-5e23-42ef-86b0-b87f76763596</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;zoo_newsletter&quot;)/div[@class=&quot;zoo-popup-newsletter-inner col-md-6 col-md-12&quot;]/div[@class=&quot;block-content&quot;]/label[@class=&quot;subcriper_label checkbox-filter&quot;]/span[@class=&quot;checkbox-material&quot;]/span[@class=&quot;check&quot;]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//div[@id='zoo_newsletter']/div[2]/div[2]/label/span/span</value>
+         <value>//form[@id='form-validate']/div/div/div[2]/legend</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>legend</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>check</value>
+      <value>legend</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sign-in Information</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;zoo_newsletter&quot;)/div[@class=&quot;zoo-popup-newsletter-inner col-md-6 col-md-12&quot;]/div[@class=&quot;block-content&quot;]/label[@class=&quot;subcriper_label checkbox-filter&quot;]/span[@class=&quot;checkbox-material&quot;]/span[@class=&quot;check&quot;]</value>
+      <value>id(&quot;form-validate&quot;)/div[@class=&quot;row register-form&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;create account&quot;]/legend[@class=&quot;legend&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='zoo_newsletter']/div[2]/div[2]/label/span/span</value>
+      <value>//form[@id='form-validate']/div/div/div[2]/legend</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Subscribe'])[1]/following::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Date'])[1]/following::legend[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ok'])[1]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Date of Birth'])[1]/following::legend[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[3]/preceding::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/preceding::legend[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//label/span/span</value>
+      <value>//div[2]/legend</value>
    </webElementXpaths>
 </WebElementEntity>

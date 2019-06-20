@@ -6,11 +6,15 @@
    <elementGuidId>747dfb3f-c77e-4347-a383-0f6df598db35</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//button[@class='btn action submit'][count(. | //button[@type = 'submit' and @title = 'Sign Up' and (text() = 'Sign Up' or . = 'Sign Up')]) = count(//button[@type = 'submit' and @title = 'Sign Up' and (text() = 'Sign Up' or . = 'Sign Up')])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(//button[@type='submit'])[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -48,17 +52,17 @@
       <value>Sign Up</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;form-validate&quot;)/div[@class=&quot;row register-form&quot;]/div[@class=&quot;col-md-12 terms-condi&quot;]/div[@class=&quot;actions&quot;]/button[@class=&quot;btn action submit&quot;]</value>
+      <value>//button[@class='btn action submit']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>(//button[@type='submit'])[2]</value>
+      <value>//button[@class='btn action submit']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
