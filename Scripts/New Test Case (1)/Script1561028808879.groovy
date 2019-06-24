@@ -27,15 +27,15 @@ import static org.junit.Assert.*
 import java.util.regex.Pattern as Pattern
 import static org.apache.commons.lang3.StringUtils.join
 
-WebUI.openBrowser('https://www.katalon.com/')
+WebUI.openBrowser('http://18.138.12.239/')
 
 def driver = DriverFactory.getWebDriver()
 
-String baseUrl = 'https://www.katalon.com/'
+String baseUrl = 'http://18.138.12.239/'
 
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
 
-selenium.open('http://18.138.12.239/')
+//selenium.open('http://18.138.12.239/')
 
 WebUI.maximizeWindow()
 

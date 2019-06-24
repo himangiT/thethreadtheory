@@ -6,15 +6,15 @@
    <elementGuidId>29319db8-75b8-446f-a6f9-0641beb5920b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//select[@id='ship_1_794_address'][count(. | //select[@name = 'ship[1][772][address]' and @id = 'ship_1_772_address' and (text() = 'Miss Himangi Tankha, Singapore, Singapore,  567890, SingaporeMiss Himangi Tankha, Test, Singapore,  567890, Singapore' or . = 'Miss Himangi Tankha, Singapore, Singapore,  567890, SingaporeMiss Himangi Tankha, Test, Singapore,  567890, Singapore')]) = count(//select[@name = 'ship[1][772][address]' and @id = 'ship_1_772_address' and (text() = 'Miss Himangi Tankha, Singapore, Singapore,  567890, SingaporeMiss Himangi Tankha, Test, Singapore,  567890, Singapore' or . = 'Miss Himangi Tankha, Singapore, Singapore,  567890, SingaporeMiss Himangi Tankha, Test, Singapore,  567890, Singapore')])]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//select[@id='ship_1_772_address']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@id='ship_1_794_address'][count(. | //select[@name = 'ship[1][772][address]' and @id = 'ship_1_772_address' and (text() = 'Miss Himangi Tankha, Singapore, Singapore,  567890, SingaporeMiss Himangi Tankha, Test, Singapore,  567890, Singapore' or . = 'Miss Himangi Tankha, Singapore, Singapore,  567890, SingaporeMiss Himangi Tankha, Test, Singapore,  567890, Singapore')]) = count(//select[@name = 'ship[1][772][address]' and @id = 'ship_1_772_address' and (text() = 'Miss Himangi Tankha, Singapore, Singapore,  567890, SingaporeMiss Himangi Tankha, Test, Singapore,  567890, Singapore' or . = 'Miss Himangi Tankha, Singapore, Singapore,  567890, SingaporeMiss Himangi Tankha, Test, Singapore,  567890, Singapore')])]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
