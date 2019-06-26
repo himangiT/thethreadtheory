@@ -1,100 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Multiple_address</name>
+   <name>input__design</name>
    <tag></tag>
-   <elementGuidId>29319db8-75b8-446f-a6f9-0641beb5920b</elementGuidId>
+   <elementGuidId>12dd6b78-9c5a-4d3c-ac7b-57532d8db9a9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//select[@id='ship_1_772_address']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//select[@id='ship_1_794_address'][count(. | //select[@name = 'ship[1][772][address]' and @id = 'ship_1_772_address' and (text() = 'Miss Himangi Tankha, Singapore, Singapore,  567890, SingaporeMiss Himangi Tankha, Test, Singapore,  567890, Singapore' or . = 'Miss Himangi Tankha, Singapore, Singapore,  567890, SingaporeMiss Himangi Tankha, Test, Singapore,  567890, Singapore')]) = count(//select[@name = 'ship[1][772][address]' and @id = 'ship_1_772_address' and (text() = 'Miss Himangi Tankha, Singapore, Singapore,  567890, SingaporeMiss Himangi Tankha, Test, Singapore,  567890, Singapore' or . = 'Miss Himangi Tankha, Singapore, Singapore,  567890, SingaporeMiss Himangi Tankha, Test, Singapore,  567890, Singapore')])]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
+         <value>//input[@id='design']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>select</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>ship[1][772][address]</value>
+      <value>design</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ship_1_772_address</value>
+      <value>design</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>placeholder</name>
       <type>Main</type>
-      <value>Miss Himangi Tankha, Singapore, Singapore,  567890, SingaporeMiss Himangi Tankha, Test, Singapore,  567890, Singapore</value>
+      <value>Enter the design you are interested in</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Design</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>input-text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-validate</name>
+      <type>Main</type>
+      <value>{required:true}</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//select[@id='ship_1_794_address']</value>
+      <value>id(&quot;design&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>//select[@id='ship_1_794_address']</value>
+      <value>//input[@id='design']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//table[@id='multiship-addresses-table']/tbody/tr[2]/td[3]/div/div/select</value>
+      <value>//form[@id='appointment-form']/fieldset/div/div/div[5]/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Send To'])[3]/following::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[5]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Qty'])[4]/following::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Design(s) You Are Interested In'])[1]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Update Qty &amp; Addresses'])[1]/preceding::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Are You Looking For'])[1]/preceding::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Go to Shipping Information'])[1]/preceding::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[6]/preceding::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//tr[2]/td[3]/div/div/select</value>
+      <value>//div[5]/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

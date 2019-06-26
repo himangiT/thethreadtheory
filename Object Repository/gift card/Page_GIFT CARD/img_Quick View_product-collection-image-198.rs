@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Sign In_loginpassword</name>
+   <name>img_Quick View_product-collection-image-198</name>
    <tag></tag>
-   <elementGuidId>b7679342-17f6-4959-a811-db0a397bab13</elementGuidId>
+   <elementGuidId>a3707b94-8721-42b0-9618-66dbbaa68bb1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='pass']</value>
+         <value>//img[@id='product-collection-image-198']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,111 +17,110 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>login[password]</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>password</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
-      <type>Main</type>
-      <value>off</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>input-text</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Password *</value>
+      <value>img</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>pass</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>title</name>
-      <type>Main</type>
-      <value>Password</value>
+      <value>product-collection-image-198</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-validate</name>
+      <name>class</name>
       <type>Main</type>
-      <value>{required:true, 'validate-password':true}</value>
+      <value>product-image-photo clazyload</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-img</name>
+      <type>Main</type>
+      <value>http://18.138.12.239/pub/media/catalog/product/cache/2f0fc553a08e881fd9b1566dcf0c53ae/5/5/551d41c00c6af_happy-birthday-gift-card-1.png</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>sizes</name>
+      <type>Main</type>
+      <value>(max-width: 451px) 100vw, 451px</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>http://18.138.12.239/pub/media/catalog/product/cache/2f0fc553a08e881fd9b1566dcf0c53ae/5/5/551d41c00c6af_happy-birthday-gift-card-1.png</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>srcset</name>
+      <type>Main</type>
+      <value>http://18.138.12.239/pub/media/catalog/product/cache/2f0fc553a08e881fd9b1566dcf0c53ae/5/5/551d41c00c6af_happy-birthday-gift-card-1.png 451w,http://18.138.12.239/pub/media/catalog/product/cache/cbcbe30325c5223ae88981db01f2b7eb/5/5/551d41c00c6af_happy-birthday-gift-card-1.png 100w,http://18.138.12.239/pub/media/catalog/product/cache/2f0fc553a08e881fd9b1566dcf0c53ae/5/5/551d41c00c6af_happy-birthday-gift-card-1.png 451w,http://18.138.12.239/pub/media/catalog/product/cache/2f0fc553a08e881fd9b1566dcf0c53ae/5/5/551d41c00c6af_happy-birthday-gift-card-1.png 451w,http://18.138.12.239/pub/media/catalog/product/cache/2f0fc553a08e881fd9b1566dcf0c53ae/5/5/551d41c00c6af_happy-birthday-gift-card-1.png 451w</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Happy BirthDay Gift Card</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;zoo-main-content&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;columns&quot;]/div[@class=&quot;column main&quot;]/div[@class=&quot;zoo-main-content-area&quot;]/div[@class=&quot;login-container&quot;]/div[@class=&quot;login-form&quot;]/div[@class=&quot;block-customer-login&quot;]/div[@class=&quot;block-content&quot;]/form[@id=&quot;login-form&quot;]/div[@class=&quot;login&quot;]/div[@class=&quot;password required&quot;]/div[@class=&quot;control&quot;]/input[@id=&quot;pass&quot;]</value>
+      <value>id(&quot;product-collection-image-198&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>//input[@id='pass']</value>
+      <value>//img[@id='product-collection-image-198']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//form[@id='login-form']/div/div[2]/div/input</value>
+      <value>//ol[@id='icir_5d134741d753d']/li/div/div/div/a/img</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign In'])[3]/following::input[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quick View'])[1]/following::img[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot Your Password?'])[1]/preceding::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to Cart'])[1]/following::img[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Note'])[1]/preceding::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Happy BirthDay Gift Card'])[1]/preceding::img[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SGD 0.00'])[1]/preceding::img[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <value>//img[@alt='Happy BirthDay Gift Card']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[2]/div/input</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='NOTE'])[1]/preceding::input[1]</value>
+      <value>//li/div/div/div/a/img</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -85,9 +85,9 @@ WebUI.click(findTestObject('OR_Login/Page_/button_Sign In'))
 
 WebUI.delay(5)
 
-selenium.click('xpath=//table[@id=multiship-addresses-table]/tbody/tr[2]/td[3]/div/div/select')
+selenium.click('id="ship_1_963_address"')
 
-selenium.select('xpath=//table[@id=multiship-addresses-table]/tbody/tr[2]/td[3]/div/div/select', 'label=Miss Himangi Tankha, Test, Singapore, 567890, Singapore')
+selenium.select('id="ship_1_963_address"', 'label=Miss Himangi Tankha, Test, Singapore, 567890, Singapore')
 
 not_run: WebUI.delay(10)
 

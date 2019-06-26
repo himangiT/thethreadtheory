@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Multiple_address</name>
+   <name>select_Choose an Amount                                                    SGD 1500                                                    SGD 2000</name>
    <tag></tag>
-   <elementGuidId>29319db8-75b8-446f-a6f9-0641beb5920b</elementGuidId>
+   <elementGuidId>96d5c37c-47aa-4c67-ab30-a237b05696ef</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//select[@id='ship_1_772_address']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//select[@id='ship_1_794_address'][count(. | //select[@name = 'ship[1][772][address]' and @id = 'ship_1_772_address' and (text() = 'Miss Himangi Tankha, Singapore, Singapore,  567890, SingaporeMiss Himangi Tankha, Test, Singapore,  567890, Singapore' or . = 'Miss Himangi Tankha, Singapore, Singapore,  567890, SingaporeMiss Himangi Tankha, Test, Singapore,  567890, Singapore')]) = count(//select[@name = 'ship[1][772][address]' and @id = 'ship_1_772_address' and (text() = 'Miss Himangi Tankha, Singapore, Singapore,  567890, SingaporeMiss Himangi Tankha, Test, Singapore,  567890, Singapore' or . = 'Miss Himangi Tankha, Singapore, Singapore,  567890, SingaporeMiss Himangi Tankha, Test, Singapore,  567890, Singapore')])]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
+         <value>//select[@id='am_giftcard_amount']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,71 +22,96 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>id</name>
       <type>Main</type>
-      <value>ship[1][772][address]</value>
+      <value>am_giftcard_amount</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>name</name>
       <type>Main</type>
-      <value>ship_1_772_address</value>
+      <value>am_giftcard_amount</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>required-entry</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-amgiftcard-js</name>
+      <type>Main</type>
+      <value>amgiftcard-amount</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-required</name>
+      <type>Main</type>
+      <value>true</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Miss Himangi Tankha, Singapore, Singapore,  567890, SingaporeMiss Himangi Tankha, Test, Singapore,  567890, Singapore</value>
+      <value>
+                            Choose an Amount...
+                                                    SGD 15.00
+                                                    SGD 20.00
+                                                                        </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//select[@id='ship_1_794_address']</value>
+      <value>id(&quot;am_giftcard_amount&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>//select[@id='ship_1_794_address']</value>
+      <value>//select[@id='am_giftcard_amount']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//table[@id='multiship-addresses-table']/tbody/tr[2]/td[3]/div/div/select</value>
+      <value>//form[@id='product_addtocart_form']/div/div/div/div/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Send To'])[3]/following::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Card Value in SGD'])[1]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Qty'])[4]/following::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Happy BirthDay Gift Card'])[2]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Update Qty &amp; Addresses'])[1]/preceding::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose card Image'])[1]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Go to Shipping Information'])[1]/preceding::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sender Name'])[1]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//tr[2]/td[3]/div/div/select</value>
+      <value>//select</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -27,6 +27,7 @@ import static org.junit.Assert.*
 import java.util.regex.Pattern as Pattern
 import static org.apache.commons.lang3.StringUtils.join
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.thoughtworks.selenium.SeleniumException as SeleniumException
 
 WebUI.openBrowser(toString())
 
@@ -50,106 +51,85 @@ selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'Clo
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Registration/Page_Welcome to The Thread Theory  The Thread Theory/span_Start shopping now _login-icon'))
-
-not_run: selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'Start shopping now !\'])[1]/following::span[1]')
-
-selenium.click('link=Create Account')
-
-selenium.click('id=prefix')
-
-selenium.select('id=prefix', 'label=Mrs.')
+selenium.click('link=Book Appointment')
 
 WebUI.delay(5)
 
-//selenium.click('id=prefix')
-selenium.click('id=firstname')
+selenium.click('id=email')
 
-selenium.type('id=firstname', 'Himangi')
+selenium.type('id=email', 'himangi.tankha+9@ranosys.com')
 
-WebUI.delay(5)
+selenium.click('id=pass')
 
-selenium.click('id=lastname')
+selenium.type('id=pass', 'password123')
 
-selenium.type('id=lastname', 'Tankha')
-
-WebUI.delay(5)
-
-selenium.click('id=email_address')
-
-selenium.type('id=email_address', 'himangi.tankha+2@ransys.com')
+selenium.click('id=send2')
 
 WebUI.delay(5)
 
-selenium.click('id=dob')
+//selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'My Appointments\'])[2]/following::div[5]')
+//selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'Checkout\'])[1]/following::span[1]')
+selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'Active\'])[1]/following::span[1]')
 
-selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'Next\'])[1]/following::select[1]')
+WebUI.delay(8)
 
-selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'Next\'])[1]/following::select[2]')
+selenium.click('id=appointment_date')
 
-selenium.click('link=21')
-
-WebUI.delay(5)
-
-selenium.click('id=street_1')
-
-selenium.type('id=street_1', 'test')
+selenium.click('link=29')
 
 WebUI.delay(5)
 
-selenium.click('id=street_3')
+selenium.click('id=appointment_time')
 
-selenium.type('id=street_3', 'test123')
+selenium.select('id=appointment_time', 'label=4PM-5PM')
 
-WebUI.delay(5)
-
-selenium.click('id=country')
-
-selenium.click('id=country')
-
-selenium.click('id=region')
-
-selenium.type('id=region', 'Singapore')
+selenium.click('id=appointment_time')
 
 WebUI.delay(5)
 
-selenium.click('id=city')
+selenium.click('id=design')
 
-selenium.type('id=city', 'Singapore')
-
-WebUI.delay(5)
-
-selenium.click('id=zip')
-
-selenium.type('id=zip', '564789')
+selenium.type('id=design', 'test')
 
 WebUI.delay(5)
 
-selenium.click('id=telephone')
+selenium.click('id=looking_item')
 
-selenium.type('id=telephone', '1245789630')
-
-WebUI.delay(5)
-
-selenium.click('id=password')
-
-selenium.type('id=password', 'password123')
+selenium.select('id=looking_item', 'label=ROM')
 
 WebUI.delay(5)
 
-selenium.click('id=password-confirmation')
+//selenium.click("id=looking_item")
+selenium.click('id=attendees')
 
-selenium.type('id=password-confirmation', 'password123')
-
-WebUI.delay(5)
-
-selenium.click('name=terms-condition')
+selenium.select('id=attendees', 'label=2')
 
 WebUI.delay(5)
 
-selenium.click('id=zoo-main-content')
+//selenium.click("id=attendees")
+selenium.click('id=wedding_theme')
 
-not_run: selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'Phone\'])[1]/following::span[2]')
+selenium.type('id=wedding_theme', 'test')
 
-WebUI.click(findTestObject('Registration/Page_Create New Customer Account/button_Sign Up'), FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(5)
+
+selenium.click('id=color_theme')
+
+selenium.type('id=color_theme', 'blue')
+
+WebUI.delay(5)
+
+selenium.click('id=rom_wedding_date')
+
+selenium.click('link=31')
+
+WebUI.delay(5)
+
+selenium.click('id=comments')
+
+selenium.type('id=comments', 'test')
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Appointment/Page_Book Appointment/button_Submit'))
 
