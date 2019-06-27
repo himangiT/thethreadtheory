@@ -27,6 +27,7 @@ import static org.junit.Assert.*
 import java.util.regex.Pattern as Pattern
 import static org.apache.commons.lang3.StringUtils.join
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium
 
 WebUI.openBrowser(toString())
 
@@ -50,21 +51,34 @@ WebUI.delay(10)
 
 WebUI.click(findTestObject('gift card/Page_My Account/a_Give a Gift Card'))
 
+WebUI.delay(10)
+
+selenium.click('id=product-collection-image-198')
+
 WebUI.delay(5)
+
+//selenium.wait()
 
 selenium.click('id=am_giftcard_amount')
 
 selenium.select('id=am_giftcard_amount', 'label=SGD 15.00')
 
 //selenium.click('id=am_giftcard_amount')
-
 selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'Choose card Image\'])[1]/following::img[1]')
 
 WebUI.delay(5)
 
-//selenium.click('id=am_giftcard_sender_name')
+selenium.click('id=am_giftcard_sender_name')
 
-//selenium.click('id=am_giftcard_sender_email')
+selenium.type('id=am_giftcard_sender_name', 'Himangi')
+
+WebUI.delay(5)
+
+selenium.click('id=am_giftcard_sender_email')
+
+selenium.type('id=am_giftcard_sender_email', 'himangi.tankha@ranosys.com')
+
+WebUI.delay(5)
 
 selenium.click('id=am_giftcard_recipient_name')
 
@@ -80,7 +94,7 @@ WebUI.delay(5)
 
 selenium.click('id=am_giftcard_date_delivery')
 
-selenium.click('link=26')
+selenium.click('link=27')
 
 WebUI.delay(5)
 
@@ -90,69 +104,7 @@ selenium.type('id=am_giftcard_message', 'test')
 
 WebUI.delay(5)
 
-selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'Preview Gift Card\'])[1]/following::span[3]')
+WebUI.click(findTestObject('add to cart/menu_cart_mini/Page_Softly Edelweiss Swiss Dot Dress (Powder Blue)/button_Add to Cart'))
 
-selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'No Result\'])[1]/following::span[1]')
-
-selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'SGD 15.00\'])[2]/following::span[1]')
-
-selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'Apply\'])[2]/following::strong[1]')
-
-selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'SGD 165.00\'])[1]/following::button[1]')
-
-selenium.click('id=checkmo')
-
-selenium.click('id=agreement__1')
-
-selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'Apply Reward\'])[1]/following::button[1]')
-
-selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'Apply Reward\'])[1]/following::span[1]')
-
-selenium.click('id=banktransfer')
-
-selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'Apply Reward\'])[1]/following::span[1]')
-
-selenium.click('id=stripe_payments')
-
-selenium.selectFrame('index=6')
-
-selenium.click('id=katalon-spy_elementInfoDiv')
-
-selenium.selectFrame('relative=parent')
-
-selenium.click('name=__privateStripeFrame35')
-
-selenium.selectFrame('index=6')
-
-selenium.type('name=cardnumber', '4111 1111 1111 1111')
-
-selenium.selectFrame('relative=parent')
-
-selenium.click('name=__privateStripeFrame36')
-
-selenium.selectFrame('index=7')
-
-selenium.type('name=exp-date', '02 / 21')
-
-selenium.selectFrame('relative=parent')
-
-selenium.selectFrame('index=8')
-
-selenium.click('id=katalon-spy_elementInfoDiv')
-
-selenium.selectFrame('relative=parent')
-
-selenium.click('id=stripe-payments-card-cvc')
-
-selenium.click('name=__privateStripeFrame37')
-
-selenium.selectFrame('index=8')
-
-selenium.type('name=cvc', '123')
-
-selenium.selectFrame('relative=parent')
-
-selenium.click('id=stripe_payments_cc_save')
-
-selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'Apply Reward\'])[1]/following::button[1]')
+WebUI.delay(5)
 

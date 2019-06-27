@@ -1,0 +1,83 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Buy Gift Card,Chrome 75.0.3770.100,,2019-06-27 12:42:56,2019-06-27 12:47:41,4m - 44.706s,FAILED
+,,,,,,
+Test Cases/Add Gift Card,Chrome 75.0.3770.100,,2019-06-27 12:42:57,2019-06-27 12:44:55,1m - 58.679s,PASSED
+openBrowser(toString()),Chrome 75.0.3770.100,,2019-06-27 12:42:57,2019-06-27 12:43:03,6.066s,PASSED
+driver = getWebDriver(),Chrome 75.0.3770.100,,2019-06-27 12:43:03,2019-06-27 12:43:03,0.020s,PASSED
+"baseUrl = ""http://18.138.12.239/""",Chrome 75.0.3770.100,,2019-06-27 12:43:03,2019-06-27 12:43:03,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 75.0.3770.100,,2019-06-27 12:43:03,2019-06-27 12:43:03,0.159s,PASSED
+"selenium.open(""http://18.138.12.239/"")",Chrome 75.0.3770.100,,2019-06-27 12:43:03,2019-06-27 12:43:15,11.240s,PASSED
+maximizeWindow(),Chrome 75.0.3770.100,,2019-06-27 12:43:15,2019-06-27 12:43:16,1.285s,PASSED
+delay(10),Chrome 75.0.3770.100,,2019-06-27 12:43:16,2019-06-27 12:43:26,10.024s,PASSED
+"check(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_concat(Don  t show this popup again)_check""))",Chrome 75.0.3770.100,,2019-06-27 12:43:26,2019-06-27 12:43:26,0.147s,PASSED
+"click(findTestObject(""Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/button_Close""))",Chrome 75.0.3770.100,,2019-06-27 12:43:26,2019-06-27 12:43:26,0.075s,PASSED
+delay(10),Chrome 75.0.3770.100,,2019-06-27 12:43:26,2019-06-27 12:43:36,10.004s,PASSED
+"click(findTestObject(""gift card/Page_My Account/a_Give a Gift Card""))",Chrome 75.0.3770.100,,2019-06-27 12:43:36,2019-06-27 12:43:48,12.015s,PASSED
+delay(10),Chrome 75.0.3770.100,,2019-06-27 12:43:48,2019-06-27 12:43:58,10.004s,PASSED
+"selenium.click(""id=product-collection-image-198"")",Chrome 75.0.3770.100,,2019-06-27 12:43:58,2019-06-27 12:44:08,10.283s,PASSED
+delay(5),Chrome 75.0.3770.100,,2019-06-27 12:44:08,2019-06-27 12:44:14,5.003s,PASSED
+"selenium.click(""id=am_giftcard_amount"")",Chrome 75.0.3770.100,,2019-06-27 12:44:14,2019-06-27 12:44:14,0.125s,PASSED
+"selenium.select(""id=am_giftcard_amount"", ""label=SGD 15.00"")",Chrome 75.0.3770.100,,2019-06-27 12:44:14,2019-06-27 12:44:14,0.134s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Choose card Image'])[1]/following::img[1]"")",Chrome 75.0.3770.100,,2019-06-27 12:44:14,2019-06-27 12:44:14,0.088s,PASSED
+delay(5),Chrome 75.0.3770.100,,2019-06-27 12:44:14,2019-06-27 12:44:19,5.005s,PASSED
+"selenium.click(""id=am_giftcard_sender_name"")",Chrome 75.0.3770.100,,2019-06-27 12:44:19,2019-06-27 12:44:19,0.101s,PASSED
+"selenium.type(""id=am_giftcard_sender_name"", ""Himangi"")",Chrome 75.0.3770.100,,2019-06-27 12:44:19,2019-06-27 12:44:19,0.055s,PASSED
+delay(5),Chrome 75.0.3770.100,,2019-06-27 12:44:19,2019-06-27 12:44:24,5.004s,PASSED
+"selenium.click(""id=am_giftcard_sender_email"")",Chrome 75.0.3770.100,,2019-06-27 12:44:24,2019-06-27 12:44:24,0.099s,PASSED
+"selenium.type(""id=am_giftcard_sender_email"", ""himangi.tankha@ranosys.com"")",Chrome 75.0.3770.100,,2019-06-27 12:44:24,2019-06-27 12:44:24,0.058s,PASSED
+delay(5),Chrome 75.0.3770.100,,2019-06-27 12:44:24,2019-06-27 12:44:29,5.003s,PASSED
+"selenium.click(""id=am_giftcard_recipient_name"")",Chrome 75.0.3770.100,,2019-06-27 12:44:29,2019-06-27 12:44:29,0.171s,PASSED
+"selenium.type(""id=am_giftcard_recipient_name"", ""Shubham"")",Chrome 75.0.3770.100,,2019-06-27 12:44:29,2019-06-27 12:44:29,0.068s,PASSED
+delay(5),Chrome 75.0.3770.100,,2019-06-27 12:44:29,2019-06-27 12:44:34,5.003s,PASSED
+"selenium.click(""id=am_giftcard_recipient_email"")",Chrome 75.0.3770.100,,2019-06-27 12:44:34,2019-06-27 12:44:35,0.090s,PASSED
+"selenium.type(""id=am_giftcard_recipient_email"", ""shubham.khandelwal@ranosys.com"")",Chrome 75.0.3770.100,,2019-06-27 12:44:35,2019-06-27 12:44:35,0.067s,PASSED
+delay(5),Chrome 75.0.3770.100,,2019-06-27 12:44:35,2019-06-27 12:44:40,5.004s,PASSED
+"selenium.click(""id=am_giftcard_date_delivery"")",Chrome 75.0.3770.100,,2019-06-27 12:44:40,2019-06-27 12:44:40,0.125s,PASSED
+"selenium.click(""link=27"")",Chrome 75.0.3770.100,,2019-06-27 12:44:40,2019-06-27 12:44:40,0.073s,PASSED
+delay(5),Chrome 75.0.3770.100,,2019-06-27 12:44:40,2019-06-27 12:44:45,5.003s,PASSED
+"selenium.click(""id=am_giftcard_message"")",Chrome 75.0.3770.100,,2019-06-27 12:44:45,2019-06-27 12:44:45,0.116s,PASSED
+"selenium.type(""id=am_giftcard_message"", ""test"")",Chrome 75.0.3770.100,,2019-06-27 12:44:45,2019-06-27 12:44:45,0.111s,PASSED
+delay(5),Chrome 75.0.3770.100,,2019-06-27 12:44:45,2019-06-27 12:44:50,5.004s,PASSED
+"click(findTestObject(""add to cart/menu_cart_mini/Page_Softly Edelweiss Swiss Dot Dress (Powder Blue)/button_Add to Cart""))",Chrome 75.0.3770.100,,2019-06-27 12:44:50,2019-06-27 12:44:50,0.278s,PASSED
+delay(5),Chrome 75.0.3770.100,,2019-06-27 12:44:50,2019-06-27 12:44:55,5.004s,PASSED
+,,,,,,
+Test Cases/Gift Card Checkout,Chrome 75.0.3770.100,,2019-06-27 12:44:55,2019-06-27 12:47:40,2m - 44.291s,FAILED
+driver = getWebDriver(),Chrome 75.0.3770.100,,2019-06-27 12:44:56,2019-06-27 12:44:56,0.000s,PASSED
+"baseUrl = ""http://18.138.12.239/""",Chrome 75.0.3770.100,,2019-06-27 12:44:56,2019-06-27 12:44:56,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 75.0.3770.100,,2019-06-27 12:44:56,2019-06-27 12:44:56,0.021s,PASSED
+"click(findTestObject(""add to cart/menu_cart_mini/Page_Softly Edelweiss Swiss Dot Dress (Powder Blue)/span_1                                        1                items""))",Chrome 75.0.3770.100,,2019-06-27 12:44:56,2019-06-27 12:44:56,0.071s,PASSED
+delay(5),Chrome 75.0.3770.100,,2019-06-27 12:44:56,2019-06-27 12:45:01,5.003s,PASSED
+"click(findTestObject(""View Kart/Page_Lana Lace Romper (Navy)/span_View cart""))",Chrome 75.0.3770.100,,2019-06-27 12:45:01,2019-06-27 12:45:01,0.301s,PASSED
+delay(10),Chrome 75.0.3770.100,,2019-06-27 12:45:01,2019-06-27 12:45:11,10.004s,PASSED
+"click(findTestObject(""GuestUser/Page_Shopping Cart/strong_Summary""))",Chrome 75.0.3770.100,,2019-06-27 12:45:11,2019-06-27 12:45:50,38.953s,PASSED
+delay(5),Chrome 75.0.3770.100,,2019-06-27 12:45:50,2019-06-27 12:45:55,5.004s,PASSED
+"scrollToElement(findTestObject(""add to cart/menu_cart_mini/Page_Shopping Cart/button_GO TO CHECKOUT""), 5)",Chrome 75.0.3770.100,,2019-06-27 12:45:55,2019-06-27 12:45:55,0.071s,PASSED
+"click(findTestObject(""add to cart/menu_cart_mini/Page_Shopping Cart/button_GO TO CHECKOUT""))",Chrome 75.0.3770.100,,2019-06-27 12:45:55,2019-06-27 12:45:55,0.108s,PASSED
+delay(5),Chrome 75.0.3770.100,,2019-06-27 12:45:55,2019-06-27 12:46:00,5.003s,PASSED
+"setText(findTestObject(""GuestUser/Page_Shopping Cart/input_Email Address_username""), ""himangi.tankha@ranosys.com"")",Chrome 75.0.3770.100,,2019-06-27 12:46:00,2019-06-27 12:46:00,0.228s,PASSED
+"setText(findTestObject(""GuestUser/Page_Shopping Cart/input_Password_password""), ""password123"")",Chrome 75.0.3770.100,,2019-06-27 12:46:00,2019-06-27 12:46:00,0.113s,PASSED
+"click(findTestObject(""GuestUser/Page_Shopping Cart/button_Sign In""))",Chrome 75.0.3770.100,,2019-06-27 12:46:00,2019-06-27 12:46:01,0.287s,PASSED
+delay(10),Chrome 75.0.3770.100,,2019-06-27 12:46:01,2019-06-27 12:46:11,10.003s,PASSED
+"click(findTestObject(""Checkout/Page_Shopping Cart/ul_GO TO CHECKOUT                                                    Check Out with Multiple Addresses""))",Chrome 75.0.3770.100,,2019-06-27 12:46:11,2019-06-27 12:46:24,13.457s,PASSED
+"click(findTestObject(""add to cart/menu_cart_mini/Page_Shopping Cart/button_GO TO CHECKOUT""))",Chrome 75.0.3770.100,,2019-06-27 12:46:24,2019-06-27 12:46:38,13.584s,PASSED
+delay(30),Chrome 75.0.3770.100,,2019-06-27 12:46:38,2019-06-27 12:47:08,30.003s,PASSED
+"click(findTestObject(""Checkout/Page_Checkout/input_Place Order_paymentmethod""))",Chrome 75.0.3770.100,,2019-06-27 12:47:08,2019-06-27 12:47:08,0.171s,PASSED
+"scrollToElement(findTestObject(""Checkout/Page_Checkout/input_Carrier Title_ko_unique_4""), 0)",Chrome 75.0.3770.100,,2019-06-27 12:47:08,2019-06-27 12:47:08,0.002s,NOT_RUN
+delay(10),Chrome 75.0.3770.100,,2019-06-27 12:47:08,2019-06-27 12:47:08,0.001s,NOT_RUN
+"click(findTestObject(""New Checkout/Page_Checkout/input_Self-collection_ko_unique_6""), STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-27 12:47:08,2019-06-27 12:47:08,0.001s,NOT_RUN
+delay(5),Chrome 75.0.3770.100,,2019-06-27 12:47:08,2019-06-27 12:47:13,5.003s,PASSED
+"click(findTestObject(""TandC/Page_Checkout/input_SGD 4300_agreement2""), STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-27 12:47:13,2019-06-27 12:47:13,0.101s,PASSED
+delay(10),Chrome 75.0.3770.100,,2019-06-27 12:47:13,2019-06-27 12:47:23,10.005s,PASSED
+"click(findTestObject(""new place order/Page_Checkout/button_Place Order""), OPTIONAL)",Chrome 75.0.3770.100,,2019-06-27 12:47:23,2019-06-27 12:47:24,0.438s,PASSED
+delay(10),Chrome 75.0.3770.100,,2019-06-27 12:47:24,2019-06-27 12:47:34,10.004s,PASSED
+"todaysDate = today.format(""MM_dd_yy"")",Chrome 75.0.3770.100,,2019-06-27 12:47:34,2019-06-27 12:47:34,0.002s,NOT_RUN
+"nowTime = today.format(""hh_mm_ss"")",Chrome 75.0.3770.100,,2019-06-27 12:47:34,2019-06-27 12:47:34,0.003s,NOT_RUN
+"takeScreenshot(""C:\Users\Ranosys\git\thethreadtheory\screenshot_""+ todaysDate +""-"" + nowTime +"".PNG"")",Chrome 75.0.3770.100,,2019-06-27 12:47:34,2019-06-27 12:47:34,0.003s,NOT_RUN
+today = new java.util.Date(),Chrome 75.0.3770.100,,2019-06-27 12:47:34,2019-06-27 12:47:34,0.004s,NOT_RUN
+"takeScreenshot(""C:\Users\Ranosys\git\thethreadtheory\screenshot.png"", CONTINUE_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-27 12:47:34,2019-06-27 12:47:34,0.671s,FAILED
+delay(5),Chrome 75.0.3770.100,,2019-06-27 12:47:34,2019-06-27 12:47:39,5.001s,PASSED
+"scrollToElement(findTestObject(""MultipleCheckout/Page_Success Page/button_Continue Shopping""), 0)",Chrome 75.0.3770.100,,2019-06-27 12:47:39,2019-06-27 12:47:39,0.032s,PASSED
+"click(findTestObject(""MultipleCheckout/Page_Success Page/button_Continue Shopping""))",Chrome 75.0.3770.100,,2019-06-27 12:47:39,2019-06-27 12:47:40,0.360s,FAILED
+,,,,,,
+Test Cases/Add Receipt ATM,Chrome 75.0.3770.100,,2019-06-27 12:47:40,2019-06-27 12:47:40,0.635s,FAILED
+"click(findTestObject(""My Order/Page_My Orders/img""))",Chrome 75.0.3770.100,,2019-06-27 12:47:40,2019-06-27 12:47:40,0.416s,FAILED

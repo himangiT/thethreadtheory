@@ -28,72 +28,66 @@ import java.util.regex.Pattern as Pattern
 import static org.apache.commons.lang3.StringUtils.join
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-WebUI.openBrowser(toString())
-
+//WebUI.openBrowser('https://www.katalon.com/')
 def driver = DriverFactory.getWebDriver()
 
 String baseUrl = 'http://18.138.12.239/'
 
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
 
+WebUI.click(findTestObject('add to cart/menu_cart_mini/Page_Softly Edelweiss Swiss Dot Dress (Powder Blue)/span_1                                        1                items'))
 
-selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'Preview Gift Card\'])[1]/following::span[3]')
+WebUI.delay(5)
 
-selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'No Result\'])[1]/following::span[1]')
+WebUI.click(findTestObject('View Kart/Page_Lana Lace Romper (Navy)/span_View cart'))
 
-selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'SGD 15.00\'])[2]/following::span[1]')
+WebUI.delay(10)
 
-selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'Apply\'])[2]/following::strong[1]')
+WebUI.click(findTestObject('GuestUser/Page_Shopping Cart/strong_Summary'))
 
-selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'SGD 165.00\'])[1]/following::button[1]')
+WebUI.delay(5)
 
-selenium.click('id=checkmo')
+WebUI.scrollToElement(findTestObject('add to cart/menu_cart_mini/Page_Shopping Cart/button_GO TO CHECKOUT'), 5)
 
-selenium.click('id=agreement__1')
+WebUI.click(findTestObject('add to cart/menu_cart_mini/Page_Shopping Cart/button_GO TO CHECKOUT'))
 
-selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'Apply Reward\'])[1]/following::button[1]')
+WebUI.delay(5)
 
-selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'Apply Reward\'])[1]/following::span[1]')
+WebUI.setText(findTestObject('GuestUser/Page_Shopping Cart/input_Email Address_username'), 'himangi.tankha@ranosys.com')
 
-selenium.click('id=banktransfer')
+WebUI.setText(findTestObject('GuestUser/Page_Shopping Cart/input_Password_password'), 'password123')
 
-selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'Apply Reward\'])[1]/following::span[1]')
+WebUI.click(findTestObject('GuestUser/Page_Shopping Cart/button_Sign In'))
 
-selenium.click('id=stripe_payments')
+WebUI.delay(10)
 
-selenium.selectFrame('index=6')
+WebUI.click(findTestObject('Checkout/Page_Shopping Cart/ul_GO TO CHECKOUT                                                    Check Out with Multiple Addresses'))
 
-selenium.click('id=katalon-spy_elementInfoDiv')
+WebUI.click(findTestObject('add to cart/menu_cart_mini/Page_Shopping Cart/button_GO TO CHECKOUT'))
 
-selenium.selectFrame('relative=parent')
+WebUI.delay(30)
 
-selenium.click('name=__privateStripeFrame35')
+/*selenium.click('id=stripe_payments')
 
-selenium.selectFrame('index=6')
+selenium.click('id=stripe-payments-card-number')
+
+selenium.selectFrame('index=5')
 
 selenium.type('name=cardnumber', '4111 1111 1111 1111')
 
 selenium.selectFrame('relative=parent')
 
-selenium.click('name=__privateStripeFrame36')
+selenium.click('id=stripe-payments-card-expiry')
 
-selenium.selectFrame('index=7')
+selenium.selectFrame('index=6')
 
 selenium.type('name=exp-date', '02 / 21')
 
 selenium.selectFrame('relative=parent')
 
-selenium.selectFrame('index=8')
-
-selenium.click('id=katalon-spy_elementInfoDiv')
-
-selenium.selectFrame('relative=parent')
-
 selenium.click('id=stripe-payments-card-cvc')
 
-selenium.click('name=__privateStripeFrame37')
-
-selenium.selectFrame('index=8')
+selenium.selectFrame('index=7')
 
 selenium.type('name=cvc', '123')
 
@@ -101,5 +95,44 @@ selenium.selectFrame('relative=parent')
 
 selenium.click('id=stripe_payments_cc_save')
 
-selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'Apply Reward\'])[1]/following::button[1]')
+selenium.click('id=agreement__1')
+
+selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'Add Gift Card\'])[1]/following::button[1]')
+
+*/
+WebUI.click(findTestObject('Checkout/Page_Checkout/input_Place Order_paymentmethod'))
+
+not_run: WebUI.scrollToElement(findTestObject('Checkout/Page_Checkout/input_Carrier Title_ko_unique_4'), 0)
+
+not_run: WebUI.delay(10)
+
+not_run: WebUI.click(findTestObject('New Checkout/Page_Checkout/input_Self-collection_ko_unique_6'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('TandC/Page_Checkout/input_SGD 4300_agreement2'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(10)
+
+WebUI.click(findTestObject('new place order/Page_Checkout/button_Place Order'), FailureHandling.OPTIONAL)
+
+WebUI.delay(10)
+
+not_run: String todaysDate = today.format('MM_dd_yy')
+
+not_run: String nowTime = today.format('hh_mm_ss')
+
+not_run: WebUI.takeScreenshot('C:\\Users\\Ranosys\\git\\thethreadtheory\\screenshot_"+ todaysDate +"-" + nowTime +".PNG')
+
+not_run: Date today = new Date()
+
+WebUI.takeScreenshot('C:\\Users\\Ranosys\\git\\thethreadtheory\\screenshot.png', FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(5)
+
+WebUI.scrollToElement(findTestObject('MultipleCheckout/Page_Success Page/button_Continue Shopping'), 0)
+
+WebUI.click(findTestObject('MultipleCheckout/Page_Success Page/button_Continue Shopping'))
+
+WebUI.delay(10)
 

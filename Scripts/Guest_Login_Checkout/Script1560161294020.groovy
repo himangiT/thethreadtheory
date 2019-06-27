@@ -105,7 +105,7 @@ not_run: WebUI.takeScreenshot('C:\\Users\\Ranosys\\git\\thethreadtheory\\screens
 
 not_run: Date today = new Date()
 
-WebUI.takeScreenshot('C:\\Users\\Ranosys\\git\\thethreadtheory\\screenshot.png', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.takeScreenshot('thethreadtheory/screenshot_01.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(5)
 

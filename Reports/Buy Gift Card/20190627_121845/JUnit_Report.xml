@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Buy Gift Card" time="168" tests="1" failures="1" errors="1">
+   <testsuite name="Buy Gift Card" tests="1" failures="1" errors="1" time="168" timestamp="2019-06-27 12:18:47" hostname="Himangi - WD01-QAHimangi" id="Test Suites/Buy Gift Card">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Himangi\\git\\thethreadtheory\\Reports\\Buy Gift Card\\20190627_121845"/>
+         <property name="logFiles" value="C:\\Users\\Himangi\\git\\thethreadtheory\\Reports\\Buy Gift Card\\20190627_121845\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Himangi\\git\\thethreadtheory\\Reports\\Buy Gift Card\\20190627_121845\\1561618294854.png"/>
+         <property name="hostName" value="Himangi - WD01-QAHimangi"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 75.0.3770.100"/>
+         <property name="hostAddress" value="192.168.5.123"/>
+         <property name="sessionId" value="fbd89516dfbc012f11d8570e9ffa71ca"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Add Gift Card" classname="Test Cases/Add Gift Card" status="PASSED">
+         <system-out><![CDATA[2019-06-27 12:18:47 - [TEST_CASE][PASSED] - Test Cases/Add Gift Card: Test Cases/Add Gift Card
+
+2019-06-27 12:18:47 - [TEST_STEP][PASSED] - openBrowser(toString()): Browser is opened with url: 'Script1561545967002@6492fab5'
+
+2019-06-27 12:18:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-06-27 12:18:48 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-06-27 12:18:54 - [MESSAGE][PASSED] - Browser is opened with url: 'Script1561545967002@6492fab5'
+
+2019-06-27 12:18:54 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-06-27 12:18:54 - [TEST_STEP][PASSED] - baseUrl = "http://18.138.12.239/": null
+
+2019-06-27 12:18:54 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2019-06-27 12:18:54 - [TEST_STEP][PASSED] - selenium.open("http://18.138.12.239/"): null
+
+2019-06-27 12:19:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-06-27 12:19:08 - [MESSAGE][PASSED] - Current window maximized
+
+2019-06-27 12:19:08 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-06-27 12:19:18 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-27 12:19:18 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_concat(Don  t show this popup again)_check")): Object 'Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_concat(Don  t show this popup again)_check' is checked
+
+2019-06-27 12:19:18 - [MESSAGE][PASSED] - Object 'Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_concat(Don  t show this popup again)_check' is checked
+
+2019-06-27 12:19:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/button_Close")): Object: 'Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/button_Close' is clicked on
+
+2019-06-27 12:19:18 - [MESSAGE][PASSED] - Object: 'Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/button_Close' is clicked on
+
+2019-06-27 12:19:18 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-06-27 12:19:28 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-27 12:19:28 - [TEST_STEP][PASSED] - click(findTestObject("gift card/Page_My Account/a_Give a Gift Card")): Object: 'Object Repository/gift card/Page_My Account/a_Give a Gift Card' is clicked on
+
+2019-06-27 12:19:40 - [MESSAGE][PASSED] - Object: 'Object Repository/gift card/Page_My Account/a_Give a Gift Card' is clicked on
+
+2019-06-27 12:19:40 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-06-27 12:19:50 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-27 12:19:50 - [TEST_STEP][PASSED] - selenium.click("id=product-collection-image-198"): null
+
+2019-06-27 12:19:59 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-06-27 12:20:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-27 12:20:04 - [TEST_STEP][PASSED] - selenium.click("id=am_giftcard_amount"): null
+
+2019-06-27 12:20:04 - [TEST_STEP][PASSED] - selenium.select("id=am_giftcard_amount", "label=SGD 15.00"): null
+
+2019-06-27 12:20:04 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Choose card Image'])[1]/following::img[1]"): null
+
+2019-06-27 12:20:04 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-06-27 12:20:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-27 12:20:09 - [TEST_STEP][PASSED] - selenium.click("id=am_giftcard_sender_name"): null
+
+2019-06-27 12:20:09 - [TEST_STEP][PASSED] - selenium.type("id=am_giftcard_sender_name", "Himangi"): null
+
+2019-06-27 12:20:09 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-06-27 12:20:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-27 12:20:14 - [TEST_STEP][PASSED] - selenium.click("id=am_giftcard_sender_email"): null
+
+2019-06-27 12:20:14 - [TEST_STEP][PASSED] - selenium.type("id=am_giftcard_sender_email", "himangi.tankha@ranosys.com"): null
+
+2019-06-27 12:20:14 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-06-27 12:20:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-27 12:20:19 - [TEST_STEP][PASSED] - selenium.click("id=am_giftcard_recipient_name"): null
+
+2019-06-27 12:20:19 - [TEST_STEP][PASSED] - selenium.type("id=am_giftcard_recipient_name", "Shubham"): null
+
+2019-06-27 12:20:20 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-06-27 12:20:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-27 12:20:25 - [TEST_STEP][PASSED] - selenium.click("id=am_giftcard_recipient_email"): null
+
+2019-06-27 12:20:25 - [TEST_STEP][PASSED] - selenium.type("id=am_giftcard_recipient_email", "shubham.khandelwal@ranosys.com"): null
+
+2019-06-27 12:20:25 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-06-27 12:20:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-27 12:20:30 - [TEST_STEP][PASSED] - selenium.click("id=am_giftcard_date_delivery"): null
+
+2019-06-27 12:20:30 - [TEST_STEP][PASSED] - selenium.click("link=27"): null
+
+2019-06-27 12:20:30 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-06-27 12:20:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-27 12:20:35 - [TEST_STEP][PASSED] - selenium.click("id=am_giftcard_message"): null
+
+2019-06-27 12:20:35 - [TEST_STEP][PASSED] - selenium.type("id=am_giftcard_message", "test"): null
+
+2019-06-27 12:20:35 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-06-27 12:20:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-27 12:20:40 - [TEST_STEP][PASSED] - click(findTestObject("add to cart/menu_cart_mini/Page_Softly Edelweiss Swiss Dot Dress (Powder Blue)/button_Add to Cart")): Object: 'Object Repository/add to cart/menu_cart_mini/Page_Softly Edelweiss Swiss Dot Dress (Powder Blue)/button_Add to Cart' is clicked on
+
+2019-06-27 12:20:40 - [MESSAGE][PASSED] - Object: 'Object Repository/add to cart/menu_cart_mini/Page_Softly Edelweiss Swiss Dot Dress (Powder Blue)/button_Add to Cart' is clicked on
+
+2019-06-27 12:20:40 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-06-27 12:20:45 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Gift Card Checkout" classname="Test Cases/Gift Card Checkout" status="ERROR">
+         <error type="ERROR" message="Test Cases/Gift Card Checkout FAILED.
+Reason:
+groovy.lang.GroovyRuntimeException: Could not find matching constructor for: com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(com.kms.katalon.selenium.driver.CChromeDriver)
+	at Gift Card Checkout.run(Gift Card Checkout:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1561618125255.run(TempTestSuite1561618125255.groovy:35)
+"/>
+         <system-out><![CDATA[2019-06-27 12:20:45 - [TEST_CASE][ERROR] - Test Cases/Gift Card Checkout: Test Cases/Gift Card Checkout FAILED.
+Reason:
+groovy.lang.GroovyRuntimeException: Could not find matching constructor for: com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(com.kms.katalon.selenium.driver.CChromeDriver)
+	at Gift Card Checkout.run(Gift Card Checkout:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1561618125255.run(TempTestSuite1561618125255.groovy:35)
+
+
+2019-06-27 12:20:46 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-06-27 12:20:46 - [TEST_STEP][ERROR] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver): selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver) FAILED.
+Reason:
+groovy.lang.GroovyRuntimeException: Could not find matching constructor for: com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(com.kms.katalon.selenium.driver.CChromeDriver)
+	at Gift Card Checkout.run(Gift Card Checkout:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1561618125255.run(TempTestSuite1561618125255.groovy:35)
+
+
+2019-06-27 12:20:46 - [MESSAGE][ERROR] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver) FAILED.
+Reason:
+groovy.lang.GroovyRuntimeException: Could not find matching constructor for: com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(com.kms.katalon.selenium.driver.CChromeDriver)
+	at Gift Card Checkout.run(Gift Card Checkout:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1561618125255.run(TempTestSuite1561618125255.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-06-27 12:20:45 - [TEST_CASE][ERROR] - Test Cases/Gift Card Checkout: Test Cases/Gift Card Checkout FAILED.
+Reason:
+groovy.lang.GroovyRuntimeException: Could not find matching constructor for: com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(com.kms.katalon.selenium.driver.CChromeDriver)
+	at Gift Card Checkout.run(Gift Card Checkout:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1561618125255.run(TempTestSuite1561618125255.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add Receipt ATM" classname="Test Cases/Add Receipt ATM" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Add Receipt ATM FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Add Receipt ATM.run(Add Receipt ATM:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1561618125255.run(TempTestSuite1561618125255.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders' located by 'By.xpath: //div[@id='customer-acc-info']/ul/li[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1560853055816.run(Script1560853055816.groovy:22)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-06-27 12:20:46 - [TEST_CASE][FAILED] - Test Cases/Add Receipt ATM: Test Cases/Add Receipt ATM FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Add Receipt ATM.run(Add Receipt ATM:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1561618125255.run(TempTestSuite1561618125255.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders' located by 'By.xpath: //div[@id='customer-acc-info']/ul/li[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1560853055816.run(Script1560853055816.groovy:22)
+	... 13 more
+
+
+2019-06-27 12:20:46 - [TEST_STEP][PASSED] - click(findTestObject("My Order/Page_My Orders/img")): Object: 'Object Repository/My Order/Page_My Orders/img' is clicked on
+
+2019-06-27 12:20:53 - [MESSAGE][PASSED] - Object: 'Object Repository/My Order/Page_My Orders/img' is clicked on
+
+2019-06-27 12:20:53 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-06-27 12:21:03 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-27 12:21:03 - [TEST_STEP][PASSED] - click(findTestObject("Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/span_Start shopping now _login-b-icon")): Object: 'Object Repository/Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/span_Start shopping now _login-b-icon' is clicked on
+
+2019-06-27 12:21:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/span_Start shopping now _login-b-icon' is clicked on
+
+2019-06-27 12:21:03 - [TEST_STEP][FAILED] - click(findTestObject("Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders")): click(findTestObject("Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Add Receipt ATM.run(Add Receipt ATM:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1561618125255.run(TempTestSuite1561618125255.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders' located by 'By.xpath: //div[@id='customer-acc-info']/ul/li[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1560853055816.run(Script1560853055816.groovy:22)
+	... 13 more
+
+
+2019-06-27 12:21:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='customer-acc-info']/ul/li[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-06-27 12:21:35 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Add Receipt ATM.run(Add Receipt ATM:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1561618125255.run(TempTestSuite1561618125255.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders' located by 'By.xpath: //div[@id='customer-acc-info']/ul/li[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1560853055816.run(Script1560853055816.groovy:22)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Himangi\\git\\thethreadtheory\\Reports\\Buy Gift Card\\20190627_121845\\1561618294854.png]]
+
+2019-06-27 12:21:35 - [MESSAGE][FAILED] - click(findTestObject("Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Add Receipt ATM.run(Add Receipt ATM:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1561618125255.run(TempTestSuite1561618125255.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders' located by 'By.xpath: //div[@id='customer-acc-info']/ul/li[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1560853055816.run(Script1560853055816.groovy:22)
+	... 13 more]]></system-out>
+         <system-err><![CDATA[2019-06-27 12:20:46 - [TEST_CASE][FAILED] - Test Cases/Add Receipt ATM: Test Cases/Add Receipt ATM FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Add Receipt ATM.run(Add Receipt ATM:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1561618125255.run(TempTestSuite1561618125255.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders' located by 'By.xpath: //div[@id='customer-acc-info']/ul/li[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1560853055816.run(Script1560853055816.groovy:22)
+	... 13 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-06-27 12:18:47 - [TEST_SUITE][ERROR] - Buy Gift Card: Test Cases/Gift Card Checkout FAILED.
+Reason:
+groovy.lang.GroovyRuntimeException: Could not find matching constructor for: com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(com.kms.katalon.selenium.driver.CChromeDriver)
+	at Gift Card Checkout.run(Gift Card Checkout:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1561618125255.run(TempTestSuite1561618125255.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-06-27 12:18:47 - [TEST_SUITE][ERROR] - Buy Gift Card: Test Cases/Gift Card Checkout FAILED.
+Reason:
+groovy.lang.GroovyRuntimeException: Could not find matching constructor for: com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(com.kms.katalon.selenium.driver.CChromeDriver)
+	at Gift Card Checkout.run(Gift Card Checkout:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1561618125255.run(TempTestSuite1561618125255.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>
