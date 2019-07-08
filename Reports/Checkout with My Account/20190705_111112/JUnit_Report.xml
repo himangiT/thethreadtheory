@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Checkout with My Account" time="150" tests="0" failures="2" errors="0">
+   <testsuite name="Checkout with My Account" tests="0" failures="2" errors="0" time="150" timestamp="2019-07-05 11:11:14" hostname="Himangi - ip-192-168-5-123.ap-southeast-1.compute.internal" id="Test Suites/Checkout with My Account">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Himangi\\git\\thethreadtheory\\Reports\\Checkout with My Account\\20190705_111112"/>
+         <property name="logFiles" value="C:\\Users\\Himangi\\git\\thethreadtheory\\Reports\\Checkout with My Account\\20190705_111112\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Himangi\\git\\thethreadtheory\\Reports\\Checkout with My Account\\20190705_111112\\1562305375248.png, C:\\Users\\Himangi\\git\\thethreadtheory\\Reports\\Checkout with My Account\\20190705_111112\\1562305422015.png"/>
+         <property name="hostName" value="Himangi - ip-192-168-5-123.ap-southeast-1.compute.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 75.0.3770.100"/>
+         <property name="hostAddress" value="192.168.5.123"/>
+         <property name="sessionId" value="a2550509ba608b4beac15f71b3247a21"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Guest_Login_Checkout" classname="Test Cases/Guest_Login_Checkout" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Guest_Login_Checkout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/add to cart/Page_Lana Lace Romper (Navy)/span_2                                        2                items'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Guest_Login_Checkout.run(Guest_Login_Checkout:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562305273151.run(TempTestSuite1562305273151.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/add to cart/Page_Lana Lace Romper (Navy)/span_2                                        2                items' located by 'By.xpath: id(&quot;header-sticky-mobile&quot;)/div[@class=&quot;zoo-header-content-block d-flex align-items-center justify-content-end search-options&quot;]/div[@class=&quot;minicart-wrapper&quot;]/div[@class=&quot;action showcart&quot;]/a[1]/span[@class=&quot;counter qty cart-icon&quot;][count(. | //span[@class = 'counter qty cart-icon' and @data-bind = concat('css: { empty: !!getCartParam(' , &quot;'&quot; , 'summary_count' , &quot;'&quot; , ') == false }, blockLoader: isLoading') and (text() = '
+            2
+            
+            
+                2
+                items
+            
+            
+        ' or . = '
+            2
+            
+            
+                2
+                items
+            
+            
+        ')]) = count(//span[@class = 'counter qty cart-icon' and @data-bind = concat('css: { empty: !!getCartParam(' , &quot;'&quot; , 'summary_count' , &quot;'&quot; , ') == false }, blockLoader: isLoading') and (text() = '
+            2
+            
+            
+                2
+                items
+            
+            
+        ' or . = '
+            2
+            
+            
+                2
+                items
+            
+            
+        ')])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1560161294020.run(Script1560161294020.groovy:50)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-07-05 11:11:15 - [TEST_CASE][FAILED] - Test Cases/Guest_Login_Checkout: Test Cases/Guest_Login_Checkout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/add to cart/Page_Lana Lace Romper (Navy)/span_2                                        2                items'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Guest_Login_Checkout.run(Guest_Login_Checkout:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562305273151.run(TempTestSuite1562305273151.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/add to cart/Page_Lana Lace Romper (Navy)/span_2                                        2                items' located by 'By.xpath: id("header-sticky-mobile")/div[@class="zoo-header-content-block d-flex align-items-center justify-content-end search-options"]/div[@class="minicart-wrapper"]/div[@class="action showcart"]/a[1]/span[@class="counter qty cart-icon"][count(. | //span[@class = 'counter qty cart-icon' and @data-bind = concat('css: { empty: !!getCartParam(' , "'" , 'summary_count' , "'" , ') == false }, blockLoader: isLoading') and (text() = '
+            2
+            
+            
+                2
+                items
+            
+            
+        ' or . = '
+            2
+            
+            
+                2
+                items
+            
+            
+        ')]) = count(//span[@class = 'counter qty cart-icon' and @data-bind = concat('css: { empty: !!getCartParam(' , "'" , 'summary_count' , "'" , ') == false }, blockLoader: isLoading') and (text() = '
+            2
+            
+            
+                2
+                items
+            
+            
+        ' or . = '
+            2
+            
+            
+                2
+                items
+            
+            
+        ')])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1560161294020.run(Script1560161294020.groovy:50)
+	... 13 more
+
+
+2019-07-05 11:11:15 - [TEST_STEP][PASSED] - openBrowser(toString()): Browser is opened with url: 'Script1560161294020@4aa83f4f'
+
+2019-07-05 11:11:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-05 11:11:16 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-07-05 11:11:20 - [MESSAGE][PASSED] - Browser is opened with url: 'Script1560161294020@4aa83f4f'
+
+2019-07-05 11:11:20 - [TEST_STEP][PASSED] - navigateToUrl("http://18.138.12.239/"): Navigate to 'http://18.138.12.239/' successfully
+
+2019-07-05 11:11:28 - [MESSAGE][PASSED] - Navigate to 'http://18.138.12.239/' successfully
+
+2019-07-05 11:11:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-07-05 11:11:29 - [MESSAGE][PASSED] - Current window maximized
+
+2019-07-05 11:11:29 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-07-05 11:11:39 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-05 11:11:39 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_concat(Don  t show this popup again)_check")): Object 'Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_concat(Don  t show this popup again)_check' is checked
+
+2019-07-05 11:11:40 - [MESSAGE][PASSED] - Object 'Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_concat(Don  t show this popup again)_check' is checked
+
+2019-07-05 11:11:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/button_Close")): Object: 'Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/button_Close' is clicked on
+
+2019-07-05 11:11:40 - [MESSAGE][PASSED] - Object: 'Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/button_Close' is clicked on
+
+2019-07-05 11:11:40 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-07-05 11:11:50 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-05 11:11:50 - [TEST_STEP][PASSED] - mouseOver(findTestObject("add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_SHOP")): Object: 'Object Repository/add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_SHOP' is hovered
+
+2019-07-05 11:11:50 - [MESSAGE][PASSED] - Object: 'Object Repository/add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_SHOP' is hovered
+
+2019-07-05 11:11:50 - [TEST_STEP][PASSED] - click(findTestObject("add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_Work Wear")): Object: 'Object Repository/add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_Work Wear' is clicked on
+
+2019-07-05 11:12:03 - [MESSAGE][PASSED] - Object: 'Object Repository/add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_Work Wear' is clicked on
+
+2019-07-05 11:12:03 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-05 11:12:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-05 11:12:08 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional"), 5): Scroll to object 'Object Repository/Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional' successfully
+
+2019-07-05 11:12:08 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional' successfully
+
+2019-07-05 11:12:08 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional")): Object: 'Object Repository/Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional' is hovered
+
+2019-07-05 11:12:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional' is hovered
+
+2019-07-05 11:12:08 - [TEST_STEP][PASSED] - click(findTestObject("Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional")): Object: 'Object Repository/Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional' is clicked on
+
+2019-07-05 11:12:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional' is clicked on
+
+2019-07-05 11:12:14 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-07-05 11:12:24 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-05 11:12:24 - [TEST_STEP][PASSED] - click(findTestObject("add to cart/Page_Lana Lace Romper (Navy) (1)/div_L")): Object: 'Object Repository/add to cart/Page_Lana Lace Romper (Navy) (1)/div_L' is clicked on
+
+2019-07-05 11:12:24 - [MESSAGE][PASSED] - Object: 'Object Repository/add to cart/Page_Lana Lace Romper (Navy) (1)/div_L' is clicked on
+
+2019-07-05 11:12:24 - [TEST_STEP][PASSED] - click(findTestObject("add to cart/Page_Lana Lace Romper (Navy)/span_OS_cs-font clever-icon-plus")): Object: 'Object Repository/add to cart/Page_Lana Lace Romper (Navy)/span_OS_cs-font clever-icon-plus' is clicked on
+
+2019-07-05 11:12:24 - [MESSAGE][PASSED] - Object: 'Object Repository/add to cart/Page_Lana Lace Romper (Navy)/span_OS_cs-font clever-icon-plus' is clicked on
+
+2019-07-05 11:12:24 - [TEST_STEP][PASSED] - click(findTestObject("add to cart/menu_cart_mini/Page_Softly Edelweiss Swiss Dot Dress (Powder Blue)/button_Add to Cart")): Object: 'Object Repository/add to cart/menu_cart_mini/Page_Softly Edelweiss Swiss Dot Dress (Powder Blue)/button_Add to Cart' is clicked on
+
+2019-07-05 11:12:24 - [MESSAGE][PASSED] - Object: 'Object Repository/add to cart/menu_cart_mini/Page_Softly Edelweiss Swiss Dot Dress (Powder Blue)/button_Add to Cart' is clicked on
+
+2019-07-05 11:12:24 - [TEST_STEP][FAILED] - click(findTestObject("add to cart/Page_Lana Lace Romper (Navy)/span_2                                        2                items")): click(findTestObject("add to cart/Page_Lana Lace Romper (Navy)/span_2                                        2                items")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/add to cart/Page_Lana Lace Romper (Navy)/span_2                                        2                items'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Guest_Login_Checkout.run(Guest_Login_Checkout:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562305273151.run(TempTestSuite1562305273151.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/add to cart/Page_Lana Lace Romper (Navy)/span_2                                        2                items' located by 'By.xpath: id("header-sticky-mobile")/div[@class="zoo-header-content-block d-flex align-items-center justify-content-end search-options"]/div[@class="minicart-wrapper"]/div[@class="action showcart"]/a[1]/span[@class="counter qty cart-icon"][count(. | //span[@class = 'counter qty cart-icon' and @data-bind = concat('css: { empty: !!getCartParam(' , "'" , 'summary_count' , "'" , ') == false }, blockLoader: isLoading') and (text() = '
+            2
+            
+            
+                2
+                items
+            
+            
+        ' or . = '
+            2
+            
+            
+                2
+                items
+            
+            
+        ')]) = count(//span[@class = 'counter qty cart-icon' and @data-bind = concat('css: { empty: !!getCartParam(' , "'" , 'summary_count' , "'" , ') == false }, blockLoader: isLoading') and (text() = '
+            2
+            
+            
+                2
+                items
+            
+            
+        ' or . = '
+            2
+            
+            
+                2
+                items
+            
+            
+        ')])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1560161294020.run(Script1560161294020.groovy:50)
+	... 13 more
+
+
+2019-07-05 11:12:55 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("header-sticky-mobile")/div[@class="zoo-header-content-block d-flex align-items-center justify-content-end search-options"]/div[@class="minicart-wrapper"]/div[@class="action showcart"]/a[1]/span[@class="counter qty cart-icon"][count(. | //span[@class = 'counter qty cart-icon' and @data-bind = concat('css: { empty: !!getCartParam(' , "'" , 'summary_count' , "'" , ') == false }, blockLoader: isLoading') and (text() = '
+            2
+            
+            
+                2
+                items
+            
+            
+        ' or . = '
+            2
+            
+            
+                2
+                items
+            
+            
+        ')]) = count(//span[@class = 'counter qty cart-icon' and @data-bind = concat('css: { empty: !!getCartParam(' , "'" , 'summary_count' , "'" , ') == false }, blockLoader: isLoading') and (text() = '
+            2
+            
+            
+                2
+                items
+            
+            
+        ' or . = '
+            2
+            
+            
+                2
+                items
+            
+            
+        ')])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-07-05 11:12:55 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/add to cart/Page_Lana Lace Romper (Navy)/span_2                                        2                items' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/add to cart/Page_Lana Lace Romper (Navy)/span_2                                        2                items'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Guest_Login_Checkout.run(Guest_Login_Checkout:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562305273151.run(TempTestSuite1562305273151.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/add to cart/Page_Lana Lace Romper (Navy)/span_2                                        2                items' located by 'By.xpath: id("header-sticky-mobile")/div[@class="zoo-header-content-block d-flex align-items-center justify-content-end search-options"]/div[@class="minicart-wrapper"]/div[@class="action showcart"]/a[1]/span[@class="counter qty cart-icon"][count(. | //span[@class = 'counter qty cart-icon' and @data-bind = concat('css: { empty: !!getCartParam(' , "'" , 'summary_count' , "'" , ') == false }, blockLoader: isLoading') and (text() = '
+            2
+            
+            
+                2
+                items
+            
+            
+        ' or . = '
+            2
+            
+            
+                2
+                items
+            
+            
+        ')]) = count(//span[@class = 'counter qty cart-icon' and @data-bind = concat('css: { empty: !!getCartParam(' , "'" , 'summary_count' , "'" , ') == false }, blockLoader: isLoading') and (text() = '
+            2
+            
+            
+                2
+                items
+            
+            
+        ' or . = '
+            2
+            
+            
+                2
+                items
+            
+            
+        ')])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1560161294020.run(Script1560161294020.groovy:50)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Himangi\\git\\thethreadtheory\\Reports\\Checkout with My Account\\20190705_111112\\1562305375248.png]]
+
+2019-07-05 11:12:55 - [MESSAGE][FAILED] - click(findTestObject("add to cart/Page_Lana Lace Romper (Navy)/span_2                                        2                items")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/add to cart/Page_Lana Lace Romper (Navy)/span_2                                        2                items'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Guest_Login_Checkout.run(Guest_Login_Checkout:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562305273151.run(TempTestSuite1562305273151.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/add to cart/Page_Lana Lace Romper (Navy)/span_2                                        2                items' located by 'By.xpath: id("header-sticky-mobile")/div[@class="zoo-header-content-block d-flex align-items-center justify-content-end search-options"]/div[@class="minicart-wrapper"]/div[@class="action showcart"]/a[1]/span[@class="counter qty cart-icon"][count(. | //span[@class = 'counter qty cart-icon' and @data-bind = concat('css: { empty: !!getCartParam(' , "'" , 'summary_count' , "'" , ') == false }, blockLoader: isLoading') and (text() = '
+            2
+            
+            
+                2
+                items
+            
+            
+        ' or . = '
+            2
+            
+            
+                2
+                items
+            
+            
+        ')]) = count(//span[@class = 'counter qty cart-icon' and @data-bind = concat('css: { empty: !!getCartParam(' , "'" , 'summary_count' , "'" , ') == false }, blockLoader: isLoading') and (text() = '
+            2
+            
+            
+                2
+                items
+            
+            
+        ' or . = '
+            2
+            
+            
+                2
+                items
+            
+            
+        ')])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1560161294020.run(Script1560161294020.groovy:50)
+	... 13 more]]></system-out>
+         <system-err><![CDATA[2019-07-05 11:11:15 - [TEST_CASE][FAILED] - Test Cases/Guest_Login_Checkout: Test Cases/Guest_Login_Checkout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/add to cart/Page_Lana Lace Romper (Navy)/span_2                                        2                items'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Guest_Login_Checkout.run(Guest_Login_Checkout:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562305273151.run(TempTestSuite1562305273151.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/add to cart/Page_Lana Lace Romper (Navy)/span_2                                        2                items' located by 'By.xpath: id("header-sticky-mobile")/div[@class="zoo-header-content-block d-flex align-items-center justify-content-end search-options"]/div[@class="minicart-wrapper"]/div[@class="action showcart"]/a[1]/span[@class="counter qty cart-icon"][count(. | //span[@class = 'counter qty cart-icon' and @data-bind = concat('css: { empty: !!getCartParam(' , "'" , 'summary_count' , "'" , ') == false }, blockLoader: isLoading') and (text() = '
+            2
+            
+            
+                2
+                items
+            
+            
+        ' or . = '
+            2
+            
+            
+                2
+                items
+            
+            
+        ')]) = count(//span[@class = 'counter qty cart-icon' and @data-bind = concat('css: { empty: !!getCartParam(' , "'" , 'summary_count' , "'" , ') == false }, blockLoader: isLoading') and (text() = '
+            2
+            
+            
+                2
+                items
+            
+            
+        ' or . = '
+            2
+            
+            
+                2
+                items
+            
+            
+        ')])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1560161294020.run(Script1560161294020.groovy:50)
+	... 13 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add Receipt ATM" classname="Test Cases/Add Receipt ATM" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Add Receipt ATM FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Add Receipt ATM.run(Add Receipt ATM:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562305273151.run(TempTestSuite1562305273151.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders' located by 'By.xpath: //div[@id='customer-acc-info']/ul/li[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1560853055816.run(Script1560853055816.groovy:22)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-07-05 11:12:57 - [TEST_CASE][FAILED] - Test Cases/Add Receipt ATM: Test Cases/Add Receipt ATM FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Add Receipt ATM.run(Add Receipt ATM:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562305273151.run(TempTestSuite1562305273151.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders' located by 'By.xpath: //div[@id='customer-acc-info']/ul/li[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1560853055816.run(Script1560853055816.groovy:22)
+	... 13 more
+
+
+2019-07-05 11:12:58 - [TEST_STEP][PASSED] - click(findTestObject("My Order/Page_My Orders/img")): Object: 'Object Repository/My Order/Page_My Orders/img' is clicked on
+
+2019-07-05 11:13:00 - [MESSAGE][PASSED] - Object: 'Object Repository/My Order/Page_My Orders/img' is clicked on
+
+2019-07-05 11:13:00 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-07-05 11:13:10 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-05 11:13:10 - [TEST_STEP][PASSED] - click(findTestObject("Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/span_Start shopping now _login-b-icon")): Object: 'Object Repository/Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/span_Start shopping now _login-b-icon' is clicked on
+
+2019-07-05 11:13:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/span_Start shopping now _login-b-icon' is clicked on
+
+2019-07-05 11:13:10 - [TEST_STEP][FAILED] - click(findTestObject("Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders")): click(findTestObject("Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Add Receipt ATM.run(Add Receipt ATM:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562305273151.run(TempTestSuite1562305273151.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders' located by 'By.xpath: //div[@id='customer-acc-info']/ul/li[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1560853055816.run(Script1560853055816.groovy:22)
+	... 13 more
+
+
+2019-07-05 11:13:42 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='customer-acc-info']/ul/li[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-07-05 11:13:42 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Add Receipt ATM.run(Add Receipt ATM:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562305273151.run(TempTestSuite1562305273151.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders' located by 'By.xpath: //div[@id='customer-acc-info']/ul/li[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1560853055816.run(Script1560853055816.groovy:22)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Himangi\\git\\thethreadtheory\\Reports\\Checkout with My Account\\20190705_111112\\1562305422015.png]]
+
+2019-07-05 11:13:42 - [MESSAGE][FAILED] - click(findTestObject("Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Add Receipt ATM.run(Add Receipt ATM:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562305273151.run(TempTestSuite1562305273151.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders' located by 'By.xpath: //div[@id='customer-acc-info']/ul/li[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1560853055816.run(Script1560853055816.groovy:22)
+	... 13 more]]></system-out>
+         <system-err><![CDATA[2019-07-05 11:12:57 - [TEST_CASE][FAILED] - Test Cases/Add Receipt ATM: Test Cases/Add Receipt ATM FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Add Receipt ATM.run(Add Receipt ATM:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562305273151.run(TempTestSuite1562305273151.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders' located by 'By.xpath: //div[@id='customer-acc-info']/ul/li[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1560853055816.run(Script1560853055816.groovy:22)
+	... 13 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-07-05 11:11:14 - [TEST_SUITE][FAILED] - Checkout with My Account: Test Cases/Guest_Login_Checkout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/add to cart/Page_Lana Lace Romper (Navy)/span_2                                        2                items'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Guest_Login_Checkout.run(Guest_Login_Checkout:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562305273151.run(TempTestSuite1562305273151.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/add to cart/Page_Lana Lace Romper (Navy)/span_2                                        2                items' located by 'By.xpath: id("header-sticky-mobile")/div[@class="zoo-header-content-block d-flex align-items-center justify-content-end search-options"]/div[@class="minicart-wrapper"]/div[@class="action showcart"]/a[1]/span[@class="counter qty cart-icon"][count(. | //span[@class = 'counter qty cart-icon' and @data-bind = concat('css: { empty: !!getCartParam(' , "'" , 'summary_count' , "'" , ') == false }, blockLoader: isLoading') and (text() = '
+            2
+            
+            
+                2
+                items
+            
+            
+        ' or . = '
+            2
+            
+            
+                2
+                items
+            
+            
+        ')]) = count(//span[@class = 'counter qty cart-icon' and @data-bind = concat('css: { empty: !!getCartParam(' , "'" , 'summary_count' , "'" , ') == false }, blockLoader: isLoading') and (text() = '
+            2
+            
+            
+                2
+                items
+            
+            
+        ' or . = '
+            2
+            
+            
+                2
+                items
+            
+            
+        ')])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1560161294020.run(Script1560161294020.groovy:50)
+	... 13 more]]></system-out>
+      <system-err><![CDATA[2019-07-05 11:11:14 - [TEST_SUITE][FAILED] - Checkout with My Account: Test Cases/Guest_Login_Checkout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/add to cart/Page_Lana Lace Romper (Navy)/span_2                                        2                items'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Guest_Login_Checkout.run(Guest_Login_Checkout:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562305273151.run(TempTestSuite1562305273151.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/add to cart/Page_Lana Lace Romper (Navy)/span_2                                        2                items' located by 'By.xpath: id("header-sticky-mobile")/div[@class="zoo-header-content-block d-flex align-items-center justify-content-end search-options"]/div[@class="minicart-wrapper"]/div[@class="action showcart"]/a[1]/span[@class="counter qty cart-icon"][count(. | //span[@class = 'counter qty cart-icon' and @data-bind = concat('css: { empty: !!getCartParam(' , "'" , 'summary_count' , "'" , ') == false }, blockLoader: isLoading') and (text() = '
+            2
+            
+            
+                2
+                items
+            
+            
+        ' or . = '
+            2
+            
+            
+                2
+                items
+            
+            
+        ')]) = count(//span[@class = 'counter qty cart-icon' and @data-bind = concat('css: { empty: !!getCartParam(' , "'" , 'summary_count' , "'" , ') == false }, blockLoader: isLoading') and (text() = '
+            2
+            
+            
+                2
+                items
+            
+            
+        ' or . = '
+            2
+            
+            
+                2
+                items
+            
+            
+        ')])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1560161294020.run(Script1560161294020.groovy:50)
+	... 13 more]]></system-err>
+   </testsuite>
+</testsuites>

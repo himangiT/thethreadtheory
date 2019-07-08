@@ -1,0 +1,16 @@
+1
+00:00:00,185 --> 00:00:00,186
+1. click(findTestObject("My Order/Page_My Orders/img"))
+
+2
+00:00:03,046 --> 00:00:03,046
+5. delay(10)
+
+3
+00:00:13,063 --> 00:00:13,064
+9. click(findTestObject("Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/span_Start shopping now _login-b-icon"))
+
+4
+00:00:13,221 --> 00:00:13,221
+13. click(findTestObject("Add Receipt/Page_Welcome to The Thread Theory  The Thread Theory/li_My Orders"))
+

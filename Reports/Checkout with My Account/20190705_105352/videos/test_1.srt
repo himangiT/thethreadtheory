@@ -1,0 +1,52 @@
+1
+00:00:00,423 --> 00:00:00,431
+1. openBrowser(toString())
+
+2
+00:00:05,454 --> 00:00:05,457
+5. navigateToUrl("http://18.138.12.239/")
+
+3
+00:00:14,080 --> 00:00:14,081
+9. maximizeWindow()
+
+4
+00:00:15,263 --> 00:00:15,268
+13. delay(10)
+
+5
+00:00:25,313 --> 00:00:25,314
+17. check(findTestObject("Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_concat(Don  t show this popup again)_check"))
+
+6
+00:00:25,532 --> 00:00:25,534
+21. click(findTestObject("Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/button_Close"))
+
+7
+00:00:25,638 --> 00:00:25,639
+25. delay(10)
+
+8
+00:00:35,645 --> 00:00:35,647
+29. mouseOver(findTestObject("add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_SHOP"))
+
+9
+00:00:35,755 --> 00:00:35,757
+33. click(findTestObject("add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_Work Wear"))
+
+10
+00:00:48,774 --> 00:00:48,775
+37. delay(5)
+
+11
+00:00:53,793 --> 00:00:53,794
+41. scrollToElement(findTestObject("Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional"), 5)
+
+12
+00:00:53,852 --> 00:00:53,853
+45. mouseOver(findTestObject("Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional"))
+
+13
+00:00:53,991 --> 00:00:53,992
+49. click(findTestObject("Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional"))
+

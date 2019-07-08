@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;header-sticky-mobile&quot;)/div[@class=&quot;zoo-header-content-block d-flex align-items-center justify-content-end search-options&quot;]/div[@class=&quot;minicart-wrapper&quot;]/div[@class=&quot;action showcart&quot;]/a[1]/span[@class=&quot;counter qty cart-icon&quot;][count(. | //span[@class = 'counter qty cart-icon' and @data-bind = concat('css: { empty: !!getCartParam(' , &quot;'&quot; , 'summary_count' , &quot;'&quot; , ') == false }, blockLoader: isLoading') and (text() = '
+         <value>//div[@id='header-sticky-mobile']/div[3]/div[3]/div/a/span[count(. | //span[@class = 'counter qty cart-icon' and @data-bind = concat('css: { empty: !!getCartParam(' , &quot;'&quot; , 'summary_count' , &quot;'&quot; , ') == false }, blockLoader: isLoading') and (text() = '
             2
             
             
@@ -89,7 +89,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;header-sticky-mobile&quot;)/div[@class=&quot;zoo-header-content-block d-flex align-items-center justify-content-end search-options&quot;]/div[@class=&quot;minicart-wrapper&quot;]/div[@class=&quot;action showcart&quot;]/a[1]/span[@class=&quot;counter qty cart-icon&quot;]</value>
+      <value>//div[@id='header-sticky-mobile']/div[3]/div[3]/div/a/span</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -1,0 +1,72 @@
+1
+00:00:00,386 --> 00:00:00,390
+1. openBrowser(toString())
+
+2
+00:00:04,897 --> 00:00:04,898
+5. navigateToUrl("http://18.138.12.239/")
+
+3
+00:00:13,360 --> 00:00:13,361
+9. maximizeWindow()
+
+4
+00:00:14,543 --> 00:00:14,544
+13. delay(10)
+
+5
+00:00:24,632 --> 00:00:24,634
+17. check(findTestObject("Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/span_concat(Don  t show this popup again)_check"))
+
+6
+00:00:25,000 --> 00:00:25,001
+21. click(findTestObject("Object Repository/add to cart/Page_Welcome to The Thread Theory  The Thread Theory/button_Close"))
+
+7
+00:00:25,225 --> 00:00:25,225
+25. delay(10)
+
+8
+00:00:35,238 --> 00:00:35,240
+29. mouseOver(findTestObject("add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_SHOP"))
+
+9
+00:00:35,346 --> 00:00:35,348
+33. click(findTestObject("add to cart/menu_cart_mini/Page_Work Wear - DRESSES - SHOP/span_Work Wear"))
+
+10
+00:00:48,366 --> 00:00:48,366
+37. delay(5)
+
+11
+00:00:53,391 --> 00:00:53,394
+41. scrollToElement(findTestObject("Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional"), 5)
+
+12
+00:00:53,502 --> 00:00:53,503
+45. mouseOver(findTestObject("Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional"))
+
+13
+00:00:53,587 --> 00:00:53,588
+49. click(findTestObject("Filter_Sort/Page_Work Wear - DRESSES - SHOP/img_Quick View_imgage-additional"))
+
+14
+00:00:58,797 --> 00:00:58,798
+53. delay(10)
+
+15
+00:01:08,805 --> 00:01:08,806
+57. click(findTestObject("add to cart/Page_Lana Lace Romper (Navy) (1)/div_L"))
+
+16
+00:01:08,932 --> 00:01:08,932
+61. click(findTestObject("add to cart/Page_Lana Lace Romper (Navy)/span_OS_cs-font clever-icon-plus"))
+
+17
+00:01:09,025 --> 00:01:09,028
+65. click(findTestObject("add to cart/menu_cart_mini/Page_Softly Edelweiss Swiss Dot Dress (Powder Blue)/button_Add to Cart"))
+
+18
+00:01:09,180 --> 00:01:09,181
+69. click(findTestObject("add to cart/Page_Lana Lace Romper (Navy)/span_2                                        2                items"))
+

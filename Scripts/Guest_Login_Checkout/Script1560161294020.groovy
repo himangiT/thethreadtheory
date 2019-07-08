@@ -55,6 +55,15 @@ WebUI.click(findTestObject('View Kart/Page_Lana Lace Romper (Navy)/span_View car
 
 WebUI.delay(10)
 
+'Get text alert on the alert when it\'s shown'
+not_run: alertText = WebUI.getAlertText()
+
+'Verify text alert is correct or not'
+not_run: WebUI.verifyMatch(alertText, 'Become premium member by adding SGD 112.00 in your Cart.', false)
+
+'Accept alert when the alert is shown'
+not_run: WebUI.acceptAlert()
+
 WebUI.click(findTestObject('GuestUser/Page_Shopping Cart/strong_Summary'))
 
 WebUI.delay(5)
