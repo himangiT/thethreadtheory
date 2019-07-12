@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>New Test Case</name>
+   <name>Switch Window</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>9f0126e3-8fc7-40d8-b519-96e565d98c8b</testCaseGuid>
+   <testCaseGuid>5dfa6a9b-f9f4-44c1-8591-9d900545da5f</testCaseGuid>
 </TestCaseEntity>

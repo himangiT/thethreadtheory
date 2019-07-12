@@ -13,45 +13,24 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-/*WebUI.openBrowser(toString())
 
-WebUI.delay(2)
+'Open browser and navigate to website katalon.com'
+WebUI.openBrowser('https://www.katalon.com/')
 
-WebUI.authenticate('http://the-internet.herokuapp.com/basic_auth', 'admin', 'admin', 12)
+WebUI.delay(5)
 
-WebUI.delay(10)
+'Click on Documentation to open another window'
+WebUI.click(findTestObject('Page_Katalon Studio/Page_Katalon Studio Simplify API Web Mobile Automation Tests/a_Docs'))
 
-WebUI.closeBrowser()*/
+'Switch to Documentation window'
+WebUI.switchToWindowTitle('Home | Katalon Docs')
 
-/* 'Open browser and navigate to website which will show alert'
-WebUI.openBrowser(GlobalVariable.G_SiteURL)
+WebUI.delay(5)
 
-'Get text alert on the alert when it\'s shown'
-alertText = WebUI.getAlertText()
+'Get index of Documentation window'
+index = WebUI.getWindowIndex()
 
-'Verify text alert is correct or not'
-WebUI.verifyMatch(alertText, 'This is an alert', false)
-
-'Accept alert when the alert is shown'
-WebUI.acceptAlert()
-
-WebUI.delay(10)
-
-'Close browser'
-WebUI.closeBrowser()*/
-
-'Open browser and navigate to login form'
-WebUI.openBrowser(GlobalVariable.G_SiteURL)
-
-'Input username'
-WebUI.setText(findTestObject('txt_UserName'), Username)
-
-'Input password'
-WebUI.setText(findTestObject('txt_Password'), Password)
-
-'Submit form'
-WebUI.submit(findTestObject('frm_Login'))
+WebUI.delay(5)
 
 'Close browser'
 WebUI.closeBrowser()
-
